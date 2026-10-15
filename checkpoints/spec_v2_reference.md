@@ -1,6 +1,7 @@
 # Analysis specification (reference checkpoint v2: after the Practical 2 spec steps)
 
-> **Catch-up file.** If your sections 6–8 are not ready when implementation starts, copy this file to `spec/spec.md`.
+> **Catch-up file for Group R.** If your reviewed sections 6–8 are not ready when implementation starts, copy this
+> file to `spec/spec.md`. It is the PI's draft after an independent review.
 
 ## 1. Research question
 

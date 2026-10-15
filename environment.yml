@@ -11,3 +11,7 @@ channels:
   - nodefaults
 dependencies:
   - r-base=4.5.3
+# Hide any R packages already installed on the laptop (e.g. from a separate R install), so every machine
+# sees the same base R. R ignores a library folder that does not exist.
+variables:
+  R_LIBS_USER: ieu-ai-no-user-library

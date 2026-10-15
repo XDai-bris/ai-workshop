@@ -8,13 +8,18 @@ Your job is to execute carefully and make your work easy for them to check.
 
 - Run R only as `conda run -n ieu-ai-workshop Rscript <file>`. This works on Windows and macOS without
   activating the environment.
-- The environment has **base R only**, with no add-on packages. **Never install anything** (no
+- The environment has **base R only**. Use no add-on packages, even if some happen to be visible. **Never install anything** (no
   `install.packages()`, `pip`, `conda install`, or new dependencies).
 - Write analysis code in `analysis/` and outputs in `results/`. Plots go to `results/figures/` as PNG, made with
   base R graphics (`png()` … `dev.off()`).
-- Use relative paths built with `file.path()`. Stay inside this repository folder. This includes temporary
-  and scratch files: put them in `analysis/scratch/`, never in a parent folder or the system temp folder.
+- Use relative paths built with `file.path()`. Stay inside this repository folder. Every file you create, including
+  temporary and scratch files, goes inside it (scratch files in `analysis/scratch/`), never in a parent folder or
+  the system temp folder. R's own internal session temp folder is fine.
 - Do not edit `data/` or `colleague_pipeline/`, or the human-owned sections of `spec/spec.md`, unless the human asks.
+- `WORKSHEET.md`, `cards/`, `notes/` and `checkpoints/` are the human's own materials. Do not read, use or edit them
+  unless the human asks you to.
+- If the human asks you to commit and git has no user name or email, set them for this repository only
+  (`git config user.name "Workshop participant"`, `git config user.email "participant@example.invalid"`) and say so.
 
 ## Working with the human
 
@@ -32,6 +37,7 @@ Your job is to execute carefully and make your work easy for them to check.
 ## Output formats
 
 - `results/estimates.csv`: `dataset, method, estimate, se, ci_lower, ci_upper, n_snps, is_primary`
-  (estimates in mmHg per 1 kg/m² BMI)
+  (estimates in mmHg per 1 kg/m² BMI). One row per dataset and method; `is_primary` is TRUE for exactly one row,
+  the primary method on `data/main`.
 - `results/benchmarks.csv`: `dataset, method, true_value, estimate, ci_lower, ci_upper, pass`
 - `results/report.md`: short plain-English report that cites the files above

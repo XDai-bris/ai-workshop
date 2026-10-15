@@ -49,6 +49,11 @@ Open this folder in your AI coding tool (for example VS Code with your agent). A
 
 It should report `SETUP OK`. This shows the agent can run R for you.
 
+### 6. Read Card 1 (5 minutes)
+
+[`cards/reading_mr_results.md`](cards/reading_mr_results.md) explains, without equations, how to read the MR results
+you will see. No MR background is needed.
+
 ### If something goes wrong
 
 - **`conda` not found (macOS):** close and reopen Terminal. If it still fails, run `~/miniforge3/bin/conda init zsh` and reopen Terminal.
@@ -60,9 +65,12 @@ It should report `SETUP OK`. This shows the agent can run R for you.
 
 | Path | What it is |
 |---|---|
+| `WORKSHEET.md` | **The step-by-step guide for the session** |
+| `cards/` | Card 1: reading MR results; Card 2: validation checklist (take home) |
+| `notes/` | Your own predictions and decisions during the session |
 | `PROBLEM_STATEMENT.md` | The research question |
 | `data/` | Simulated GWAS summary statistics; start with `data/DATA_DICTIONARY.md` |
-| `spec/` | Your analysis specification (`spec_template.md` → `spec.md`) |
+| `spec/` | Your analysis specification (`spec_template.md` → `spec.md`) and your PI's draft of sections 6–8 |
 | `AGENTS.md` | Rules your AI agent follows in this repository |
 | `prompts/` | Prompts used during the session |
 | `colleague_pipeline/` | A colleague's AI-built analysis that you will be asked to check |

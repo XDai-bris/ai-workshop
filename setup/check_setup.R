@@ -20,6 +20,11 @@ if (!file.exists(file.path("data", "DATA_DICTIONARY.md"))) {
   if (is.null(x) || nrow(x) != 100) problem("could not read data/main/exposure_bmi_gwas.tsv")
 }
 
+if (length(.libPaths()) > 1) {
+  cat("NOTE: R can see other package libraries:", paste(.libPaths()[-length(.libPaths())], collapse = "; "), "\n")
+  cat("      Recreate the environment from environment.yml, or tell an organiser.\n")
+}
+
 png_path <- file.path(tempdir(), "setup_check.png")
 plotted <- tryCatch({
   png(png_path, width = 400, height = 300)

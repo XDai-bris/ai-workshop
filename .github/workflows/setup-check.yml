@@ -31,6 +31,8 @@ jobs:
           auto-activate-base: false
       - name: Setup check (exactly as in README)
         run: conda run -n ieu-ai-workshop Rscript setup/check_setup.R
+      - name: Laptop R packages are hidden (environment variable from environment.yml)
+        run: conda run -n ieu-ai-workshop Rscript -e "stopifnot(Sys.getenv('R_LIBS_USER') == 'ieu-ai-no-user-library')"
       - name: Colleague pipeline tests (expected to pass)
         run: conda run -n ieu-ai-workshop Rscript colleague_pipeline/tests/run_tests.R
       - name: Colleague pipeline on the positive control (expected IVW 0.138)
