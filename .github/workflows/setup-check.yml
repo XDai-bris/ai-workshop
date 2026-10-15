@@ -1,0 +1,37 @@
+# Checks that a participant's setup works on Windows and macOS, the way participants run it:
+# PowerShell on Windows, a login shell on macOS, and `conda run` (no activation) everywhere.
+name: setup-check
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            shell: pwsh
+          - os: macos-latest
+            shell: bash -el {0}
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: ieu-ai-workshop
+          auto-activate-base: false
+      - name: Setup check (exactly as in README)
+        run: conda run -n ieu-ai-workshop Rscript setup/check_setup.R
+      - name: Colleague pipeline tests (expected to pass)
+        run: conda run -n ieu-ai-workshop Rscript colleague_pipeline/tests/run_tests.R
+      - name: Colleague pipeline on the positive control (expected IVW 0.138)
+        run: conda run -n ieu-ai-workshop Rscript colleague_pipeline/run_pipeline.R data/control_positive

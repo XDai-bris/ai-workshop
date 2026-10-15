@@ -1,0 +1,13 @@
+# Conda environment for the IEU AI-for-coding workshop (Practical 2: Validation).
+# conda-forge only (no Anaconda "defaults" channel). R is pinned so every laptop has the same version.
+# Base R only, on purpose: fewer packages means fewer things that can break on 20+ different laptops.
+# (On 2026-10-15 the conda-forge macOS arm64 builds of rlang/cli, needed by ggplot2 and testthat,
+# crashed on load on macOS 26.7. Base R graphics are enough for this session.)
+# Create:  conda env create -f environment.yml
+# Check:   conda run -n ieu-ai-workshop Rscript setup/check_setup.R
+name: ieu-ai-workshop
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - r-base=4.5.3
