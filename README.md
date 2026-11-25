@@ -4,8 +4,10 @@ A 45-minute worked example for the IEU AI-for-coding workshop (Practical 2: vali
 two-sample Mendelian randomization analysis on simulated data, and we validate it step by step. Every step shows the
 prompt we sent and the reply the agent actually gave, so the room can follow without a laptop.
 
-**Open [`validation_walkthrough.html`](validation_walkthrough.html).** Download it and open it in any web browser
-(GitHub shows the file's source, not the page). It is a single file and works offline.
+**View the page: <https://xdai-bris.github.io/ai-workshop/validation_walkthrough.html>**
+
+Or download [`validation_walkthrough.html`](validation_walkthrough.html) and open it in any web browser; it is a single
+file and works offline. (GitHub's file view shows the source, not the page.)
 
 ## The storyline
 

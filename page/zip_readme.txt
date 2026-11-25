@@ -18,5 +18,7 @@ To try it: copy a project folder somewhere, open it in your coding agent (Claude
 another), and paste a prompt. Your agent's reply will differ from ours; compare what it checks,
 not how it is worded.
 
+Full transcripts, simulation code and page sources: https://github.com/XDai-bris/ai-workshop
+
 R: the projects use base R only. The prompts mention `conda run -n ieu-ai-workshop Rscript`; any R
 installation works if you run `Rscript` directly.

@@ -23,13 +23,14 @@ jobs:
       run:
         shell: ${{ matrix.shell }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: conda-incubator/setup-miniconda@v3
+      - uses: actions/checkout@v7
+      - uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-version: latest
           environment-file: environment.yml
           activate-environment: ieu-ai-workshop
-          auto-activate-base: false
+          auto-activate: false
+          conda-remove-defaults: "true"
       - name: Setup check (as in the README)
         run: conda run -n ieu-ai-workshop Rscript setup/check_setup.R
       - name: Laptop R packages are hidden (environment variable from environment.yml)
@@ -41,13 +42,14 @@ jobs:
       run:
         shell: bash -el {0}
     steps:
-      - uses: actions/checkout@v4
-      - uses: conda-incubator/setup-miniconda@v3
+      - uses: actions/checkout@v7
+      - uses: conda-incubator/setup-miniconda@v4
         with:
           miniforge-version: latest
           environment-file: environment.yml
           activate-environment: ieu-ai-workshop
-          auto-activate-base: false
+          auto-activate: false
+          conda-remove-defaults: "true"
       - name: Regenerate the case data and truth
         run: conda run -n ieu-ai-workshop Rscript case/generate_case.R
       - name: Nothing changed
@@ -56,8 +58,8 @@ jobs:
   page-rebuilds:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
       - name: Rebuild the page
