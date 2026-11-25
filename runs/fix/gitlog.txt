@@ -1,0 +1,16 @@
+commit ad7be41
+
+Fix harmonisation of complemented, allele-swapped variants; add known-answer test
+
+For variants where outcome A2 is the complement of the exposure other allele
+(opposite strand and alleles swapped), the outcome beta was not negated. It is
+now negated and the case has its own log label. Added tests/test_known_answer.R,
+which simulates files with a known effect covering all allele situations; it
+fails on the old code and passes now. Reran data/main (IVW 1.59 -> 4.77) and
+updated report.md and README.md to match results/.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit e0f05dd
+
+Draft: analysis script, results and report from the coding agent

@@ -1,0 +1,5 @@
+The unit fix in the working tree is not committed yet, because the MR-Egger check in tests/test_known_answer.R fails: 1.93 (95% CI 1.86 to 1.99) against a true value of 2.0.
+
+I simulated the test's design over 1,000 seeds. The mean Egger slope is 1.92, so this is not chance. It is regression dilution: with exposure SE 0.003 SD and |BETA| between 0.03 and 0.08, I²GX is about 0.96, and the MR-Egger slope is biased towards zero by about that factor (Bowden et al. 2016). That is a property of the method, not a bug in the script.
+
+In the test, make the exposure SEs small enough that I²GX is close to 1 (for example 0.0005 SD), and explain why in a comment. Do not widen the tolerance or change the seed. Then run the test, check that report.md and README.md match results/, and commit everything except scratch/ with a message that says what changed and why.

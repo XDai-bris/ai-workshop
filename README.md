@@ -1,79 +1,60 @@
-# IEU AI-for-coding workshop: Practical 2 (Validation)
+# Validating an analysis written by an AI agent
 
-In this session you **direct an AI agent** to analyse simulated data, and you **validate** what it produces.
-You will not write code. All data here are **simulated**: no real people and no real GWAS.
+A 45-minute worked example for the IEU AI-for-coding workshop (Practical 2: validation). An AI agent writes a
+two-sample Mendelian randomization analysis on simulated data, and we validate it step by step. Every step shows the
+prompt we sent and the reply the agent actually gave, so the room can follow without a laptop.
 
-## Before the workshop (about 20 minutes, please do this in advance)
+**Open [`validation_walkthrough.html`](validation_walkthrough.html).** Download it and open it in any web browser
+(GitHub shows the file's source, not the page). It is a single file and works offline.
 
-### 1. Install Git and Miniforge
+## The storyline
 
-| | Windows | macOS |
-|---|---|---|
-| Git | Install [Git for Windows](https://git-scm.com/download/win) (default options) | Open Terminal and run `git --version`. If asked, install the command-line tools |
-| Miniforge (conda) | Download `Miniforge3-Windows-x86_64.exe` from the [Miniforge releases](https://github.com/conda-forge/miniforge/releases/latest) and install it for "Just Me" (no admin rights needed) | In Terminal: `curl -L -O "https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-$(uname)-$(uname -m).sh"`, then `bash Miniforge3-$(uname)-$(uname -m).sh` and answer **yes** to the prompts. Then close and reopen Terminal |
+1. **The case.** An agent writes a two-sample MR analysis (BMI on systolic blood pressure). The draft has two errors:
+   a unit error the agent made itself, and a harmonisation slip we planted.
+2. **Review, vague or specified (the core).** Ten fresh reviews. The simple error was found every time, whatever we
+   asked; the deep error, once. A specified review lays out its evidence, and the deep error is visible in that
+   evidence to anyone who reads it.
+3. **Every step:** check, fix, add a test, commit.
+4. **Milestone:** a new reviewer with new questions, including a second model. The deep error was found in 4 of 5
+   runs. Verify the finding by hand, then fix it.
+5. **Close-out:** rerun from the README, trace every number to a file, read the documents against each other.
+6. **Outlook:** write the checks first, then let agents run longer.
 
-Already have Anaconda or Miniconda? You can use it instead: the environment below uses only the free conda-forge channel.
+The page ends with five take-home messages and further reading.
 
-### 2. Get this repository
+## What is in this repository
 
-Put it in a folder that is **not** synced by OneDrive and has **no spaces** in its path.
-
-| Windows (open **Miniforge Prompt** from the Start menu) | macOS (Terminal) |
+| Path | What it holds |
 |---|---|
-| `mkdir C:\ieu-ai` | `mkdir -p ~/ieu-ai` |
-| `cd C:\ieu-ai` | `cd ~/ieu-ai` |
-| `git clone https://github.com/XDai-bris/ai-workshop.git` | `git clone https://github.com/XDai-bris/ai-workshop.git` |
-| `cd ai-workshop` | `cd ai-workshop` |
+| [`validation_walkthrough.html`](validation_walkthrough.html) | The page |
+| [`case/`](case/) | The simulated MR case: simulation code, the project the agent starts from, and the simulation truth |
+| [`runs/`](runs/) | Every agent run shown on the page: prompts, full transcripts, what the agents wrote, and the pre-registration for Stage 2 |
+| [`page/`](page/) | The page sources. `build_page.py` rebuilds the HTML, byte for byte, from `runs/` |
+| `environment.yml`, `setup/` | The conda environment (base R only) used for every run |
 
-### 3. Create the R environment (5–10 minutes, needs internet)
+## Reproduce or extend
 
-Same command on Windows and macOS, run inside the repository folder:
+1. **Environment.** `conda env create -f environment.yml`, then
+   `conda run -n ieu-ai-workshop Rscript setup/check_setup.R` should print `SETUP OK`.
+2. **Regenerate the case.** `conda run -n ieu-ai-workshop Rscript case/generate_case.R` rewrites the data and truth
+   files; `git diff` should show no change. `case/check_case.R` fits the correct pipeline and the planted bug.
+3. **Try a prompt yourself.** Copy `case/project_template/` (or a project snapshot under `runs/`) to a new folder,
+   open it in a coding agent, and paste a prompt from `runs/`. Your agent's replies will differ from ours; compare what
+   it checks, not how it is worded.
+4. **Rerun the recorded runs.** `runs/run_agent.sh` runs one prompt headless in Claude Code, with the settings we
+   used. See [`runs/README.md`](runs/README.md).
+5. **Change the page.** Edit the fragments in `page/`, then `python3 page/build_page.py validation_walkthrough.html`.
+   See [`page/README.md`](page/README.md).
 
-```
-conda env create -f environment.yml
-```
+Continuous integration checks steps 1, 2 and 5 on every push: the environment installs on Windows and macOS, the case
+regenerates identically, and the page rebuilds identically from `runs/`.
 
-### 4. Check it works
+## Notes
 
-```
-conda run -n ieu-ai-workshop Rscript setup/check_setup.R
-```
-
-You should see **`SETUP OK`** at the end.
-
-### 5. Check your AI agent can run it too
-
-Open this folder in your AI coding tool (for example VS Code with your agent). Ask the agent:
-
-> Read AGENTS.md, then run the setup check described in README.md and tell me the result.
-
-It should report `SETUP OK`. This shows the agent can run R for you.
-
-### 6. Read Card 1 (5 minutes)
-
-[`cards/reading_mr_results.md`](cards/reading_mr_results.md) explains, without equations, how to read the MR results
-you will see. No MR background is needed.
-
-### If something goes wrong
-
-- **`conda` not found (macOS):** close and reopen Terminal. If it still fails, run `~/miniforge3/bin/conda init zsh` and reopen Terminal.
-- **`conda` not found (Windows):** use **Miniforge Prompt**, not plain PowerShell. To use PowerShell, run `conda init powershell` once in Miniforge Prompt, then reopen PowerShell.
-- **Installers blocked on a managed laptop:** tell the organisers. You can follow along on the presenter's screen.
-- **Still stuck:** send the organisers the full output of the step-4 command.
-
-## What's in this repository
-
-| Path | What it is |
-|---|---|
-| `WORKSHEET.md` | **The step-by-step guide for the session** |
-| `cards/` | Card 1: reading MR results; Card 2: validation checklist (take home) |
-| `notes/` | Your own predictions and decisions during the session |
-| `PROBLEM_STATEMENT.md` | The research question |
-| `data/` | Simulated GWAS summary statistics; start with `data/DATA_DICTIONARY.md` |
-| `spec/` | Your analysis specification (`spec_template.md` → `spec.md`) and your PI's draft of sections 6–8 |
-| `AGENTS.md` | Rules your AI agent follows in this repository |
-| `prompts/` | Prompts used during the session |
-| `colleague_pipeline/` | A colleague's AI-built analysis that you will be asked to check |
-| `checkpoints/` | Catch-up files if you fall behind |
-| `analysis/`, `results/` | Where your agent writes code and outputs |
-| `environment.yml`, `setup/` | The R environment and its check |
+- All data are simulated. They describe no real people, variants or GWAS.
+- The transcripts were cleaned of local file paths and local tool settings. Nothing else was changed.
+- The second-model reviews in Stage 4 were run by hand in the Codex desktop app. The page reports their findings;
+  their logs are not part of this repository.
+- The earlier hands-on version of this practical (October 2026) is kept at the git tag `hands-on-v3-2026-10`.
+- Prepared by Xiaoyang Dai and Gibran Hemani for the MRC Integrative Epidemiology Unit AI-for-coding workshop,
+  November 2026.

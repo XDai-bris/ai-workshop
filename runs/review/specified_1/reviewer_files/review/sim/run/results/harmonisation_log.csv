@@ -1,0 +1,262 @@
+"SNP","exposure_EA","exposure_OA","exposure_EAF","outcome_A1","outcome_A2","outcome_freq_A2","harmonisation_action","used"
+"rsSIM001","G","A",0.478,"A","G",0.478,"none: alleles aligned",TRUE
+"rsSIM002","G","A",0.79,"A","G",0.79,"none: alleles aligned",TRUE
+"rsSIM003","T","G",0.2323,"G","T",0.2323,"none: alleles aligned",TRUE
+"rsSIM004","A","C",0.5963,"C","A",0.5963,"none: alleles aligned",TRUE
+"rsSIM005","A","G",0.3339,"G","A",0.3339,"none: alleles aligned",TRUE
+"rsSIM006","C","A",0.4649,"A","C",0.4649,"none: alleles aligned",TRUE
+"rsSIM007","A","C",0.1365,"C","A",0.1365,"none: alleles aligned",TRUE
+"rsSIM008","T","G",0.2421,"G","T",0.2421,"none: alleles aligned",TRUE
+"rsSIM009","A","G",0.1463,"G","A",0.1463,"none: alleles aligned",TRUE
+"rsSIM010","A","G",0.8555,"G","A",0.8555,"none: alleles aligned",TRUE
+"rsSIM011","C","A",0.3742,"A","C",0.3742,"none: alleles aligned",TRUE
+"rsSIM012","T","C",0.5144,"C","T",0.5144,"none: alleles aligned",TRUE
+"rsSIM013","T","C",0.6002,"C","T",0.6002,"none: alleles aligned",TRUE
+"rsSIM014","C","A",0.2898,"A","C",0.2898,"none: alleles aligned",TRUE
+"rsSIM015","G","T",0.5129,"T","G",0.5129,"none: alleles aligned",TRUE
+"rsSIM016","C","T",0.7452,"T","C",0.7452,"none: alleles aligned",TRUE
+"rsSIM017","A","G",0.3786,"G","A",0.3786,"none: alleles aligned",TRUE
+"rsSIM018","G","A",0.7869,"A","G",0.7869,"none: alleles aligned",TRUE
+"rsSIM019","A","G",0.1276,"G","A",0.1276,"none: alleles aligned",TRUE
+"rsSIM020","C","A",0.8768,"A","C",0.8768,"none: alleles aligned",TRUE
+"rsSIM021","G","T",0.6961,"T","G",0.6961,"none: alleles aligned",TRUE
+"rsSIM022","C","T",0.3186,"T","C",0.3186,"none: alleles aligned",TRUE
+"rsSIM023","A","C",0.6417,"C","A",0.6417,"none: alleles aligned",TRUE
+"rsSIM024","C","A",0.3784,"A","C",0.3784,"none: alleles aligned",TRUE
+"rsSIM025","A","G",0.8576,"G","A",0.8576,"none: alleles aligned",TRUE
+"rsSIM026","C","T",0.3709,"T","C",0.3709,"none: alleles aligned",TRUE
+"rsSIM027","G","T",0.1254,"T","G",0.1254,"none: alleles aligned",TRUE
+"rsSIM028","T","C",0.3829,"C","T",0.3829,"none: alleles aligned",TRUE
+"rsSIM029","G","A",0.4097,"A","G",0.4097,"none: alleles aligned",TRUE
+"rsSIM030","T","C",0.3856,"C","T",0.3856,"none: alleles aligned",TRUE
+"rsSIM031","A","G",0.868,"G","A",0.868,"none: alleles aligned",TRUE
+"rsSIM032","T","C",0.407,"C","T",0.407,"none: alleles aligned",TRUE
+"rsSIM033","G","A",0.5371,"A","G",0.5371,"none: alleles aligned",TRUE
+"rsSIM034","G","A",0.8403,"A","G",0.8403,"none: alleles aligned",TRUE
+"rsSIM035","T","C",0.8335,"C","T",0.8335,"none: alleles aligned",TRUE
+"rsSIM036","A","G",0.2942,"G","A",0.2942,"none: alleles aligned",TRUE
+"rsSIM037","A","G",0.6737,"G","A",0.6737,"none: alleles aligned",TRUE
+"rsSIM038","T","G",0.3792,"G","T",0.3792,"none: alleles aligned",TRUE
+"rsSIM039","C","A",0.5434,"A","C",0.5434,"none: alleles aligned",TRUE
+"rsSIM040","G","T",0.6944,"T","G",0.6944,"none: alleles aligned",TRUE
+"rsSIM041","A","C",0.2442,"A","C",0.7558,"flipped: allele order swapped",TRUE
+"rsSIM042","T","G",0.2043,"T","G",0.7957,"flipped: allele order swapped",TRUE
+"rsSIM043","A","G",0.8713,"A","G",0.1287,"flipped: allele order swapped",TRUE
+"rsSIM044","G","A",0.724,"G","A",0.276,"flipped: allele order swapped",TRUE
+"rsSIM045","C","A",0.6064,"C","A",0.3936,"flipped: allele order swapped",TRUE
+"rsSIM046","A","G",0.6554,"A","G",0.3446,"flipped: allele order swapped",TRUE
+"rsSIM047","C","T",0.3177,"C","T",0.6823,"flipped: allele order swapped",TRUE
+"rsSIM048","G","T",0.3402,"G","T",0.6598,"flipped: allele order swapped",TRUE
+"rsSIM049","A","G",0.172,"A","G",0.828,"flipped: allele order swapped",TRUE
+"rsSIM050","C","T",0.2235,"C","T",0.7765,"flipped: allele order swapped",TRUE
+"rsSIM051","C","A",0.2772,"C","A",0.7228,"flipped: allele order swapped",TRUE
+"rsSIM052","G","A",0.5793,"G","A",0.4207,"flipped: allele order swapped",TRUE
+"rsSIM053","A","C",0.4386,"A","C",0.5614,"flipped: allele order swapped",TRUE
+"rsSIM054","C","T",0.8389,"C","T",0.1611,"flipped: allele order swapped",TRUE
+"rsSIM055","A","G",0.2016,"A","G",0.7984,"flipped: allele order swapped",TRUE
+"rsSIM056","T","G",0.135,"T","G",0.865,"flipped: allele order swapped",TRUE
+"rsSIM057","T","G",0.4956,"T","G",0.5044,"flipped: allele order swapped",TRUE
+"rsSIM058","T","G",0.1605,"T","G",0.8395,"flipped: allele order swapped",TRUE
+"rsSIM059","A","G",0.7924,"A","G",0.2076,"flipped: allele order swapped",TRUE
+"rsSIM060","T","C",0.709,"T","C",0.291,"flipped: allele order swapped",TRUE
+"rsSIM061","C","A",0.508,"C","A",0.492,"flipped: allele order swapped",TRUE
+"rsSIM062","G","T",0.5208,"G","T",0.4792,"flipped: allele order swapped",TRUE
+"rsSIM063","C","T",0.552,"C","T",0.448,"flipped: allele order swapped",TRUE
+"rsSIM064","G","T",0.8686,"G","T",0.1314,"flipped: allele order swapped",TRUE
+"rsSIM065","T","G",0.3845,"T","G",0.6155,"flipped: allele order swapped",TRUE
+"rsSIM066","C","T",0.3275,"C","T",0.6725,"flipped: allele order swapped",TRUE
+"rsSIM067","G","T",0.6187,"G","T",0.3813,"flipped: allele order swapped",TRUE
+"rsSIM068","C","A",0.1428,"C","A",0.8572,"flipped: allele order swapped",TRUE
+"rsSIM069","A","C",0.3055,"A","C",0.6945,"flipped: allele order swapped",TRUE
+"rsSIM070","A","G",0.8594,"A","G",0.1406,"flipped: allele order swapped",TRUE
+"rsSIM071","G","T",0.1157,"G","T",0.8843,"flipped: allele order swapped",TRUE
+"rsSIM072","C","A",0.7257,"C","A",0.2743,"flipped: allele order swapped",TRUE
+"rsSIM073","T","G",0.871,"T","G",0.129,"flipped: allele order swapped",TRUE
+"rsSIM074","A","G",0.6914,"A","G",0.3086,"flipped: allele order swapped",TRUE
+"rsSIM075","A","C",0.3237,"A","C",0.6763,"flipped: allele order swapped",TRUE
+"rsSIM076","T","G",0.7017,"T","G",0.2983,"flipped: allele order swapped",TRUE
+"rsSIM077","A","G",0.7121,"A","G",0.2879,"flipped: allele order swapped",TRUE
+"rsSIM078","G","T",0.8832,"G","T",0.1168,"flipped: allele order swapped",TRUE
+"rsSIM079","A","G",0.6883,"A","G",0.3117,"flipped: allele order swapped",TRUE
+"rsSIM080","A","C",0.3466,"A","C",0.6534,"flipped: allele order swapped",TRUE
+"rsSIM081","G","A",0.1277,"T","C",0.1277,"strand: complemented, no flip",TRUE
+"rsSIM082","T","G",0.1502,"C","A",0.1502,"strand: complemented, no flip",TRUE
+"rsSIM083","C","A",0.4182,"T","G",0.4182,"strand: complemented, no flip",TRUE
+"rsSIM084","T","G",0.492,"C","A",0.492,"strand: complemented, no flip",TRUE
+"rsSIM085","A","C",0.6048,"G","T",0.6048,"strand: complemented, no flip",TRUE
+"rsSIM086","C","A",0.6787,"T","G",0.6787,"strand: complemented, no flip",TRUE
+"rsSIM087","C","T",0.1614,"A","G",0.1614,"strand: complemented, no flip",TRUE
+"rsSIM088","T","C",0.4372,"G","A",0.4372,"strand: complemented, no flip",TRUE
+"rsSIM089","C","T",0.879,"A","G",0.879,"strand: complemented, no flip",TRUE
+"rsSIM090","C","T",0.751,"A","G",0.751,"strand: complemented, no flip",TRUE
+"rsSIM091","G","T",0.279,"A","C",0.279,"strand: complemented, no flip",TRUE
+"rsSIM092","A","G",0.4918,"C","T",0.4918,"strand: complemented, no flip",TRUE
+"rsSIM093","G","T",0.1091,"A","C",0.1091,"strand: complemented, no flip",TRUE
+"rsSIM094","G","A",0.3069,"T","C",0.3069,"strand: complemented, no flip",TRUE
+"rsSIM095","C","T",0.4637,"A","G",0.4637,"strand: complemented, no flip",TRUE
+"rsSIM096","G","T",0.6928,"A","C",0.6928,"strand: complemented, no flip",TRUE
+"rsSIM097","G","T",0.8925,"A","C",0.8925,"strand: complemented, no flip",TRUE
+"rsSIM098","C","T",0.3658,"A","G",0.3658,"strand: complemented, no flip",TRUE
+"rsSIM099","C","A",0.8558,"T","G",0.8558,"strand: complemented, no flip",TRUE
+"rsSIM100","C","T",0.8695,"A","G",0.8695,"strand: complemented, no flip",TRUE
+"rsSIM101","T","C",0.8194,"G","A",0.8194,"strand: complemented, no flip",TRUE
+"rsSIM102","T","C",0.4942,"G","A",0.4942,"strand: complemented, no flip",TRUE
+"rsSIM103","G","T",0.7279,"A","C",0.7279,"strand: complemented, no flip",TRUE
+"rsSIM104","A","G",0.7425,"C","T",0.7425,"strand: complemented, no flip",TRUE
+"rsSIM105","A","C",0.6422,"G","T",0.6422,"strand: complemented, no flip",TRUE
+"rsSIM106","T","C",0.565,"G","A",0.565,"strand: complemented, no flip",TRUE
+"rsSIM107","C","A",0.3645,"T","G",0.3645,"strand: complemented, no flip",TRUE
+"rsSIM108","G","A",0.1011,"T","C",0.1011,"strand: complemented, no flip",TRUE
+"rsSIM109","C","A",0.1526,"T","G",0.1526,"strand: complemented, no flip",TRUE
+"rsSIM110","G","T",0.1688,"A","C",0.1688,"strand: complemented, no flip",TRUE
+"rsSIM111","C","A",0.1105,"T","G",0.1105,"strand: complemented, no flip",TRUE
+"rsSIM112","A","G",0.3686,"C","T",0.3686,"strand: complemented, no flip",TRUE
+"rsSIM113","T","G",0.1954,"C","A",0.1954,"strand: complemented, no flip",TRUE
+"rsSIM114","C","T",0.5749,"A","G",0.5749,"strand: complemented, no flip",TRUE
+"rsSIM115","G","T",0.1299,"A","C",0.1299,"strand: complemented, no flip",TRUE
+"rsSIM116","T","C",0.1077,"G","A",0.1077,"strand: complemented, no flip",TRUE
+"rsSIM117","A","G",0.2293,"C","T",0.2293,"strand: complemented, no flip",TRUE
+"rsSIM118","T","G",0.7655,"C","A",0.7655,"strand: complemented, no flip",TRUE
+"rsSIM119","C","T",0.7135,"A","G",0.7135,"strand: complemented, no flip",TRUE
+"rsSIM120","T","G",0.3182,"C","A",0.3182,"strand: complemented, no flip",TRUE
+"rsSIM121","A","C",0.7495,"T","G",0.2505,"strand: complemented, no flip",TRUE
+"rsSIM122","A","G",0.7194,"T","C",0.2806,"strand: complemented, no flip",TRUE
+"rsSIM123","A","G",0.8504,"T","C",0.1496,"strand: complemented, no flip",TRUE
+"rsSIM124","C","A",0.8521,"G","T",0.1479,"strand: complemented, no flip",TRUE
+"rsSIM125","T","G",0.7815,"A","C",0.2185,"strand: complemented, no flip",TRUE
+"rsSIM126","A","G",0.8416,"T","C",0.1584,"strand: complemented, no flip",TRUE
+"rsSIM127","C","T",0.8657,"G","A",0.1343,"strand: complemented, no flip",TRUE
+"rsSIM128","G","A",0.482,"C","T",0.518,"strand: complemented, no flip",TRUE
+"rsSIM129","A","C",0.2686,"T","G",0.7314,"strand: complemented, no flip",TRUE
+"rsSIM130","C","T",0.3442,"G","A",0.6558,"strand: complemented, no flip",TRUE
+"rsSIM131","C","A",0.8467,"G","T",0.1533,"strand: complemented, no flip",TRUE
+"rsSIM132","G","T",0.8856,"C","A",0.1144,"strand: complemented, no flip",TRUE
+"rsSIM133","C","A",0.5463,"G","T",0.4537,"strand: complemented, no flip",TRUE
+"rsSIM134","G","T",0.7739,"C","A",0.2261,"strand: complemented, no flip",TRUE
+"rsSIM135","A","C",0.3249,"T","G",0.6751,"strand: complemented, no flip",TRUE
+"rsSIM136","A","G",0.3368,"T","C",0.6632,"strand: complemented, no flip",TRUE
+"rsSIM137","C","A",0.1918,"G","T",0.8082,"strand: complemented, no flip",TRUE
+"rsSIM138","A","C",0.6398,"T","G",0.3602,"strand: complemented, no flip",TRUE
+"rsSIM139","A","G",0.1233,"T","C",0.8767,"strand: complemented, no flip",TRUE
+"rsSIM140","C","T",0.1121,"G","A",0.8879,"strand: complemented, no flip",TRUE
+"rsSIM141","T","G",0.8687,"A","C",0.1313,"strand: complemented, no flip",TRUE
+"rsSIM142","C","A",0.1851,"G","T",0.8149,"strand: complemented, no flip",TRUE
+"rsSIM143","A","C",0.2421,"T","G",0.7579,"strand: complemented, no flip",TRUE
+"rsSIM144","C","A",0.3206,"G","T",0.6794,"strand: complemented, no flip",TRUE
+"rsSIM145","A","C",0.6689,"T","G",0.3311,"strand: complemented, no flip",TRUE
+"rsSIM146","A","G",0.4984,"T","C",0.5016,"strand: complemented, no flip",TRUE
+"rsSIM147","A","G",0.5573,"T","C",0.4427,"strand: complemented, no flip",TRUE
+"rsSIM148","A","G",0.412,"T","C",0.588,"strand: complemented, no flip",TRUE
+"rsSIM149","G","T",0.1591,"C","A",0.8409,"strand: complemented, no flip",TRUE
+"rsSIM150","C","T",0.7079,"G","A",0.2921,"strand: complemented, no flip",TRUE
+"rsSIM151","G","T",0.6825,"C","A",0.3175,"strand: complemented, no flip",TRUE
+"rsSIM152","T","G",0.312,"A","C",0.688,"strand: complemented, no flip",TRUE
+"rsSIM153","C","A",0.2988,"G","T",0.7012,"strand: complemented, no flip",TRUE
+"rsSIM154","T","C",0.1555,"A","G",0.8445,"strand: complemented, no flip",TRUE
+"rsSIM155","A","C",0.5298,"T","G",0.4702,"strand: complemented, no flip",TRUE
+"rsSIM156","G","A",0.2114,"C","T",0.7886,"strand: complemented, no flip",TRUE
+"rsSIM157","G","A",0.6504,"C","T",0.3496,"strand: complemented, no flip",TRUE
+"rsSIM158","T","C",0.7336,"A","G",0.2664,"strand: complemented, no flip",TRUE
+"rsSIM159","C","A",0.1633,"G","T",0.8367,"strand: complemented, no flip",TRUE
+"rsSIM160","C","T",0.8578,"G","A",0.1422,"strand: complemented, no flip",TRUE
+"rsSIM161","C","G",0.2105,"G","C",0.2105,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM162","C","G",0.6989,"G","C",0.6989,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM163","A","T",0.3806,"T","A",0.3806,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM164","A","T",0.2512,"T","A",0.2512,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM165","T","A",0.37,"A","T",0.37,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM166","A","T",0.6522,"T","A",0.6522,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM167","G","C",0.729,"C","G",0.729,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM168","C","G",0.6257,"G","C",0.6257,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM169","A","T",0.3761,"T","A",0.3761,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM170","G","C",0.6522,"C","G",0.6522,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM171","C","G",0.8975,"G","C",0.8975,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM172","C","G",0.1315,"G","C",0.1315,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM173","G","C",0.748,"C","G",0.748,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM174","C","G",0.0806,"G","C",0.0806,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM175","A","T",0.7288,"T","A",0.7288,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM176","C","G",0.7619,"G","C",0.7619,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM177","G","C",0.6088,"C","G",0.6088,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM178","T","A",0.2038,"A","T",0.2038,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM179","A","T",0.1966,"T","A",0.1966,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM180","A","T",0.6105,"T","A",0.6105,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rsSIM181","A","T",0.139,"A","T",0.861,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM182","T","A",0.364,"T","A",0.636,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM183","G","C",0.2677,"G","C",0.7323,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM184","C","G",0.6916,"C","G",0.3084,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM185","T","A",0.8241,"T","A",0.1759,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM186","A","T",0.1531,"A","T",0.8469,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM187","G","C",0.7436,"G","C",0.2564,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM188","T","A",0.1019,"T","A",0.8981,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM189","C","G",0.3188,"C","G",0.6812,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM190","C","G",0.8807,"C","G",0.1193,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM191","T","A",0.7152,"T","A",0.2848,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM192","A","T",0.7847,"A","T",0.2153,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM193","G","C",0.2772,"G","C",0.7228,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM194","C","G",0.6991,"C","G",0.3009,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM195","C","G",0.7004,"C","G",0.2996,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM196","A","T",0.2376,"A","T",0.7624,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM197","C","G",0.6841,"C","G",0.3159,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM198","A","T",0.6721,"A","T",0.3279,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM199","C","G",0.6647,"C","G",0.3353,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM200","A","T",0.6535,"A","T",0.3465,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rsSIM201","G","C",0.8887,"G","C",0.8887,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM202","G","C",0.2226,"G","C",0.2226,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM203","A","T",0.1856,"A","T",0.1856,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM204","T","A",0.6352,"T","A",0.6352,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM205","G","C",0.2099,"G","C",0.2099,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM206","A","T",0.1366,"A","T",0.1366,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM207","C","G",0.2911,"C","G",0.2911,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM208","T","A",0.7348,"T","A",0.7348,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM209","T","A",0.1724,"T","A",0.1724,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM210","C","G",0.6526,"C","G",0.6526,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM211","G","C",0.7677,"G","C",0.7677,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM212","C","G",0.1681,"C","G",0.1681,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM213","A","T",0.6333,"A","T",0.6333,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM214","G","C",0.6254,"G","C",0.6254,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM215","C","G",0.8767,"C","G",0.8767,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM216","A","T",0.6797,"A","T",0.6797,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM217","C","G",0.1514,"C","G",0.1514,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM218","C","G",0.2033,"C","G",0.2033,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM219","C","G",0.1704,"C","G",0.1704,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM220","G","C",0.7051,"G","C",0.7051,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rsSIM221","T","A",0.2793,"A","T",0.7207,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM222","C","G",0.3126,"G","C",0.6874,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM223","C","G",0.3562,"G","C",0.6438,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM224","G","C",0.156,"C","G",0.844,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM225","G","C",0.7739,"C","G",0.2261,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM226","T","A",0.3762,"A","T",0.6238,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM227","A","T",0.1472,"T","A",0.8528,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM228","G","C",0.9069,"C","G",0.0931,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM229","C","G",0.8099,"G","C",0.1901,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM230","A","T",0.7962,"T","A",0.2038,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM231","T","A",0.3443,"A","T",0.6557,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM232","G","C",0.7238,"C","G",0.2762,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM233","G","C",0.8988,"C","G",0.1012,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM234","T","A",0.1006,"A","T",0.8994,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM235","G","C",0.7141,"C","G",0.2859,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM236","A","T",0.6143,"T","A",0.3857,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM237","C","G",0.1631,"G","C",0.8369,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM238","A","T",0.9054,"T","A",0.0946,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM239","T","A",0.6828,"A","T",0.3172,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM240","T","A",0.1846,"A","T",0.8154,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rsSIM241","T","A",0.5201,"A","T",0.5201,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM242","G","C",0.5348,"C","G",0.5348,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM243","A","T",0.5206,"T","A",0.5206,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM244","A","T",0.5359,"T","A",0.5359,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM245","G","C",0.4946,"C","G",0.4946,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM246","T","A",0.5177,"A","T",0.5177,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rsSIM247","G","T",0.6641,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM248","G","T",0.5732,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM249","T","G",0.4755,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM250","A","G",0.3691,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM251","G","T",0.8743,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM252","C","A",0.6167,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rsSIM253","A","C",0.257,"C","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM254","A","G",0.3857,"G","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM255","C","T",0.5104,"T","C",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM256","G","T",0.8064,"T","G",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM257","G","A",0.2221,"A","G",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM258","A","C",0.2844,"C","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rsSIM259","A","G",0.2304,"G","A",0.2304,"dropped: outcome data missing (-9)",FALSE
+"rsSIM260","G","T",0.5915,"T","G",0.5915,"dropped: outcome data missing (-9)",FALSE
+"rsSIM261","A","C",0.5013,"C","A",0.5013,"dropped: outcome data missing (-9)",FALSE

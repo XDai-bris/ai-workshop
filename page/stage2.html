@@ -1,0 +1,79 @@
+<section class="stage" id="s2" aria-labelledby="s2-h">
+<div class="stage-head"><span class="num">Stage 2 · the core</span><h2 id="s2-h">Review: a vague question or a specified one</h2><span class="time">5–20 min</span></div>
+<p class="principle">A simple error is found whatever you ask. A deep error is found only occasionally, however well you ask. What a specified review gives you is an evidence trail, and the deep error is in that trail for you to see.</p>
+<p class="lead">We gave the draft to a fresh agent session, one that had not written it, with one of two prompts. Each prompt ran in <b>five separate fresh sessions</b> on its own copy of the project. Before any run started, we wrote down how the replies would be scored. The results are reported as they came out.</p>
+
+<div class="pair">
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt A · vague</span><button type="button" class="btn copy" data-from="p-vague">Copy</button></div>
+<div class="ex-b" id="p-vague">{{PROMPT:vague}}</div></div>
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt B · specified</span><button type="button" class="btn copy" data-from="p-spec">Copy</button></div>
+<div class="ex-b" id="p-spec">{{PROMPT:specified}}</div></div>
+</div>
+
+<h3>What came back: ten runs</h3>
+<div class="scroll"><table class="tbl">
+<thead><tr><th></th><th class="n">Vague (5 runs)</th><th class="n">Specified (5 runs)</th></tr></thead>
+<tbody>
+<tr><td>Found <b>E2</b>, the planted harmonisation slip</td><td class="n"><span class="hl-good">5 / 5</span></td><td class="n"><span class="hl-good">5 / 5</span></td></tr>
+<tr><td>Found <b>E1</b>, the agent’s own unit error</td><td class="n"><span class="hl-bad">0 / 5</span></td><td class="n"><span class="hl-bad">1 / 5</span></td></tr>
+<tr><td>Said in so many words that the unit conversion was correct</td><td class="n">4 / 5</td><td class="n">4 / 5</td></tr>
+<tr><td>Built a known-answer simulation and ran the script on it</td><td class="n">0 / 5</td><td class="n">5 / 5</td></tr>
+<tr><td>… and that simulation made the same unit error</td><td class="n">–</td><td class="n">4 / 5</td></tr>
+</tbody>
+<caption>Claude Sonnet 5.5, fresh headless sessions, 24 Nov 2026. Scoring rules were written before the runs. Median per run: vague 36 s and $0.17, specified 2.7 min and $0.48. All ten replies are in full below.</caption>
+</table></div>
+
+<h3>1 · A simple error: found whatever you ask</h3>
+<p>E2 leaves a visible trace. In the harmonisation log, the allele frequencies contradict the sign the script used. Every reviewer read the log, saw the contradiction and fixed the line in a scratch copy. We expected the vague prompt to miss it. It did not.</p>
+
+<h3>2 · A deep error: found once in ten</h3>
+<p>E1 is the agent’s own mistake, and it is consistent everywhere: in the code, the log and the report. A reviewer that is the same model, reading the same dictionary, makes the same reading. Having fixed E2, the reviewers reported a “corrected” IVW of 4.77, still 23 times too large, and took the agreement between methods as confirmation:</p>
+<div class="ex reply"><div class="ex-h"><span class="tag">Vague review · run 1</span><span class="meta">excerpt</span></div>
+<div class="ex-b">
+<p>[…]</p>
+<div class="scroll"><table class="tbl"><thead><tr><th></th><th class="n">Current report</th><th class="n">Corrected</th></tr></thead>
+<tbody><tr><td>IVW</td><td class="n">1.59 (−0.03 to 3.21)</td><td class="n"><b>4.77 (3.45 to 6.09)</b></td></tr>
+<tr><td>Cochran’s Q</td><td class="n">135.6, p = 0.00084</td><td class="n">89.9 on 88 df, p = 0.42</td></tr></tbody></table></div>
+<p>The story changes. The IVW interval no longer includes zero, the three methods agree, and there is no sign of heterogeneity. […] Q ≈ df is also what you’d expect if the harmonisation is now right.</p>
+<p><b>What checked out:</b> […] <span class="hl-bad">The unit conversion (BETA divided by 4.8) is right.</span></p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:vague_1}}</div></details></div>
+<p>Coherence is not correctness. Nor could Q have warned anyone: it does not change when every exposure effect is rescaled, so it cannot detect a unit error at all (Stage 4).</p>
+
+<h3>3 · What the specified prompt bought: an evidence trail</h3>
+<p>The specified prompt did not make the reviewer right more often. It made the reviewer show its working, and the deep error sits in that working, in plain sight. Each card below pairs a reviewer’s claim with the line of its own code behind it:</p>
+<div class="pair">
+<div class="ex reply"><div class="ex-h"><span class="tag">Specified · run 1</span><span class="meta">plan check, units row · and its simulation</span></div>
+<div class="ex-b"><p><code>:120-121</code> divide <code>BETA</code> and <code>SE</code> by 4.8 | <span class="hl-bad">Matches the dictionary. SD to kg/m² means dividing by 4.8</span>, and the outcome is already in mmHg.</p>
+<p><code>review/make_sim.R</code>, line 19:<br><code>byX &lt;- THETA * bxX / 4.8 + rnorm(n, 0, .004)</code></p></div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Specified · run 4</span><span class="meta">plan check, units row · and its simulation</span></div>
+<div class="ex-b"><p>Matches the dictionary. BETA is per SD and 1 SD = 4.8 kg/m², so dividing gives per kg/m². <span class="hl-bad">The simulation recovers the truth to 0.5 SE, which confirms the units.</span></p>
+<p><code>review/simulate.R</code>, line 60:<br><code>by_V &lt;- TRUE_EFFECT * g / SD_BMI + rnorm(1, 0, SE_Y)</code></p></div></div>
+</div>
+<p>A researcher who knows that a SNP effect in SD units must be <em>multiplied</em> by the SD to give kg/m² can catch E1 from either card in seconds: the reviewer’s known answer was built with the same division as the code, so of course it agreed. The vague reviews offer nothing to follow up, only one line saying “the unit conversion is right”.</p>
+<p>Once, the agent followed the trail itself. Run 3 built its simulation from the data dictionary, not from the script’s formula, so its known answer could disagree with the code:</p>
+<div class="ex reply"><div class="ex-h"><span class="tag">Specified review · run 3</span><span class="meta">excerpt · the only run that found E1</span></div>
+<div class="ex-b">
+<p><b>Units</b> (<code>analysis/mr_analysis.R:120-121</code>). The code does <code>BETA / SD_BMI_KGM2</code>. The dictionary says BETA is per SD with 1 SD = 4.8 kg/m², so the conversion to kg/m² should multiply by 4.8. <span class="hl-good">Dividing makes the exposure effect 23.04 times too small and every estimate 23.04 times too large (4.8² = 23.04).</span></p>
+<p>[…] The table shows the IVW estimate under each combination of units and orientation [true effect 0.8]:</p>
+<div class="scroll"><table class="tbl"><thead><tr><th></th><th class="n">Script orientation</th><th class="n">True orientation</th></tr></thead>
+<tbody><tr><td>Script units (BETA/4.8)</td><td class="n">8.40</td><td class="n">18.17 (= 0.79 × 23.04)</td></tr>
+<tr><td>Correct units (BETA×4.8)</td><td class="n">0.36</td><td class="n">0.79</td></tr></tbody></table></div>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:specified_3}}</div></details></div>
+
+<details class="ex"><summary class="ex-h" style="cursor:pointer"><span class="tag">All ten replies</span><span class="meta">verbatim, as recorded</span></summary>
+<details class="full"><summary>Vague · run 1</summary><div class="verbatim">{{REPLY:vague_1}}</div></details>
+<details class="full"><summary>Vague · run 2 (the sandbox blocked its rerun)</summary><div class="verbatim">{{REPLY:vague_2}}</div></details>
+<details class="full"><summary>Vague · run 3</summary><div class="verbatim">{{REPLY:vague_3}}</div></details>
+<details class="full"><summary>Vague · run 4</summary><div class="verbatim">{{REPLY:vague_4}}</div></details>
+<details class="full"><summary>Vague · run 5</summary><div class="verbatim">{{REPLY:vague_5}}</div></details>
+<details class="full"><summary>Specified · run 1</summary><div class="verbatim">{{REPLY:specified_1}}</div></details>
+<details class="full"><summary>Specified · run 2</summary><div class="verbatim">{{REPLY:specified_2}}</div></details>
+<details class="full"><summary>Specified · run 3 (found E1)</summary><div class="verbatim">{{REPLY:specified_3}}</div></details>
+<details class="full"><summary>Specified · run 4</summary><div class="verbatim">{{REPLY:specified_4}}</div></details>
+<details class="full"><summary>Specified · run 5</summary><div class="verbatim">{{REPLY:specified_5}}</div></details>
+</details>
+
+<p class="takeaway">The prompt is not the point; the evidence trail is. Ask for evidence, not an opinion, and then read the evidence yourself. That is where the deep errors are.</p>
+</section>

@@ -1,0 +1,29 @@
+<section class="stage" id="s3" aria-labelledby="s3-h">
+<div class="stage-head"><span class="num">Stage 3</span><h2 id="s3-h">Every step: check, fix, test, save</h2><span class="time">20–28 min</span></div>
+<p class="principle">Each step ends the same way. An independent check finds a problem, you fix that problem, you add a test that would have caught it, and you commit. The next session, yours or an agent’s, inherits the check.</p>
+<p class="lead">The Stage 2 reviews agreed on E2. We gave a fresh session the finding and asked for the full loop: fix it, add a known-answer test, rerun, update the report, commit.</p>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 3</span><span class="meta">fresh session · fix, test, commit</span><button type="button" class="btn copy" data-from="p-fix">Copy</button></div>
+<div class="ex-b" id="p-fix">{{PROMPT:fix}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>I fixed the harmonisation error, added the known-answer test, reran <code>data/main</code>, updated the report and README, and committed the lot as <code>ad7be41</code>. […]</p>
+<p><b>What it checks:</b> the log label for every variant, and that IVW, MR-Egger and weighted median recover the true effect. <span class="hl-good">On the fixed code all checks pass</span>, with IVW at 1.93 (95% CI 1.63 to 2.24). <span class="hl-good">On the old code it fails</span>: 40 label mismatches, and IVW at 1.42 (95% CI 1.08 to 1.76) misses the true value.</p>
+<div class="scroll"><table class="tbl"><thead><tr><th></th><th class="n">Before</th><th class="n">After</th></tr></thead>
+<tbody><tr><td>IVW</td><td class="n">1.59 (−0.03 to 3.21)</td><td class="n">4.77 (3.45 to 6.09)</td></tr>
+<tr><td>Cochran’s Q p-value</td><td class="n">0.00084</td><td class="n">0.42</td></tr></tbody></table></div>
+<p>[…] <b>Rerunning the script:</b> it regenerates <code>report.md</code> and overwrites the hand-edited one. I restored the edited version from git before updating it.</p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:fix}}</div></details>
+<details class="full"><summary>The commit history after this step</summary><div class="verbatim">{{FILE:gitlog_fix}}</div></details></div>
+
+<p>The agent did each part of the loop, and did it well. The fix is two lines. The test fails on the old code and passes on the new code, which is the evidence that a regression test works. Every number in the report was updated, and the commit message says what changed and why.</p>
+
+<h3>Now read the test</h3>
+<p>One line in <code>tests/test_known_answer.R</code> generates the outcome data the test expects the script to recover:</p>
+<div class="diff">by_ea &lt;- THETA * bx_sd <span class="del">/ SD_BMI</span> + rnorm(1, 0, sy)   # true effect of EA on SBP (+noise)</div>
+<p>This is E1 again. The test simulates the data with the same unit assumption the script uses to analyse it, so on units it passes by construction. It guards E2, the error it was written for, and says nothing about E1. The README now tells the group that the test “checks the log labels and that IVW, MR-Egger and weighted median recover it”.</p>
+<p>The agent did what the prompt asked: simulate data “with a causal effect you choose”. The prompt did not say the expected answer had to be worked out independently of the code. That is the part only the researcher can insist on.</p>
+
+<p class="takeaway">Fix, test and commit at every step. Ask one question of every test: could it still pass if the code and the test made the same mistake? If it could, give it an answer worked out by hand.</p>
+</section>

@@ -1,0 +1,45 @@
+<section class="stage" id="s5" aria-labelledby="s5-h">
+<div class="stage-head"><span class="num">Stage 5</span><h2 id="s5-h">Before release: close-out</h2><span class="time">35–40 min</span></div>
+<p class="principle">Before anything leaves your hands, check the package the way a reader will meet it. Rerun it from its own instructions, trace every number to a file, read the documents against each other, and clear out what should not be shared.</p>
+<p class="lead">The numbers are now right. A close-out does not re-examine the science. It checks that the project can be rerun, that it agrees with itself, and that it is fit to share. Four sessions have edited these files, and each left something behind.</p>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 7</span><span class="meta">fresh session · close-out review</span><button type="button" class="btn copy" data-from="p-close">Copy</button></div>
+<div class="ex-b" id="p-close">{{PROMPT:closeout}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p><b>1. Reproduce: passes.</b> I followed the README in a copy that excluded <code>.git</code> and <code>scratch/</code>. <code>estimates.csv</code>, <code>harmonisation_log.csv</code> and <code>scatter.png</code> are <b>byte-identical</b> to the committed files. […]</p>
+<p><b>Heterogeneity:</b> Q = 89.9, df 88, p = 0.42 appear in the script’s console output but are <span class="hl-bad">not in any file in <code>results/</code></span>. […]</p>
+<p><b>Word limit.</b> The plan says <code>report.md</code> is at most 200 words. The hand-edited report is <b>208</b> by <code>wc -w</code>. […]</p>
+<p><b>Palindromic rule.</b> The plan drops palindromic variants only on exposure MAF &gt; 0.42. The code (<code>mr_analysis.R:73-74</code>) also drops them if the <b>outcome</b> MAF &gt; 0.42. This could change which variants are dropped. […]</p>
+<p><b>README wording.</b> “Biased the IVW estimate towards zero (previously 1.59)” is misleading. […] 4.77 was also wrong because of the unit error. […]</p>
+<p><b>Overwrite risk:</b> the script overwrites <code>report.md</code> with no guard, though the README does warn about it. […]</p>
+</div>
+<details class="full"><summary>Full reply, with its must-fix and can-wait lists</summary><div class="verbatim">{{REPLY:closeout}}</div></details></div>
+
+<h3>Check the findings, then decide</h3>
+<p>None of these would change the estimate. Each would cost the researcher something later: a reader who cannot find where Q came from, a rerun that silently replaces the report, a correction note that tells the wrong story. We checked every item before acting, and the researcher made the calls. Three smaller items were left as they were.</p>
+<div class="scroll"><table class="tbl">
+<thead><tr><th>Finding</th><th>Checked</th><th>Decision</th></tr></thead>
+<tbody>
+<tr><td>Report is 208 words; the plan allows 200</td><td>True</td><td>Fix: move the correction history to the README</td></tr>
+<tr><td>Q, df and p are quoted but saved in no file</td><td>True</td><td>Fix: write <code>results/heterogeneity.csv</code></td></tr>
+<tr><td>Plan and code differ on which MAF decides a palindromic drop</td><td>True. In these data it changes nothing: all four dropped variants have exposure MAF above 0.42</td><td>Keep the code; record it as a deviation from the plan</td></tr>
+<tr><td>The script overwrites the hand-edited report</td><td>True</td><td>Fix: write the generated report to <code>results/</code></td></tr>
+<tr><td>Correction note says the first fix removed a bias “towards zero”</td><td>Misleading: both earlier estimates were wrong</td><td>Fix: say what each error did</td></tr>
+</tbody></table></div>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 8</span><span class="meta">fresh session · the researcher’s list</span><button type="button" class="btn copy" data-from="p-clean">Copy</button></div>
+<div class="ex-b" id="p-clean">{{PROMPT:cleanup}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>All six changes are made, the analysis and test were rerun, and the commit is <code>cc1fd84</code>. The test passes. […]</p>
+<p><b>Palindromic check:</b> README.md now has a “Deviations from the plan” section saying the code checks both files. In <code>data/main</code>, the outcome check drops nothing extra. […]</p>
+<p>The checksums of <code>estimates.csv</code>, <code>harmonisation_log.csv</code> and <code>scatter.png</code> are identical to before the rerun. […]</p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:cleanup}}</div></details>
+<details class="full"><summary>The final commit history</summary><div class="verbatim">{{FILE:gitlog_final}}</div></details>
+<details class="full"><summary>The final <code>report.md</code></summary><div class="verbatim">{{FILE:final_report}}</div></details></div>
+<p>We reran the final commit ourselves, from a clean export: the test passes all ten checks, and every file in <code>results/</code> comes out byte-identical.</p>
+
+<p class="takeaway">Close out before release. Rerun from the README, trace every number to a file, and read the documents against each other. The reviewer lists the problems; the researcher decides which ones matter.</p>
+</section>

@@ -1,6 +1,8 @@
-analysis/scratch/
+scratch/
+page/validation_walkthrough.html
 Rplots.pdf
 .Rhistory
 .RData
 .Rproj.user/
 .DS_Store
+__pycache__/

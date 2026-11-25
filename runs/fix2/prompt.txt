@@ -1,0 +1,7 @@
+A milestone review reported a unit error. Check it yourself before you change anything:
+
+> analysis/mr_analysis.R:120-121 divides the exposure BETA and SE by 4.8. BETA is per SD of BMI and 1 SD = 4.8 kg/m², so the exposure effect in kg/m² is BETA × 4.8. Dividing makes every causal estimate 4.8² ≈ 23 times too large. tests/test_known_answer.R generates outcome effects as THETA * bx_sd / SD_BMI, so it shares the error and passes anyway.
+
+1. Confirm or refute this with a hand calculation for one variant in data/main, without running the script.
+2. If it holds, fix the conversion in analysis/mr_analysis.R and the data generation in the test. Also add to the test one small worked example whose expected answer is written into the test as a number you worked out by hand, not computed with the script's formulas.
+3. Run the test, rerun the analysis on data/main, update report.md and README.md so that every number matches results/, and commit with a message that says what changed and why.

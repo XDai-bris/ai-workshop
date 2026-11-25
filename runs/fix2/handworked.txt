@@ -1,0 +1,21 @@
+# 3. Hand-worked example (expected values worked out on paper, not from the script's formulas).
+# Four aligned variants, exposure BETA per SD = 0.1, 0.2, -0.1, 0.05 (SE 0.01); outcome effect of the
+# exposure allele in mmHg = 0.24, 0.48, -0.24, 0.12 (SE 0.1).
+# 1 SD = 4.8 kg/m2, so exposure effects are 0.48, 0.96, -0.48, 0.24 kg/m2 and every Wald ratio is
+# 0.24/0.48 = 0.5 mmHg per kg/m2. IVW = 0.5 exactly; its SE = 1/sqrt(sum(w*bx^2)) with w = 100 and
+# sum(bx^2) = 0.2304+0.9216+0.2304+0.0576 = 1.44, so SE = 1/sqrt(144) = 1/12 = 0.083333.
+hw <- file.path(work, "hand"); dir.create(file.path(hw, "data"), recursive = TRUE)
+write.table(data.frame(SNP = paste0("h", 1:4), CHR = 1, POS = 1:4 * 1000, EFFECT_ALLELE = "A",
+    OTHER_ALLELE = "C", EAF = 0.3, BETA = c(0.1, 0.2, -0.1, 0.05), SE = 0.01, P = 1e-20, N = 300000),
+  file.path(hw, "data", "exposure_bmi_gwas.tsv"), sep = "\t", quote = FALSE, row.names = FALSE)
+write.table(data.frame(rsid = paste0("h", 1:4), chr = 1, pos = 1:4 * 1000, A1 = "C", A2 = "A",
+    freq = 0.3, beta = c(0.24, 0.48, -0.24, 0.12), se = 0.1, pval = 0.1, n = 750000),
+  file.path(hw, "data", "outcome_sbp_gwas.tsv"), sep = "\t", quote = FALSE, row.names = FALSE)
+old <- setwd(hw)
+res2 <- system2(rscript, c(shQuote(script), "data"), stdout = TRUE, stderr = TRUE)
+setwd(old)
+if (!is.null(attr(res2, "status"))) { cat(res2, sep = "\n"); stop("analysis script failed on hand example") }
+he <- read.csv(file.path(hw, "results", "estimates.csv"), stringsAsFactors = FALSE)
+hi <- he[he$method == "IVW (multiplicative random effects)", ]
+check(abs(hi$estimate - 0.5) < 1e-9, sprintf("hand example: IVW estimate = 0.5 (got %.6f)", hi$estimate))
+check(abs(hi$se - 1/12) < 1e-9, sprintf("hand example: IVW SE = 1/12 = 0.083333 (got %.6f)", hi$se))

@@ -1,0 +1,101 @@
+"SNP","exposure_EA","exposure_OA","exposure_EAF","outcome_A1","outcome_A2","outcome_freq_A2","harmonisation_action","used"
+"rs94071924","G","A",0.4378,"G","A",0.5707,"flipped: allele order swapped",TRUE
+"rs88842146","G","T",0.5981,"G","T",0.4124,"flipped: allele order swapped",TRUE
+"rs73176882","C","T",0.5937,"G","A",0.4018,"strand: complemented, flipped",TRUE
+"rs2802707","T","C",0.7396,"A","G",0.2539,"strand: complemented, flipped",TRUE
+"rs90247876","T","A",0.5197,"T","A",0.5181,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs6636216","A","C",0.3056,"A","C",0.6958,"flipped: allele order swapped",TRUE
+"rs94760730","A","G",0.2391,"T","C",0.7766,"strand: complemented, flipped",TRUE
+"rs59743198","C","T",0.3608,"C","T",0.6469,"flipped: allele order swapped",TRUE
+"rs62087431","C","A",0.1269,"T","G",0.1063,"strand: complemented, no flip",TRUE
+"rs31828816","G","C",0.4949,"C","G",0.5142,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs19369461","G","T",0.3545,"T","G",0.3495,"none: alleles aligned",TRUE
+"rs57064272","T","G",0.2723,"C","A",0.2564,"strand: complemented, no flip",TRUE
+"rs66056665","A","C",0.6294,"A","C",0.3752,"flipped: allele order swapped",TRUE
+"rs89929710","A","C",0.1043,"A","C",0.8747,"flipped: allele order swapped",TRUE
+"rs59755259","A","G",0.7837,"A","G",0.2252,"flipped: allele order swapped",TRUE
+"rs50795004","T","C",0.3818,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs99875401","T","G",0.9072,"C","A",0.9199,"strand: complemented, no flip",TRUE
+"rs80801588","G","T",0.8527,"A","C",0.8399,"strand: complemented, no flip",TRUE
+"rs69295318","A","C",0.3433,"G","T",0.328,"strand: complemented, no flip",TRUE
+"rs2809373","C","A",0.8015,"A","C",0.8276,"none: alleles aligned",TRUE
+"rs70340551","G","T",0.7192,"C","A",0.2901,"strand: complemented, flipped",TRUE
+"rs88900973","G","T",0.6999,"T","G",0.7211,"none: alleles aligned",TRUE
+"rs66796529","T","C",0.3337,"A","G",0.6737,"strand: complemented, flipped",TRUE
+"rs69433662","T","G",0.3252,"A","C",0.6756,"strand: complemented, flipped",TRUE
+"rs42236421","A","C",0.489,"G","T",0.5,"strand: complemented, no flip",TRUE
+"rs12066962","A","C",0.597,"T","G",0.4232,"strand: complemented, flipped",TRUE
+"rs29989061","C","A",0.5413,"G","T",0.4717,"strand: complemented, flipped",TRUE
+"rs49443830","T","G",0.2277,"C","A",0.2284,"strand: complemented, no flip",TRUE
+"rs34282125","T","C",0.2662,"C","T",0.2691,"none: alleles aligned",TRUE
+"rs58746782","T","C",0.4997,"G","A",0.5113,"strand: complemented, no flip",TRUE
+"rs26463432","A","C",0.5191,"G","T",0.5296,"strand: complemented, no flip",TRUE
+"rs6029058","G","T",0.3334,"G","T",0.6664,"flipped: allele order swapped",TRUE
+"rs30890449","C","T",0.4469,"T","C",0.4533,"none: alleles aligned",TRUE
+"rs9428833","C","T",0.643,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs68365095","A","C",0.9122,"C","A",0.909,"none: alleles aligned",TRUE
+"rs7626928","T","G",0.9036,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs81522171","A","G",0.2678,"C","T",0.2921,"strand: complemented, no flip",TRUE
+"rs79042257","C","A",0.6844,"C","A",0.3117,"flipped: allele order swapped",TRUE
+"rs20868328","C","A",0.9538,"A","C",0.9585,"none: alleles aligned",TRUE
+"rs47298808","T","G",0.712,"T","G",0.2877,"flipped: allele order swapped",TRUE
+"rs93437852","T","A",0.1465,"A","T",0.8506,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs1108555","G","T",0.7312,"C","A",0.2553,"strand: complemented, flipped",TRUE
+"rs69310900","T","C",0.5488,"A","G",0.4588,"strand: complemented, flipped",TRUE
+"rs6217968","A","C",0.2882,"G","T",0.2892,"strand: complemented, no flip",TRUE
+"rs49452866","G","T",0.1518,"A","C",0.1502,"strand: complemented, no flip",TRUE
+"rs43129754","A","G",0.1621,"T","C",0.8408,"strand: complemented, flipped",TRUE
+"rs5950284","A","G",0.837,"T","C",0.1551,"strand: complemented, flipped",TRUE
+"rs49900600","T","A",0.1171,"A","T",0.1031,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs14084974","C","T",0.3863,"T","C",0.4001,"none: alleles aligned",TRUE
+"rs96187882","G","T",0.9489,"C","A",0.0424,"strand: complemented, flipped",TRUE
+"rs37410388","A","G",0.874,"A","G",0.1282,"flipped: allele order swapped",TRUE
+"rs70606580","A","G",0.9341,"G","A",0.9277,"none: alleles aligned",TRUE
+"rs2293375","T","C",0.155,"G","A",0.1789,"strand: complemented, no flip",TRUE
+"rs52527773","G","A",0.29,"C","T",0.7226,"strand: complemented, flipped",TRUE
+"rs77846411","A","C",0.7036,"T","G",0.2724,"strand: complemented, flipped",TRUE
+"rs31398128","G","C",0.5613,"C","G",0.5604,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs49236408","T","G",0.9372,"G","T",0.9473,"none: alleles aligned",TRUE
+"rs66241290","A","G",0.5654,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs78090482","G","T",0.1215,"G","T",0.8818,"flipped: allele order swapped",TRUE
+"rs54878156","G","A",0.4367,"C","T",0.558,"strand: complemented, flipped",TRUE
+"rs99740886","A","C",0.7654,"T","G",0.2365,"strand: complemented, flipped",TRUE
+"rs51496561","C","A",0.8125,"A","C",0.808,"none: alleles aligned",TRUE
+"rs91088565","C","A",0.2769,"A","C",0.2905,"none: alleles aligned",TRUE
+"rs49455481","T","G",0.6866,"A","C",0.3344,"strand: complemented, flipped",TRUE
+"rs2130124","A","C",0.4854,"C","A",0.5118,"none: alleles aligned",TRUE
+"rs91671715","A","G",0.4415,"T","C",0.5445,"strand: complemented, flipped",TRUE
+"rs85000690","G","T",0.8056,"A","C",0.8104,"strand: complemented, no flip",TRUE
+"rs61811942","G","A",0.411,"G","A",0.5846,"flipped: allele order swapped",TRUE
+"rs40959302","C","A",0.1415,"A","C",0.1462,"none: alleles aligned",TRUE
+"rs74163158","A","G",0.4491,"T","C",0.5582,"strand: complemented, flipped",TRUE
+"rs77134306","C","A",0.632,"A","C",0.6334,"dropped: outcome data missing (-9)",FALSE
+"rs69958952","A","G",0.0922,"C","T",0.0929,"strand: complemented, no flip",TRUE
+"rs42072572","T","G",0.426,"A","C",0.5918,"strand: complemented, flipped",TRUE
+"rs26855296","T","C",0.632,"T","C",0.3724,"flipped: allele order swapped",TRUE
+"rs94769160","T","C",0.6869,"T","C",0.3169,"flipped: allele order swapped",TRUE
+"rs65049734","C","T",0.243,"C","T",0.7592,"flipped: allele order swapped",TRUE
+"rs58559743","C","G",0.1069,"C","G",0.0952,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs92783553","A","G",0.6827,"T","C",0.3209,"strand: complemented, flipped",TRUE
+"rs39079382","A","C",0.1578,"G","T",0.15,"strand: complemented, no flip",TRUE
+"rs42665151","C","A",0.4446,"A","C",0.4432,"none: alleles aligned",TRUE
+"rs8084124","T","G",0.8809,"T","G",0.112,"flipped: allele order swapped",TRUE
+"rs28240145","G","A",0.5413,"C","T",0.4616,"strand: complemented, flipped",TRUE
+"rs29601649","T","G",0.1005,"A","C",0.8983,"strand: complemented, flipped",TRUE
+"rs39845201","A","C",0.5102,"T","G",0.5033,"strand: complemented, flipped",TRUE
+"rs45197276","G","A",0.3534,"G","A",0.6347,"flipped: allele order swapped",TRUE
+"rs91441242","G","C",0.4728,"C","G",0.4649,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs2645345","G","T",0.2235,"C","A",0.7776,"strand: complemented, flipped",TRUE
+"rs8157843","A","G",0.3237,"G","A",0.3202,"dropped: outcome data missing (-9)",FALSE
+"rs7419211","G","A",0.1088,"G","A",0.8941,"flipped: allele order swapped",TRUE
+"rs19512506","T","C",0.632,"C","T",0.6299,"dropped: outcome data missing (-9)",FALSE
+"rs23428050","C","A",0.342,"C","A",0.6591,"flipped: allele order swapped",TRUE
+"rs64532660","C","A",0.4706,"G","T",0.5229,"strand: complemented, flipped",TRUE
+"rs82529171","G","A",0.0694,"A","G",0.0583,"none: alleles aligned",TRUE
+"rs25027786","G","T",0.8617,"G","T",0.145,"flipped: allele order swapped",TRUE
+"rs44212101","G","T",0.1421,"T","G",0.1377,"none: alleles aligned",TRUE
+"rs35767675","T","G",0.2854,"C","A",0.2918,"strand: complemented, no flip",TRUE
+"rs41124610","A","C",0.1624,"C","A",0.1521,"none: alleles aligned",TRUE
+"rs47684347","G","A",0.0522,"G","A",0.9433,"flipped: allele order swapped",TRUE
+"rs20342020","G","C",0.6998,"C","G",0.7147,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs68805001","G","A",0.7806,"A","G",0.7788,"none: alleles aligned",TRUE

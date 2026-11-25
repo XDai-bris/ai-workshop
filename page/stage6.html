@@ -1,0 +1,25 @@
+<section class="stage" id="s6" aria-labelledby="s6-h">
+<div class="stage-head"><span class="num">Stage 6</span><h2 id="s6-h">Where this is going: fix the checks first, then let agents run</h2><span class="time">40–45 min</span></div>
+<p class="principle">If the target and its checks are fixed before the work starts, an agent can work for a long time and you can still trust what it brings back, because it is checked against something it did not write.</p>
+<p class="lead">On 20 November 2026 Levent Alpöge released a proof of the Riemann Hypothesis as a Lean library of about 17 million lines, written with an AI model. The next day the Lean FRO and the Mathlib Initiative certified it. Nobody read 17 million lines. Trust came from three things that did not depend on the proof itself:</p>
+<div class="scroll"><table class="tbl">
+<thead><tr><th>Lean / Riemann Hypothesis</th><th>Our analysis</th></tr></thead>
+<tbody>
+<tr><td><b>The statement was fixed in advance:</b> <code>Challenge.lean</code> states the theorem and imports only Mathlib</td><td><b>The plan and its checks were written before the code:</b> the estimand, the units, and a known answer the pipeline must recover</td></tr>
+<tr><td><b>A tool checks that the delivered proof proves exactly that statement</b> (comparator)</td><td><b>Every step and every claim is mapped to code and results</b> (the plan check and the claim-by-claim decisions)</td></tr>
+<tr><td><b>Independent kernels re-check the proof</b></td><td><b>An independent reviewer, ideally a different model, recomputes from the source data</b></td></tr>
+<tr><td><b>Experts vetted the statement, not every line</b></td><td><b>The researcher signs off the claims and the estimand, not every line of R</b></td></tr>
+</tbody></table></div>
+<blockquote class="ref" style="border:0;padding:0"><p style="font-family:var(--serif);font-size:1.05rem;margin:10px 0 2px">“Crucially, the community has added a file that isolates the statement of the Riemann Hypothesis and imports only Mathlib.”</p><span class="src">Lean FRO and Mathlib Initiative, <a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">statement of 21 Nov 2026</a></span></blockquote>
+<h3>What this looks like in a project</h3>
+<p>By the end of Stage 5 the project carries its own checks: a known-answer simulation, a hand-worked example whose answer is a number in the test, the heterogeneity statistics saved to a file, and a README that says how to rerun all of it. The next agent to open the folder starts from those checks, not from scratch.</p>
+<div class="scroll"><table class="tbl">
+<thead><tr><th>Before an agent works on a project for long</th><th>On this page</th></tr></thead>
+<tbody>
+<tr><td>Write the estimand, units and methods down before any code</td><td><code>analysis_plan.md</code></td></tr>
+<tr><td>Give it known answers that do not come from its own code: hand-worked values, published results, a colleague’s calculation</td><td>The hand-worked example in <code>tests/</code></td></tr>
+<tr><td>Decide what a milestone check asks, and keep the prompts</td><td>Prompts B, 4 and 7</td></tr>
+<tr><td>Keep the checks in the repository, where every session will find them</td><td><code>tests/</code>, <code>README.md</code>, <code>AGENTS.md</code></td></tr>
+</tbody></table></div>
+<p class="takeaway">Write the checks before the code. Milestones that can be checked are what let an agent work longer on its own, and what let you trust what it brings back.</p>
+</section>

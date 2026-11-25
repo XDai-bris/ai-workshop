@@ -1,0 +1,262 @@
+"SNP","cat","EA","OA","A1","A2","EAF","freq_A2","bx_SD","true_out_for_EA","expected_sign","exposure_EA","exposure_OA","exposure_EAF","outcome_A1","outcome_A2","outcome_freq_A2","harmonisation_action","used","beta","flip","sign_script"
+"rsSIM001","aligned","G","A","A","G",0.478,0.478,-0.0376694869576022,-0.0156956195656676,-1,"G","A",0.478,"A","G",0.478,"none: alleles aligned",TRUE,-0.0159199012442372,FALSE,-1
+"rsSIM002","aligned","G","A","A","G",0.79,0.79,0.0741702921129763,0.0309042883804068,1,"G","A",0.79,"A","G",0.79,"none: alleles aligned",TRUE,0.0241087944141904,FALSE,1
+"rsSIM003","aligned","T","G","G","T",0.2323,0.2323,0.0340347089013085,0.0141811287088785,1,"T","G",0.2323,"G","T",0.2323,"none: alleles aligned",TRUE,0.0151085388894437,FALSE,1
+"rsSIM004","aligned","A","C","C","A",0.5963,0.5963,-0.046848004180938,-0.0195200017420575,-1,"A","C",0.5963,"C","A",0.5963,"none: alleles aligned",TRUE,-0.0199963644259397,FALSE,-1
+"rsSIM005","aligned","A","G","G","A",0.3339,0.3339,0.0546970610227436,0.0227904420928098,1,"A","G",0.3339,"G","A",0.3339,"none: alleles aligned",TRUE,0.0298804135066515,FALSE,1
+"rsSIM006","aligned","C","A","A","C",0.4649,0.4649,0.0866054998291656,0.036085624928819,1,"C","A",0.4649,"A","C",0.4649,"none: alleles aligned",TRUE,0.0374593135905934,FALSE,1
+"rsSIM007","aligned","A","C","C","A",0.1365,0.1365,0.0886405519908294,0.0369335633295123,1,"A","C",0.1365,"C","A",0.1365,"none: alleles aligned",TRUE,0.0344413642000933,FALSE,1
+"rsSIM008","aligned","T","G","G","T",0.2421,0.2421,-0.0323319951072335,-0.013471664628014,-1,"T","G",0.2421,"G","T",0.2421,"none: alleles aligned",TRUE,-0.0152297538033281,FALSE,-1
+"rsSIM009","aligned","A","G","G","A",0.1463,0.1463,-0.0652636666316539,-0.0271931944298558,-1,"A","G",0.1463,"G","A",0.1463,"none: alleles aligned",TRUE,-0.0292143815880377,FALSE,-1
+"rsSIM010","aligned","A","G","G","A",0.8555,0.8555,0.0318007006309926,0.0132502919295803,1,"A","G",0.8555,"G","A",0.8555,"none: alleles aligned",TRUE,0.0139944324782102,FALSE,1
+"rsSIM011","aligned","C","A","A","C",0.3742,0.3742,0.0639168725023046,0.0266320302092936,1,"C","A",0.3742,"A","C",0.3742,"none: alleles aligned",TRUE,0.0273377013996915,FALSE,1
+"rsSIM012","aligned","T","C","C","T",0.5144,0.5144,0.0358936338499188,0.0149556807707995,1,"T","C",0.5144,"C","T",0.5144,"none: alleles aligned",TRUE,0.0186190735980986,FALSE,1
+"rsSIM013","aligned","T","C","C","T",0.6002,0.6002,0.0678174473159015,0.028257269714959,1,"T","C",0.6002,"C","T",0.6002,"none: alleles aligned",TRUE,0.0295379766196827,FALSE,1
+"rsSIM014","aligned","C","A","A","C",0.2898,0.2898,-0.0791101100714877,-0.0329625458631199,-1,"C","A",0.2898,"A","C",0.2898,"none: alleles aligned",TRUE,-0.0344292950516052,FALSE,-1
+"rsSIM015","aligned","G","T","T","G",0.5129,0.5129,0.0510024997824803,0.0212510415760335,1,"G","T",0.5129,"T","G",0.5129,"none: alleles aligned",TRUE,0.0174885963953145,FALSE,1
+"rsSIM016","aligned","C","T","T","C",0.7452,0.7452,0.0380390204954892,0.0158495918731205,1,"C","T",0.7452,"T","C",0.7452,"none: alleles aligned",TRUE,0.0183884035987987,FALSE,1
+"rsSIM017","aligned","A","G","G","A",0.3786,0.3786,-0.0348566027032211,-0.0145235844596755,-1,"A","G",0.3786,"G","A",0.3786,"none: alleles aligned",TRUE,-0.0147735383889888,FALSE,-1
+"rsSIM018","aligned","G","A","A","G",0.7869,0.7869,-0.0510265988577157,-0.0212610828573816,-1,"G","A",0.7869,"A","G",0.7869,"none: alleles aligned",TRUE,-0.0205297313866144,FALSE,-1
+"rsSIM019","aligned","A","G","G","A",0.1276,0.1276,-0.0897763070790097,-0.037406794616254,-1,"A","G",0.1276,"G","A",0.1276,"none: alleles aligned",TRUE,-0.0329922305425628,FALSE,-1
+"rsSIM020","aligned","C","A","A","C",0.8768,0.8768,-0.0619781286455691,-0.0258242202689871,-1,"C","A",0.8768,"A","C",0.8768,"none: alleles aligned",TRUE,-0.0188160777943921,FALSE,-1
+"rsSIM021","aligned","G","T","T","G",0.6961,0.6961,0.0501538428291678,0.0208974345121533,1,"G","T",0.6961,"T","G",0.6961,"none: alleles aligned",TRUE,0.0170821686716111,FALSE,1
+"rsSIM022","aligned","C","T","T","C",0.3186,0.3186,0.048854078608565,0.0203558660869021,1,"C","T",0.3186,"T","C",0.3186,"none: alleles aligned",TRUE,0.0269321879141832,FALSE,1
+"rsSIM023","aligned","A","C","C","A",0.6417,0.6417,0.0529573236219585,0.0220655515091494,1,"A","C",0.6417,"C","A",0.6417,"none: alleles aligned",TRUE,0.0185986173913457,FALSE,1
+"rsSIM024","aligned","C","A","A","C",0.3784,0.3784,0.0311127844685689,0.012963660195237,1,"C","A",0.3784,"A","C",0.3784,"none: alleles aligned",TRUE,0.0140290689640161,FALSE,1
+"rsSIM025","aligned","A","G","G","A",0.8576,0.8576,-0.0321923470124602,-0.0134134779218584,-1,"A","G",0.8576,"G","A",0.8576,"none: alleles aligned",TRUE,-0.012523995942437,FALSE,-1
+"rsSIM026","aligned","C","T","T","C",0.3709,0.3709,-0.0827107976423576,-0.0344628323509824,-1,"C","T",0.3709,"T","C",0.3709,"none: alleles aligned",TRUE,-0.0355704663905517,FALSE,-1
+"rsSIM027","aligned","G","T","T","G",0.1254,0.1254,0.0541238414263353,0.0225516005943064,1,"G","T",0.1254,"T","G",0.1254,"none: alleles aligned",TRUE,0.0281286127583785,FALSE,1
+"rsSIM028","aligned","T","C","C","T",0.3829,0.3829,-0.0581628644512966,-0.0242345268547069,-1,"T","C",0.3829,"C","T",0.3829,"none: alleles aligned",TRUE,-0.026870174853819,FALSE,-1
+"rsSIM029","aligned","G","A","A","G",0.4097,0.4097,-0.0541401906078681,-0.0225584127532784,-1,"G","A",0.4097,"A","G",0.4097,"none: alleles aligned",TRUE,-0.0199162876312252,FALSE,-1
+"rsSIM030","aligned","T","C","C","T",0.3856,0.3856,-0.0721254061488435,-0.0300522525620181,-1,"T","C",0.3856,"C","T",0.3856,"none: alleles aligned",TRUE,-0.0301052753625913,FALSE,-1
+"rsSIM031","aligned","A","G","G","A",0.868,0.868,-0.0539498679153621,-0.0224791116314009,-1,"A","G",0.868,"G","A",0.868,"none: alleles aligned",TRUE,-0.0262050328263243,FALSE,-1
+"rsSIM032","aligned","T","C","C","T",0.407,0.407,0.0601174993626773,0.0250489580677822,1,"T","C",0.407,"C","T",0.407,"none: alleles aligned",TRUE,0.0299077146416477,FALSE,1
+"rsSIM033","aligned","G","A","A","G",0.5371,0.5371,-0.0322184250410646,-0.0134243437671103,-1,"G","A",0.5371,"A","G",0.5371,"none: alleles aligned",TRUE,-0.0217777052291456,FALSE,-1
+"rsSIM034","aligned","G","A","A","G",0.8403,0.8403,-0.047878544088453,-0.0199493933701888,-1,"G","A",0.8403,"A","G",0.8403,"none: alleles aligned",TRUE,-0.0220540032478393,FALSE,-1
+"rsSIM035","aligned","T","C","C","T",0.8335,0.8335,0.0877705189073458,0.0365710495447274,1,"T","C",0.8335,"C","T",0.8335,"none: alleles aligned",TRUE,0.0304054392770984,FALSE,1
+"rsSIM036","aligned","A","G","G","A",0.2942,0.2942,0.0861058142781258,0.0358774226158857,1,"A","G",0.2942,"G","A",0.2942,"none: alleles aligned",TRUE,0.0366547068954908,FALSE,1
+"rsSIM037","aligned","A","G","G","A",0.6737,0.6737,0.0876659506419673,0.0365274794341531,1,"A","G",0.6737,"G","A",0.6737,"none: alleles aligned",TRUE,0.037585169631917,FALSE,1
+"rsSIM038","aligned","T","G","G","T",0.3792,0.3792,-0.0775557218492031,-0.0323148841038346,-1,"T","G",0.3792,"G","T",0.3792,"none: alleles aligned",TRUE,-0.0367898247786736,FALSE,-1
+"rsSIM039","aligned","C","A","A","C",0.5434,0.5434,0.0752866315701976,0.0313694298209157,1,"C","A",0.5434,"A","C",0.5434,"none: alleles aligned",TRUE,0.033973241645504,FALSE,1
+"rsSIM040","aligned","G","T","T","G",0.6944,0.6944,0.0339579978073016,0.0141491657530423,1,"G","T",0.6944,"T","G",0.6944,"none: alleles aligned",TRUE,0.0100175647987143,FALSE,1
+"rsSIM041","swap","A","C","A","C",0.2442,0.7558,-0.0381302867503837,-0.0158876194793265,-1,"A","C",0.2442,"A","C",0.7558,"flipped: allele order swapped",TRUE,0.0185244254769985,TRUE,-1
+"rsSIM042","swap","T","G","T","G",0.2043,0.7957,0.037415962535888,0.0155899843899533,1,"T","G",0.2043,"T","G",0.7957,"flipped: allele order swapped",TRUE,-0.0146386667914425,TRUE,1
+"rsSIM043","swap","A","G","A","G",0.8713,0.1287,0.075752631649375,0.0315635965205729,1,"A","G",0.8713,"A","G",0.1287,"flipped: allele order swapped",TRUE,-0.0287024927321548,TRUE,1
+"rsSIM044","swap","G","A","G","A",0.724,0.276,0.0842079429561272,0.0350866428983863,1,"G","A",0.724,"G","A",0.276,"flipped: allele order swapped",TRUE,-0.0388405750551617,TRUE,1
+"rsSIM045","swap","C","A","C","A",0.6064,0.3936,0.0541595454141498,0.0225664772558957,1,"C","A",0.6064,"C","A",0.3936,"flipped: allele order swapped",TRUE,-0.0221850612171833,TRUE,1
+"rsSIM046","swap","A","G","A","G",0.6554,0.3446,0.0409537804685533,0.0170640751952305,1,"A","G",0.6554,"A","G",0.3446,"flipped: allele order swapped",TRUE,-0.0189153528750559,TRUE,1
+"rsSIM047","swap","C","T","C","T",0.3177,0.6823,0.0524739131424576,0.021864130476024,1,"C","T",0.3177,"C","T",0.6823,"flipped: allele order swapped",TRUE,-0.0277396591004023,TRUE,1
+"rsSIM048","swap","G","T","G","T",0.3402,0.6598,-0.0603725206386298,-0.0251552169327624,-1,"G","T",0.3402,"G","T",0.6598,"flipped: allele order swapped",TRUE,0.0257659629548485,TRUE,-1
+"rsSIM049","swap","A","G","A","G",0.172,0.828,-0.084810160738416,-0.03533756697434,-1,"A","G",0.172,"A","G",0.828,"flipped: allele order swapped",TRUE,0.0424326174196087,TRUE,-1
+"rsSIM050","swap","C","T","C","T",0.2235,0.7765,-0.0345987108629197,-0.0144161295262165,-1,"C","T",0.2235,"C","T",0.7765,"flipped: allele order swapped",TRUE,0.0118238457921563,TRUE,-1
+"rsSIM051","swap","C","A","C","A",0.2772,0.7228,0.0365847314335406,0.0152436380973086,1,"C","A",0.2772,"C","A",0.7228,"flipped: allele order swapped",TRUE,-0.0160429079999814,TRUE,1
+"rsSIM052","swap","G","A","G","A",0.5793,0.4207,-0.0752560333488509,-0.0313566805620212,-1,"G","A",0.5793,"G","A",0.4207,"flipped: allele order swapped",TRUE,0.0341136554939299,TRUE,-1
+"rsSIM053","swap","A","C","A","C",0.4386,0.5614,0.048275926541537,0.0201149693923071,1,"A","C",0.4386,"A","C",0.5614,"flipped: allele order swapped",TRUE,-0.0199703873529607,TRUE,1
+"rsSIM054","swap","C","T","C","T",0.8389,0.1611,-0.073428579387255,-0.0305952414113563,-1,"C","T",0.8389,"C","T",0.1611,"flipped: allele order swapped",TRUE,0.0383693866603677,TRUE,-1
+"rsSIM055","swap","A","G","A","G",0.2016,0.7984,0.0439398017339408,0.0183082507224754,1,"A","G",0.2016,"A","G",0.7984,"flipped: allele order swapped",TRUE,-0.0153593957873159,TRUE,1
+"rsSIM056","swap","T","G","T","G",0.135,0.865,-0.0536075320187956,-0.0223364716744982,-1,"T","G",0.135,"T","G",0.865,"flipped: allele order swapped",TRUE,0.0316218074065863,TRUE,-1
+"rsSIM057","swap","T","G","T","G",0.4956,0.5044,-0.0604727638140321,-0.0251969849225134,-1,"T","G",0.4956,"T","G",0.5044,"flipped: allele order swapped",TRUE,0.0265926223076892,TRUE,-1
+"rsSIM058","swap","T","G","T","G",0.1605,0.8395,-0.0863950119260699,-0.0359979216358624,-1,"T","G",0.1605,"T","G",0.8395,"flipped: allele order swapped",TRUE,0.0314622549907588,TRUE,-1
+"rsSIM059","swap","A","G","A","G",0.7924,0.2076,-0.0334725102363154,-0.0139468792651314,-1,"A","G",0.7924,"A","G",0.2076,"flipped: allele order swapped",TRUE,0.0156322203367487,TRUE,-1
+"rsSIM060","swap","T","C","T","C",0.709,0.291,0.0482859422732145,0.0201191426138394,1,"T","C",0.709,"T","C",0.291,"flipped: allele order swapped",TRUE,-0.0238173676410961,TRUE,1
+"rsSIM061","swap","C","A","C","A",0.508,0.492,-0.0444554426427931,-0.0185231011011638,-1,"C","A",0.508,"C","A",0.492,"flipped: allele order swapped",TRUE,0.0144948516366864,TRUE,-1
+"rsSIM062","swap","G","T","G","T",0.5208,0.4792,0.0531122061051428,0.0221300858771428,1,"G","T",0.5208,"G","T",0.4792,"flipped: allele order swapped",TRUE,-0.0228879831975573,TRUE,1
+"rsSIM063","swap","C","T","C","T",0.552,0.448,0.07577900134027,0.0315745838917792,1,"C","T",0.552,"C","T",0.448,"flipped: allele order swapped",TRUE,-0.0278389170910648,TRUE,1
+"rsSIM064","swap","G","T","G","T",0.8686,0.1314,0.0818788199219853,0.0341161749674939,1,"G","T",0.8686,"G","T",0.1314,"flipped: allele order swapped",TRUE,-0.0327405349691819,TRUE,1
+"rsSIM065","swap","T","G","T","G",0.3845,0.6155,-0.0707466729031876,-0.0294777803763282,-1,"T","G",0.3845,"T","G",0.6155,"flipped: allele order swapped",TRUE,0.0327338614821824,TRUE,-1
+"rsSIM066","swap","C","T","C","T",0.3275,0.6725,0.0706057623261586,0.0294190676358994,1,"C","T",0.3275,"C","T",0.6725,"flipped: allele order swapped",TRUE,-0.025757703626777,TRUE,1
+"rsSIM067","swap","G","T","G","T",0.6187,0.3813,0.0399031511647627,0.0166263129853178,1,"G","T",0.6187,"G","T",0.3813,"flipped: allele order swapped",TRUE,-0.0173137215070068,TRUE,1
+"rsSIM068","swap","C","A","C","A",0.1428,0.8572,-0.0781720457598567,-0.0325716857332736,-1,"C","A",0.1428,"C","A",0.8572,"flipped: allele order swapped",TRUE,0.0229627612788374,TRUE,-1
+"rsSIM069","swap","A","C","A","C",0.3055,0.6945,0.0727196058863774,0.0302998357859906,1,"A","C",0.3055,"A","C",0.6945,"flipped: allele order swapped",TRUE,-0.0271162083790672,TRUE,1
+"rsSIM070","swap","A","G","A","G",0.8594,0.1406,0.08572218534071,0.0357175772252958,1,"A","G",0.8594,"A","G",0.1406,"flipped: allele order swapped",TRUE,-0.0270411137478567,TRUE,1
+"rsSIM071","swap","G","T","G","T",0.1157,0.8843,0.0304496762948111,0.0126873651228379,1,"G","T",0.1157,"G","T",0.8843,"flipped: allele order swapped",TRUE,-0.0124538311249992,TRUE,1
+"rsSIM072","swap","C","A","C","A",0.7257,0.2743,0.0657798992050812,0.0274082913354505,1,"C","A",0.7257,"C","A",0.2743,"flipped: allele order swapped",TRUE,-0.0328279491335612,TRUE,1
+"rsSIM073","swap","T","G","T","G",0.871,0.129,-0.052004740848206,-0.0216686420200858,-1,"T","G",0.871,"T","G",0.129,"flipped: allele order swapped",TRUE,0.0201984389578696,TRUE,-1
+"rsSIM074","swap","A","G","A","G",0.6914,0.3086,0.0745180293219164,0.0310491788841318,1,"A","G",0.6914,"A","G",0.3086,"flipped: allele order swapped",TRUE,-0.0347872492007528,TRUE,1
+"rsSIM075","swap","A","C","A","C",0.3237,0.6763,0.075725243431516,0.0315521847631317,1,"A","C",0.3237,"A","C",0.6763,"flipped: allele order swapped",TRUE,-0.0317187416434181,TRUE,1
+"rsSIM076","swap","T","G","T","G",0.7017,0.2983,0.0456433775508776,0.0190180739795323,1,"T","G",0.7017,"T","G",0.2983,"flipped: allele order swapped",TRUE,-0.0163136259573058,TRUE,1
+"rsSIM077","swap","A","G","A","G",0.7121,0.2879,-0.0452961528813466,-0.0188733970338944,-1,"A","G",0.7121,"A","G",0.2879,"flipped: allele order swapped",TRUE,0.0223391416211166,TRUE,-1
+"rsSIM078","swap","G","T","G","T",0.8832,0.1168,-0.0707304485980421,-0.0294710202491842,-1,"G","T",0.8832,"G","T",0.1168,"flipped: allele order swapped",TRUE,0.0304117203484375,TRUE,-1
+"rsSIM079","swap","A","G","A","G",0.6883,0.3117,-0.0591288397461176,-0.0246370165608823,-1,"A","G",0.6883,"A","G",0.3117,"flipped: allele order swapped",TRUE,0.0209011360277766,TRUE,-1
+"rsSIM080","swap","A","C","A","C",0.3466,0.6534,-0.0527150718122721,-0.0219646132551134,-1,"A","C",0.3466,"A","C",0.6534,"flipped: allele order swapped",TRUE,0.0252176219242398,TRUE,-1
+"rsSIM081","comp","G","A","T","C",0.1277,0.1277,-0.0333328789612278,-0.0138886995671783,-1,"G","A",0.1277,"T","C",0.1277,"strand: complemented, no flip",TRUE,-0.00849542534665807,FALSE,-1
+"rsSIM082","comp","T","G","C","A",0.1502,0.1502,-0.0839415539056063,-0.0349756474606693,-1,"T","G",0.1502,"C","A",0.1502,"strand: complemented, no flip",TRUE,-0.025968116356945,FALSE,-1
+"rsSIM083","comp","C","A","T","G",0.4182,0.4182,-0.0781033988250419,-0.0325430828437675,-1,"C","A",0.4182,"T","G",0.4182,"strand: complemented, no flip",TRUE,-0.0345176925816312,FALSE,-1
+"rsSIM084","comp","T","G","C","A",0.492,0.492,-0.058860783004202,-0.0245253262517508,-1,"T","G",0.492,"C","A",0.492,"strand: complemented, no flip",TRUE,-0.0226289558551408,FALSE,-1
+"rsSIM085","comp","A","C","G","T",0.6048,0.6048,-0.0319277255516499,-0.0133032189798541,-1,"A","C",0.6048,"G","T",0.6048,"strand: complemented, no flip",TRUE,-0.00852845231539777,FALSE,-1
+"rsSIM086","comp","C","A","T","G",0.6787,0.6787,-0.0607204087357968,-0.025300170306582,-1,"C","A",0.6787,"T","G",0.6787,"strand: complemented, no flip",TRUE,-0.0257657521926705,FALSE,-1
+"rsSIM087","comp","C","T","A","G",0.1614,0.1614,-0.052386076329276,-0.021827531803865,-1,"C","T",0.1614,"A","G",0.1614,"strand: complemented, no flip",TRUE,-0.0197280975807911,FALSE,-1
+"rsSIM088","comp","T","C","G","A",0.4372,0.4372,0.0599143010890111,0.0249642921204213,1,"T","C",0.4372,"G","A",0.4372,"strand: complemented, no flip",TRUE,0.025821978045535,FALSE,1
+"rsSIM089","comp","C","T","A","G",0.879,0.879,-0.0539559442084283,-0.0224816434201784,-1,"C","T",0.879,"A","G",0.879,"strand: complemented, no flip",TRUE,-0.0230194415583259,FALSE,-1
+"rsSIM090","comp","C","T","A","G",0.751,0.751,-0.0312568166758865,-0.0130236736149527,-1,"C","T",0.751,"A","G",0.751,"strand: complemented, no flip",TRUE,-0.0123496372034526,FALSE,-1
+"rsSIM091","comp","G","T","A","C",0.279,0.279,-0.0614573417091742,-0.0256072257121559,-1,"G","T",0.279,"A","C",0.279,"strand: complemented, no flip",TRUE,-0.0217482946340359,FALSE,-1
+"rsSIM092","comp","A","G","C","T",0.4918,0.4918,0.039623930985108,0.016509971243795,1,"A","G",0.4918,"C","T",0.4918,"strand: complemented, no flip",TRUE,0.0181450868998126,FALSE,1
+"rsSIM093","comp","G","T","A","C",0.1091,0.1091,-0.0423068541102111,-0.0176278558792546,-1,"G","T",0.1091,"A","C",0.1091,"strand: complemented, no flip",TRUE,-0.0194936087399527,FALSE,-1
+"rsSIM094","comp","G","A","T","C",0.3069,0.3069,0.0885136029403657,0.036880667891819,1,"G","A",0.3069,"T","C",0.3069,"strand: complemented, no flip",TRUE,0.027921535988532,FALSE,1
+"rsSIM095","comp","C","T","A","G",0.4637,0.4637,-0.0879812925076112,-0.0366588718781713,-1,"C","T",0.4637,"A","G",0.4637,"strand: complemented, no flip",TRUE,-0.0398391246186707,FALSE,-1
+"rsSIM096","comp","G","T","A","C",0.6928,0.6928,-0.0756042193388566,-0.0315017580578569,-1,"G","T",0.6928,"A","C",0.6928,"strand: complemented, no flip",TRUE,-0.0315815785272315,FALSE,-1
+"rsSIM097","comp","G","T","A","C",0.8925,0.8925,-0.0345822319295257,-0.0144092633039691,-1,"G","T",0.8925,"A","C",0.8925,"strand: complemented, no flip",TRUE,-0.0244669637918263,FALSE,-1
+"rsSIM098","comp","C","T","A","G",0.3658,0.3658,-0.060949432561174,-0.0253955969004892,-1,"C","T",0.3658,"A","G",0.3658,"strand: complemented, no flip",TRUE,-0.0165517887736998,FALSE,-1
+"rsSIM099","comp","C","A","T","G",0.8558,0.8558,0.06601831167005,0.0275076298625208,1,"C","A",0.8558,"T","G",0.8558,"strand: complemented, no flip",TRUE,0.0215525809428698,FALSE,1
+"rsSIM100","comp","C","T","A","G",0.8695,0.8695,-0.0562214454542845,-0.0234256022726186,-1,"C","T",0.8695,"A","G",0.8695,"strand: complemented, no flip",TRUE,-0.0280686097750955,FALSE,-1
+"rsSIM101","comp","T","C","G","A",0.8194,0.8194,-0.0300985356699675,-0.0125410565291531,-1,"T","C",0.8194,"G","A",0.8194,"strand: complemented, no flip",TRUE,-0.00671010362933023,FALSE,-1
+"rsSIM102","comp","T","C","G","A",0.4942,0.4942,-0.0561330910865217,-0.0233887879527174,-1,"T","C",0.4942,"G","A",0.4942,"strand: complemented, no flip",TRUE,-0.0321482917475974,FALSE,-1
+"rsSIM103","comp","G","T","A","C",0.7279,0.7279,-0.0600578261353076,-0.0250240942230448,-1,"G","T",0.7279,"A","C",0.7279,"strand: complemented, no flip",TRUE,-0.0220678434985313,FALSE,-1
+"rsSIM104","comp","A","G","C","T",0.7425,0.7425,-0.0701762823667377,-0.0292401176528074,-1,"A","G",0.7425,"C","T",0.7425,"strand: complemented, no flip",TRUE,-0.0306161527269784,FALSE,-1
+"rsSIM105","comp","A","C","G","T",0.6422,0.6422,-0.0716914264066145,-0.0298714276694227,-1,"A","C",0.6422,"G","T",0.6422,"strand: complemented, no flip",TRUE,-0.0280479207033759,FALSE,-1
+"rsSIM106","comp","T","C","G","A",0.565,0.565,-0.0769506188621745,-0.0320627578592394,-1,"T","C",0.565,"G","A",0.565,"strand: complemented, no flip",TRUE,-0.0285503168090602,FALSE,-1
+"rsSIM107","comp","C","A","T","G",0.3645,0.3645,-0.0383413707325235,-0.0159755711385515,-1,"C","A",0.3645,"T","G",0.3645,"strand: complemented, no flip",TRUE,-0.0198094268302008,FALSE,-1
+"rsSIM108","comp","G","A","T","C",0.1011,0.1011,0.0397947406349704,0.0165811419312377,1,"G","A",0.1011,"T","C",0.1011,"strand: complemented, no flip",TRUE,0.0137577625482432,FALSE,1
+"rsSIM109","comp","C","A","T","G",0.1526,0.1526,0.0755725746089593,0.031488572753733,1,"C","A",0.1526,"T","G",0.1526,"strand: complemented, no flip",TRUE,0.0195007755408219,FALSE,1
+"rsSIM110","comp","G","T","A","C",0.1688,0.1688,-0.0566222170460969,-0.0235925904358737,-1,"G","T",0.1688,"A","C",0.1688,"strand: complemented, no flip",TRUE,-0.0274367997320531,FALSE,-1
+"rsSIM111","comp","C","A","T","G",0.1105,0.1105,0.0677801298256964,0.0282417207607068,1,"C","A",0.1105,"T","G",0.1105,"strand: complemented, no flip",TRUE,0.0297624737763736,FALSE,1
+"rsSIM112","comp","A","G","C","T",0.3686,0.3686,0.0362707716180012,0.0151128215075005,1,"A","G",0.3686,"C","T",0.3686,"strand: complemented, no flip",TRUE,0.0171330918658286,FALSE,1
+"rsSIM113","comp","T","G","C","A",0.1954,0.1954,0.0801329338364303,0.033388722431846,1,"T","G",0.1954,"C","A",0.1954,"strand: complemented, no flip",TRUE,0.041496946447045,FALSE,1
+"rsSIM114","comp","C","T","A","G",0.5749,0.5749,-0.0500369617156684,-0.0208487340481952,-1,"C","T",0.5749,"A","G",0.5749,"strand: complemented, no flip",TRUE,-0.0205902259332367,FALSE,-1
+"rsSIM115","comp","G","T","A","C",0.1299,0.1299,0.0419711513165385,0.0174879797152244,1,"G","T",0.1299,"A","C",0.1299,"strand: complemented, no flip",TRUE,0.0193426143088318,FALSE,1
+"rsSIM116","comp","T","C","G","A",0.1077,0.1077,-0.0716727285878733,-0.0298636369116139,-1,"T","C",0.1077,"G","A",0.1077,"strand: complemented, no flip",TRUE,-0.0295645235808397,FALSE,-1
+"rsSIM117","comp","A","G","C","T",0.2293,0.2293,0.0399527257634327,0.016646969068097,1,"A","G",0.2293,"C","T",0.2293,"strand: complemented, no flip",TRUE,0.0146996241247552,FALSE,1
+"rsSIM118","comp","T","G","C","A",0.7655,0.7655,0.0344378342293203,0.0143490975955501,1,"T","G",0.7655,"C","A",0.7655,"strand: complemented, no flip",TRUE,0.0173447408790005,FALSE,1
+"rsSIM119","comp","C","T","A","G",0.7135,0.7135,0.0322941713081673,0.0134559047117364,1,"C","T",0.7135,"A","G",0.7135,"strand: complemented, no flip",TRUE,0.0153128430352949,FALSE,1
+"rsSIM120","comp","T","G","C","A",0.3182,0.3182,-0.0807612129952758,-0.0336505054146983,-1,"T","G",0.3182,"C","A",0.3182,"strand: complemented, no flip",TRUE,-0.0331328235811244,FALSE,-1
+"rsSIM121","comp_swap","A","C","T","G",0.7495,0.2505,-0.0524128918396309,-0.0218387049331795,-1,"A","C",0.7495,"T","G",0.2505,"strand: complemented, no flip",TRUE,0.0185768623267384,FALSE,1
+"rsSIM122","comp_swap","A","G","T","C",0.7194,0.2806,0.0828426418360323,0.0345177674316801,1,"A","G",0.7194,"T","C",0.2806,"strand: complemented, no flip",TRUE,-0.0346783692386218,FALSE,-1
+"rsSIM123","comp_swap","A","G","T","C",0.8504,0.1496,0.0354190663481131,0.0147579443117138,1,"A","G",0.8504,"T","C",0.1496,"strand: complemented, no flip",TRUE,-0.0116322764009928,FALSE,-1
+"rsSIM124","comp_swap","C","A","G","T",0.8521,0.1479,-0.0597544446727261,-0.0248976852803025,-1,"C","A",0.8521,"G","T",0.1479,"strand: complemented, no flip",TRUE,0.0276034962701531,FALSE,1
+"rsSIM125","comp_swap","T","G","A","C",0.7815,0.2185,0.075259364163503,0.0313580684014596,1,"T","G",0.7815,"A","C",0.2185,"strand: complemented, no flip",TRUE,-0.0332886785037314,FALSE,-1
+"rsSIM126","comp_swap","A","G","T","C",0.8416,0.1584,0.0663534487830475,0.0276472703262698,1,"A","G",0.8416,"T","C",0.1584,"strand: complemented, no flip",TRUE,-0.0303237241981238,FALSE,-1
+"rsSIM127","comp_swap","C","T","G","A",0.8657,0.1343,0.061704767793417,0.0257103199139237,1,"C","T",0.8657,"G","A",0.1343,"strand: complemented, no flip",TRUE,-0.0236591146262347,FALSE,-1
+"rsSIM128","comp_swap","G","A","C","T",0.482,0.518,0.0846124009648338,0.0352551670686807,1,"G","A",0.482,"C","T",0.518,"strand: complemented, no flip",TRUE,-0.0310595273528668,FALSE,-1
+"rsSIM129","comp_swap","A","C","T","G",0.2686,0.7314,0.0891437342343852,0.0371432225976605,1,"A","C",0.2686,"T","G",0.7314,"strand: complemented, no flip",TRUE,-0.0366589899452488,FALSE,-1
+"rsSIM130","comp_swap","C","T","G","A",0.3442,0.6558,-0.0467845537187532,-0.0194935640494805,-1,"C","T",0.3442,"G","A",0.6558,"strand: complemented, no flip",TRUE,0.0182403925079624,FALSE,1
+"rsSIM131","comp_swap","C","A","G","T",0.8467,0.1533,0.0374095016811043,0.0155872923671268,1,"C","A",0.8467,"G","T",0.1533,"strand: complemented, no flip",TRUE,-0.0191099752871726,FALSE,-1
+"rsSIM132","comp_swap","G","T","C","A",0.8856,0.1144,0.0404627426387742,0.0168594760994893,1,"G","T",0.8856,"C","A",0.1144,"strand: complemented, no flip",TRUE,-0.018536623664578,FALSE,-1
+"rsSIM133","comp_swap","C","A","G","T",0.5463,0.4537,0.0828801152855158,0.0345333813689649,1,"C","A",0.5463,"G","T",0.4537,"strand: complemented, no flip",TRUE,-0.0404643880810521,FALSE,-1
+"rsSIM134","comp_swap","G","T","C","A",0.7739,0.2261,-0.0374776963284239,-0.01561570680351,-1,"G","T",0.7739,"C","A",0.2261,"strand: complemented, no flip",TRUE,0.0128264340059095,FALSE,1
+"rsSIM135","comp_swap","A","C","T","G",0.3249,0.6751,0.0479381342791021,0.0199742226162925,1,"A","C",0.3249,"T","G",0.6751,"strand: complemented, no flip",TRUE,-0.0154343622616598,FALSE,-1
+"rsSIM136","comp_swap","A","G","T","C",0.3368,0.6632,-0.0398840783955529,-0.0166183659981471,-1,"A","G",0.3368,"T","C",0.6632,"strand: complemented, no flip",TRUE,0.0210660933782948,FALSE,1
+"rsSIM137","comp_swap","C","A","G","T",0.1918,0.8082,0.0343565726699308,0.0143152386124711,1,"C","A",0.1918,"G","T",0.8082,"strand: complemented, no flip",TRUE,-0.0177983491468925,FALSE,-1
+"rsSIM138","comp_swap","A","C","T","G",0.6398,0.3602,-0.0443048389256,-0.0184603495523334,-1,"A","C",0.6398,"T","G",0.3602,"strand: complemented, no flip",TRUE,0.0193032758926247,FALSE,1
+"rsSIM139","comp_swap","A","G","T","C",0.1233,0.8767,0.0729999963194132,0.0304166651330888,1,"A","G",0.1233,"T","C",0.8767,"strand: complemented, no flip",TRUE,-0.030139082543591,FALSE,-1
+"rsSIM140","comp_swap","C","T","G","A",0.1121,0.8879,-0.0687012595077977,-0.0286255247949157,-1,"C","T",0.1121,"G","A",0.8879,"strand: complemented, no flip",TRUE,0.021974929383548,FALSE,1
+"rsSIM141","comp_swap","T","G","A","C",0.8687,0.1313,-0.0345524979941547,-0.0143968741642311,-1,"T","G",0.8687,"A","C",0.1313,"strand: complemented, no flip",TRUE,0.01764023408494,FALSE,1
+"rsSIM142","comp_swap","C","A","G","T",0.1851,0.8149,0.0403625353239477,0.0168177230516449,1,"C","A",0.1851,"G","T",0.8149,"strand: complemented, no flip",TRUE,-0.0244671062358332,FALSE,-1
+"rsSIM143","comp_swap","A","C","T","G",0.2421,0.7579,0.0387402214715257,0.0161417589464691,1,"A","C",0.2421,"T","G",0.7579,"strand: complemented, no flip",TRUE,-0.0211287726616492,FALSE,-1
+"rsSIM144","comp_swap","C","A","G","T",0.3206,0.6794,-0.0535140710603446,-0.0222975296084769,-1,"C","A",0.3206,"G","T",0.6794,"strand: complemented, no flip",TRUE,0.0262901473887062,FALSE,1
+"rsSIM145","comp_swap","A","C","T","G",0.6689,0.3311,0.0439047059649602,0.0182936274854001,1,"A","C",0.6689,"T","G",0.3311,"strand: complemented, no flip",TRUE,-0.0204571184634571,FALSE,-1
+"rsSIM146","comp_swap","A","G","T","C",0.4984,0.5016,-0.0636827893741429,-0.0265344955725595,-1,"A","G",0.4984,"T","C",0.5016,"strand: complemented, no flip",TRUE,0.0256689924094385,FALSE,1
+"rsSIM147","comp_swap","A","G","T","C",0.5573,0.4427,0.0650112111959606,0.0270880046649836,1,"A","G",0.5573,"T","C",0.4427,"strand: complemented, no flip",TRUE,-0.0335757538363515,FALSE,-1
+"rsSIM148","comp_swap","A","G","T","C",0.412,0.588,0.0359255602955818,0.0149689834564924,1,"A","G",0.412,"T","C",0.588,"strand: complemented, no flip",TRUE,-0.0207728393180899,FALSE,-1
+"rsSIM149","comp_swap","G","T","C","A",0.1591,0.8409,0.0395349924825132,0.0164729135343805,1,"G","T",0.1591,"C","A",0.8409,"strand: complemented, no flip",TRUE,-0.0150692746116292,FALSE,-1
+"rsSIM150","comp_swap","C","T","G","A",0.7079,0.2921,0.0853239242406562,0.0355516351002734,1,"C","T",0.7079,"G","A",0.2921,"strand: complemented, no flip",TRUE,-0.0362498228151983,FALSE,-1
+"rsSIM151","comp_swap","G","T","C","A",0.6825,0.3175,-0.0815669831447303,-0.033986242976971,-1,"G","T",0.6825,"C","A",0.3175,"strand: complemented, no flip",TRUE,0.0316205290961063,FALSE,1
+"rsSIM152","comp_swap","T","G","A","C",0.312,0.688,0.0844319252064452,0.0351799688360188,1,"T","G",0.312,"A","C",0.688,"strand: complemented, no flip",TRUE,-0.0405160778796031,FALSE,-1
+"rsSIM153","comp_swap","C","A","G","T",0.2988,0.7012,-0.0369161373842508,-0.0153817239101045,-1,"C","A",0.2988,"G","T",0.7012,"strand: complemented, no flip",TRUE,0.0109925299053353,FALSE,1
+"rsSIM154","comp_swap","T","C","A","G",0.1555,0.8445,0.0321323540434241,0.0133884808514267,1,"T","C",0.1555,"A","G",0.8445,"strand: complemented, no flip",TRUE,-0.00524406641396944,FALSE,-1
+"rsSIM155","comp_swap","A","C","T","G",0.5298,0.4702,0.0651452632527798,0.0271438596886583,1,"A","C",0.5298,"T","G",0.4702,"strand: complemented, no flip",TRUE,-0.0284498180621576,FALSE,-1
+"rsSIM156","comp_swap","G","A","C","T",0.2114,0.7886,0.0488500958913937,0.0203542066214141,1,"G","A",0.2114,"C","T",0.7886,"strand: complemented, no flip",TRUE,-0.0172581857733281,FALSE,-1
+"rsSIM157","comp_swap","G","A","C","T",0.6504,0.3496,0.063413356449455,0.0264222318539396,1,"G","A",0.6504,"C","T",0.3496,"strand: complemented, no flip",TRUE,-0.0232822062512225,FALSE,-1
+"rsSIM158","comp_swap","T","C","A","G",0.7336,0.2664,0.0512697249278426,0.0213623853866011,1,"T","C",0.7336,"A","G",0.2664,"strand: complemented, no flip",TRUE,-0.0183094010652175,FALSE,-1
+"rsSIM159","comp_swap","C","A","G","T",0.1633,0.8367,0.0385960986977443,0.0160817077907268,1,"C","A",0.1633,"G","T",0.8367,"strand: complemented, no flip",TRUE,-0.0149024727524666,FALSE,-1
+"rsSIM160","comp_swap","C","T","G","A",0.8578,0.1422,-0.0640281277662143,-0.026678386569256,-1,"C","T",0.8578,"G","A",0.1422,"strand: complemented, no flip",TRUE,0.0216689628725653,FALSE,1
+"rsSIM161","pal_same_aligned","C","G","G","C",0.2105,0.2105,0.0500459194695577,0.020852466445649,1,"C","G",0.2105,"G","C",0.2105,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0168144514345704,FALSE,1
+"rsSIM162","pal_same_aligned","C","G","G","C",0.6989,0.6989,-0.0372240714356303,-0.015510029764846,-1,"C","G",0.6989,"G","C",0.6989,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0125044649866622,FALSE,-1
+"rsSIM163","pal_same_aligned","A","T","T","A",0.3806,0.3806,-0.0453512594522908,-0.0188963581051212,-1,"A","T",0.3806,"T","A",0.3806,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0241297721554522,FALSE,-1
+"rsSIM164","pal_same_aligned","A","T","T","A",0.2512,0.2512,0.0512031189864501,0.0213346329110209,1,"A","T",0.2512,"T","A",0.2512,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0234447932992755,FALSE,1
+"rsSIM165","pal_same_aligned","T","A","A","T",0.37,0.37,-0.0798791957600042,-0.0332829982333351,-1,"T","A",0.37,"A","T",0.37,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0354171565276445,FALSE,-1
+"rsSIM166","pal_same_aligned","A","T","T","A",0.6522,0.6522,0.0769934349926189,0.0320805979135912,1,"A","T",0.6522,"T","A",0.6522,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0304870938572166,FALSE,1
+"rsSIM167","pal_same_aligned","G","C","C","G",0.729,0.729,0.0864091324433684,0.0360038051847368,1,"G","C",0.729,"C","G",0.729,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0328455273827575,FALSE,1
+"rsSIM168","pal_same_aligned","C","G","G","C",0.6257,0.6257,-0.0803519419021904,-0.0334799757925794,-1,"C","G",0.6257,"G","C",0.6257,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0344005403376615,FALSE,-1
+"rsSIM169","pal_same_aligned","A","T","T","A",0.3761,0.3761,0.0389391011511907,0.0162246254796628,1,"A","T",0.3761,"T","A",0.3761,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.01973336484627,FALSE,1
+"rsSIM170","pal_same_aligned","G","C","C","G",0.6522,0.6522,-0.0654405651055276,-0.0272669021273032,-1,"G","C",0.6522,"C","G",0.6522,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0254519694171385,FALSE,-1
+"rsSIM171","pal_same_aligned","C","G","G","C",0.8975,0.8975,0.0794377560401335,0.0330990650167223,1,"C","G",0.8975,"G","C",0.8975,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0321692084258286,FALSE,1
+"rsSIM172","pal_same_aligned","C","G","G","C",0.1315,0.1315,-0.0679131219210103,-0.0282971341337543,-1,"C","G",0.1315,"G","C",0.1315,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0248171120349932,FALSE,-1
+"rsSIM173","pal_same_aligned","G","C","C","G",0.748,0.748,0.058195797689259,0.0242482490371913,1,"G","C",0.748,"C","G",0.748,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0308722639737786,FALSE,1
+"rsSIM174","pal_same_aligned","C","G","G","C",0.0806,0.0806,0.0455244542146102,0.0189685225894209,1,"C","G",0.0806,"G","C",0.0806,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0189430468737615,FALSE,1
+"rsSIM175","pal_same_aligned","A","T","T","A",0.7288,0.7288,0.0314748210506514,0.0131145087711047,1,"A","T",0.7288,"T","A",0.7288,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0149964665835358,FALSE,1
+"rsSIM176","pal_same_aligned","C","G","G","C",0.7619,0.7619,0.049728487660177,0.0207202031917404,1,"C","G",0.7619,"G","C",0.7619,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0218330777879994,FALSE,1
+"rsSIM177","pal_same_aligned","G","C","C","G",0.6088,0.6088,0.0434912090655416,0.0181213371106423,1,"G","C",0.6088,"C","G",0.6088,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0142097253465699,FALSE,1
+"rsSIM178","pal_same_aligned","T","A","A","T",0.2038,0.2038,-0.0826399103645235,-0.0344332959852181,-1,"T","A",0.2038,"A","T",0.2038,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.0381396405538019,FALSE,-1
+"rsSIM179","pal_same_aligned","A","T","T","A",0.1966,0.1966,0.0706592520419508,0.0294413550174795,1,"A","T",0.1966,"T","A",0.1966,"palindromic: same strand (inferred from EAF), no flip",TRUE,0.0371204368679643,FALSE,1
+"rsSIM180","pal_same_aligned","A","T","T","A",0.6105,0.6105,-0.0615559982182458,-0.0256483325909358,-1,"A","T",0.6105,"T","A",0.6105,"palindromic: same strand (inferred from EAF), no flip",TRUE,-0.022123221439831,FALSE,-1
+"rsSIM181","pal_same_swap","A","T","A","T",0.139,0.861,-0.0634611998358741,-0.0264421665982809,-1,"A","T",0.139,"A","T",0.861,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0294104936859868,TRUE,-1
+"rsSIM182","pal_same_swap","T","A","T","A",0.364,0.636,0.0448483004048467,0.0186867918353528,1,"T","A",0.364,"T","A",0.636,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.018096498219155,TRUE,1
+"rsSIM183","pal_same_swap","G","C","G","C",0.2677,0.7323,0.0304378062486649,0.012682419270277,1,"G","C",0.2677,"G","C",0.7323,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0107408650103079,TRUE,1
+"rsSIM184","pal_same_swap","C","G","C","G",0.6916,0.3084,-0.0869343861099333,-0.0362226608791389,-1,"C","G",0.6916,"C","G",0.3084,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0368300850373228,TRUE,-1
+"rsSIM185","pal_same_swap","T","A","T","A",0.8241,0.1759,0.0731490083131939,0.0304787534638308,1,"T","A",0.8241,"T","A",0.1759,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0303107584474817,TRUE,1
+"rsSIM186","pal_same_swap","A","T","A","T",0.1531,0.8469,-0.0467594726756215,-0.0194831136148423,-1,"A","T",0.1531,"A","T",0.8469,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0203768028626145,TRUE,-1
+"rsSIM187","pal_same_swap","G","C","G","C",0.7436,0.2564,-0.0746269713621587,-0.0310945714008994,-1,"G","C",0.7436,"G","C",0.2564,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0270527110568826,TRUE,-1
+"rsSIM188","pal_same_swap","T","A","T","A",0.1019,0.8981,0.0822449040552601,0.0342687100230251,1,"T","A",0.1019,"T","A",0.8981,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0246638216151402,TRUE,1
+"rsSIM189","pal_same_swap","C","G","C","G",0.3188,0.6812,-0.0528222075104713,-0.0220092531293631,-1,"C","G",0.3188,"C","G",0.6812,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0252171002904466,TRUE,-1
+"rsSIM190","pal_same_swap","C","G","C","G",0.8807,0.1193,-0.0731668509542942,-0.0304861878976226,-1,"C","G",0.8807,"C","G",0.1193,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0294813560618,TRUE,-1
+"rsSIM191","pal_same_swap","T","A","T","A",0.7152,0.2848,-0.0443764026230201,-0.0184901677595917,-1,"T","A",0.7152,"T","A",0.2848,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0233417252429087,TRUE,-1
+"rsSIM192","pal_same_swap","A","T","A","T",0.7847,0.2153,-0.0688658924493939,-0.0286941218539141,-1,"A","T",0.7847,"A","T",0.2153,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0261850895098946,TRUE,-1
+"rsSIM193","pal_same_swap","G","C","G","C",0.2772,0.7228,-0.0885402456438169,-0.036891769018257,-1,"G","C",0.2772,"G","C",0.7228,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0437364030481605,TRUE,-1
+"rsSIM194","pal_same_swap","C","G","C","G",0.6991,0.3009,0.0526799284759909,0.0219499701983295,1,"C","G",0.6991,"C","G",0.3009,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0235274644104206,TRUE,1
+"rsSIM195","pal_same_swap","C","G","C","G",0.7004,0.2996,0.0578486477164552,0.0241036032151897,1,"C","G",0.7004,"C","G",0.2996,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0333895666409973,TRUE,1
+"rsSIM196","pal_same_swap","A","T","A","T",0.2376,0.7624,0.0787377777462825,0.0328074073942844,1,"A","T",0.2376,"A","T",0.7624,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0273509306126861,TRUE,1
+"rsSIM197","pal_same_swap","C","G","C","G",0.6841,0.3159,-0.0596644867910072,-0.0248602028295863,-1,"C","G",0.6841,"C","G",0.3159,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0293891193605014,TRUE,-1
+"rsSIM198","pal_same_swap","A","T","A","T",0.6721,0.3279,-0.0330185413593426,-0.0137577255663928,-1,"A","T",0.6721,"A","T",0.3279,"palindromic: same strand (inferred from EAF), flipped",TRUE,0.0106604602889579,TRUE,-1
+"rsSIM199","pal_same_swap","C","G","C","G",0.6647,0.3353,0.0378373044356704,0.0157655435148627,1,"C","G",0.6647,"C","G",0.3353,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.021407043378837,TRUE,1
+"rsSIM200","pal_same_swap","A","T","A","T",0.6535,0.3465,0.0396862989664078,0.0165359579026699,1,"A","T",0.6535,"A","T",0.3465,"palindromic: same strand (inferred from EAF), flipped",TRUE,-0.0238740682254565,TRUE,1
+"rsSIM201","pal_opp_aligned","G","C","G","C",0.8887,0.8887,-0.0353671895898879,-0.0147363289957866,-1,"G","C",0.8887,"G","C",0.8887,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0158123831475083,FALSE,-1
+"rsSIM202","pal_opp_aligned","G","C","G","C",0.2226,0.2226,0.0542168452916667,0.0225903522048611,1,"G","C",0.2226,"G","C",0.2226,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0152546378957425,FALSE,1
+"rsSIM203","pal_opp_aligned","A","T","A","T",0.1856,0.1856,0.0338315920718014,0.0140964966965839,1,"A","T",0.1856,"A","T",0.1856,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.010838624621484,FALSE,1
+"rsSIM204","pal_opp_aligned","T","A","T","A",0.6352,0.6352,-0.0637203553458676,-0.0265501480607782,-1,"T","A",0.6352,"T","A",0.6352,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0258958595712637,FALSE,-1
+"rsSIM205","pal_opp_aligned","G","C","G","C",0.2099,0.2099,0.0501914464775473,0.020913102698978,1,"G","C",0.2099,"G","C",0.2099,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0243351795871797,FALSE,1
+"rsSIM206","pal_opp_aligned","A","T","A","T",0.1366,0.1366,0.0624385368637741,0.0260160570265725,1,"A","T",0.1366,"A","T",0.1366,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0227362045190536,FALSE,1
+"rsSIM207","pal_opp_aligned","C","G","C","G",0.2911,0.2911,-0.0847938733175397,-0.0353307805489749,-1,"C","G",0.2911,"C","G",0.2911,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0358251915888776,FALSE,-1
+"rsSIM208","pal_opp_aligned","T","A","T","A",0.7348,0.7348,-0.0532128455489874,-0.0221720189787447,-1,"T","A",0.7348,"T","A",0.7348,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.021152226034579,FALSE,-1
+"rsSIM209","pal_opp_aligned","T","A","T","A",0.1724,0.1724,-0.0876160298427567,-0.0365066791011486,-1,"T","A",0.1724,"T","A",0.1724,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0296309737481993,FALSE,-1
+"rsSIM210","pal_opp_aligned","C","G","C","G",0.6526,0.6526,0.0530811954801902,0.0221171647834126,1,"C","G",0.6526,"C","G",0.6526,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0182829906733041,FALSE,1
+"rsSIM211","pal_opp_aligned","G","C","G","C",0.7677,0.7677,-0.0864961187588051,-0.0360400494828355,-1,"G","C",0.7677,"G","C",0.7677,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0424572905298774,FALSE,-1
+"rsSIM212","pal_opp_aligned","C","G","C","G",0.1681,0.1681,-0.0708381394296884,-0.0295158914290369,-1,"C","G",0.1681,"C","G",0.1681,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0368983291158801,FALSE,-1
+"rsSIM213","pal_opp_aligned","A","T","A","T",0.6333,0.6333,-0.0841585412202403,-0.0350660588417668,-1,"A","T",0.6333,"A","T",0.6333,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0328431101006077,FALSE,-1
+"rsSIM214","pal_opp_aligned","G","C","G","C",0.6254,0.6254,-0.0452278239419684,-0.0188449266424868,-1,"G","C",0.6254,"G","C",0.6254,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0190854034078883,FALSE,-1
+"rsSIM215","pal_opp_aligned","C","G","C","G",0.8767,0.8767,0.0543658277671784,0.0226524282363243,1,"C","G",0.8767,"C","G",0.8767,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0257407734538968,FALSE,1
+"rsSIM216","pal_opp_aligned","A","T","A","T",0.6797,0.6797,0.0308549168100581,0.0128562153375242,1,"A","T",0.6797,"A","T",0.6797,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0122928577888948,FALSE,1
+"rsSIM217","pal_opp_aligned","C","G","C","G",0.1514,0.1514,0.0366268676519394,0.0152611948549747,1,"C","G",0.1514,"C","G",0.1514,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,0.0168335705570318,FALSE,1
+"rsSIM218","pal_opp_aligned","C","G","C","G",0.2033,0.2033,-0.0600922675151378,-0.0250384447979741,-1,"C","G",0.2033,"C","G",0.2033,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0241415705013363,FALSE,-1
+"rsSIM219","pal_opp_aligned","C","G","C","G",0.1704,0.1704,-0.0522915988834575,-0.0217881662014406,-1,"C","G",0.1704,"C","G",0.1704,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.0216939982607663,FALSE,-1
+"rsSIM220","pal_opp_aligned","G","C","G","C",0.7051,0.7051,-0.0783549332572147,-0.0326478888571728,-1,"G","C",0.7051,"G","C",0.7051,"palindromic: strand flipped (inferred from EAF), no flip",TRUE,-0.035139739496232,FALSE,-1
+"rsSIM221","pal_opp_swap","T","A","A","T",0.2793,0.7207,0.0304753706138581,0.0126980710891075,1,"T","A",0.2793,"A","T",0.7207,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.00765003356660198,TRUE,1
+"rsSIM222","pal_opp_swap","C","G","G","C",0.3126,0.6874,0.0801907235523686,0.0334128014801536,1,"C","G",0.3126,"G","C",0.6874,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0350358976512567,TRUE,1
+"rsSIM223","pal_opp_swap","C","G","G","C",0.3562,0.6438,-0.0526103507587686,-0.0219209794828203,-1,"C","G",0.3562,"G","C",0.6438,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0245880345685902,TRUE,-1
+"rsSIM224","pal_opp_swap","G","C","C","G",0.156,0.844,0.0531149119930342,0.0221312133304309,1,"G","C",0.156,"C","G",0.844,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0214726567123104,TRUE,1
+"rsSIM225","pal_opp_swap","G","C","C","G",0.7739,0.2261,-0.0870918345311657,-0.0362882643879857,-1,"G","C",0.7739,"C","G",0.2261,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0434143622871344,TRUE,-1
+"rsSIM226","pal_opp_swap","T","A","A","T",0.3762,0.6238,-0.0585404543671757,-0.0243918559863232,-1,"T","A",0.3762,"A","T",0.6238,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0272367118436187,TRUE,-1
+"rsSIM227","pal_opp_swap","A","T","T","A",0.1472,0.8528,0.0631256276601925,0.0263023448584136,1,"A","T",0.1472,"T","A",0.8528,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.027653109481863,TRUE,1
+"rsSIM228","pal_opp_swap","G","C","C","G",0.9069,0.0931,0.086082979501225,0.0358679081255104,1,"G","C",0.9069,"C","G",0.0931,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0359045039345799,TRUE,1
+"rsSIM229","pal_opp_swap","C","G","G","C",0.8099,0.1901,0.0818061753641814,0.0340859064017422,1,"C","G",0.8099,"G","C",0.1901,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.034587143235396,TRUE,1
+"rsSIM230","pal_opp_swap","A","T","T","A",0.7962,0.2038,0.0455948690604418,0.0189978621085174,1,"A","T",0.7962,"T","A",0.2038,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0273612464964066,TRUE,1
+"rsSIM231","pal_opp_swap","T","A","A","T",0.3443,0.6557,-0.0712619900749996,-0.0296924958645832,-1,"T","A",0.3443,"A","T",0.6557,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0364820714438659,TRUE,-1
+"rsSIM232","pal_opp_swap","G","C","C","G",0.7238,0.2762,-0.0568744347710162,-0.0236976811545901,-1,"G","C",0.7238,"C","G",0.2762,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0279532057725401,TRUE,-1
+"rsSIM233","pal_opp_swap","G","C","C","G",0.8988,0.1012,0.0430809765541926,0.0179504068975803,1,"G","C",0.8988,"C","G",0.1012,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0210168734424813,TRUE,1
+"rsSIM234","pal_opp_swap","T","A","A","T",0.1006,0.8994,-0.0711742089036852,-0.0296559203765355,-1,"T","A",0.1006,"A","T",0.8994,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.031183950613217,TRUE,-1
+"rsSIM235","pal_opp_swap","G","C","C","G",0.7141,0.2859,0.0875629215175286,0.0364845506323036,1,"G","C",0.7141,"C","G",0.2859,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0355169670178756,TRUE,1
+"rsSIM236","pal_opp_swap","A","T","T","A",0.6143,0.3857,-0.045564268855378,-0.0189851120230742,-1,"A","T",0.6143,"T","A",0.3857,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0144540743788645,TRUE,-1
+"rsSIM237","pal_opp_swap","C","G","G","C",0.1631,0.8369,-0.0581255995156243,-0.0242189997981768,-1,"C","G",0.1631,"G","C",0.8369,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0301786294527897,TRUE,-1
+"rsSIM238","pal_opp_swap","A","T","T","A",0.9054,0.0946,0.0492803734587505,0.0205334889411461,1,"A","T",0.9054,"T","A",0.0946,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0215264773610219,TRUE,1
+"rsSIM239","pal_opp_swap","T","A","A","T",0.6828,0.3172,0.0398785688728094,0.0166160703636706,1,"T","A",0.6828,"A","T",0.3172,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,-0.0158817355318968,TRUE,1
+"rsSIM240","pal_opp_swap","T","A","A","T",0.1846,0.8154,-0.0728836635220796,-0.0303681931341998,-1,"T","A",0.1846,"A","T",0.8154,"palindromic: strand flipped (inferred from EAF), flipped",TRUE,0.0319876771719588,TRUE,-1
+"rsSIM241","pal_ambig","T","A","A","T",0.5201,0.5201,-0.0616899450821802,-0.0257041437842418,-1,"T","A",0.5201,"A","T",0.5201,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,-0.0296806416614794,FALSE,NA
+"rsSIM242","pal_ambig","G","C","C","G",0.5348,0.5348,-0.0440828808071092,-0.0183678670029622,-1,"G","C",0.5348,"C","G",0.5348,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,-0.0227095843212312,FALSE,NA
+"rsSIM243","pal_ambig","A","T","T","A",0.5206,0.5206,-0.0338658996904269,-0.0141107915376779,-1,"A","T",0.5206,"T","A",0.5206,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,-0.0143049617557968,FALSE,NA
+"rsSIM244","pal_ambig","A","T","T","A",0.5359,0.5359,0.0705458097718656,0.029394087404944,1,"A","T",0.5359,"T","A",0.5359,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,0.0316984298069928,FALSE,NA
+"rsSIM245","pal_ambig","G","C","C","G",0.4946,0.4946,0.0783687217114493,0.0326536340464372,1,"G","C",0.4946,"C","G",0.4946,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,0.0329489561738157,FALSE,NA
+"rsSIM246","pal_ambig","T","A","A","T",0.5177,0.5177,-0.0369282741146162,-0.0153867808810901,-1,"T","A",0.5177,"A","T",0.5177,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,-0.0125629985958812,FALSE,NA
+"rsSIM247","not_in_outcome","G","T","T","G",0.6641,0.6641,0.0715208652801812,0.0298003605334088,1,"G","T",0.6641,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM248","not_in_outcome","G","T","T","G",0.5732,0.5732,-0.0313071737112477,-0.0130446557130199,-1,"G","T",0.5732,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM249","not_in_outcome","T","G","G","T",0.4755,0.4755,-0.0516826025163755,-0.0215344177151565,-1,"T","G",0.4755,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM250","not_in_outcome","A","G","G","A",0.3691,0.3691,0.0739368029963225,0.0308070012484677,1,"A","G",0.3691,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM251","not_in_outcome","G","T","T","G",0.8743,0.8743,-0.0487573825148866,-0.0203155760478694,-1,"G","T",0.8743,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM252","not_in_outcome","C","A","A","C",0.6167,0.6167,0.0568291831947863,0.023678826331161,1,"C","A",0.6167,NA,NA,NA,"dropped: not in outcome GWAS",FALSE,NA,FALSE,NA
+"rsSIM253","missing9","A","C","C","A",0.257,0.257,0.0795263440813869,0.0331359767005779,1,"A","C",0.257,"C","A",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM254","missing9","A","G","G","A",0.3857,0.3857,-0.0499077279120684,-0.0207948866300285,-1,"A","G",0.3857,"G","A",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM255","missing9","C","T","T","C",0.5104,0.5104,-0.0386415100330487,-0.016100629180437,-1,"C","T",0.5104,"T","C",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM256","missing9","G","T","T","G",0.8064,0.8064,-0.0480552451265976,-0.020023018802749,-1,"G","T",0.8064,"T","G",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM257","missing9","G","A","A","G",0.2221,0.2221,-0.03975610781461,-0.0165650449227542,-1,"G","A",0.2221,"A","G",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM258","missing9","A","C","C","A",0.2844,0.2844,-0.0803682947019115,-0.0334867894591298,-1,"A","C",0.2844,"C","A",NA,"dropped: outcome data missing (-9)",FALSE,-9,FALSE,NA
+"rsSIM259","missing_NA_beta","A","G","G","A",0.2304,0.2304,-0.0698584486311302,-0.0291076869296376,-1,"A","G",0.2304,"G","A",0.2304,"dropped: outcome data missing (-9)",FALSE,NA,FALSE,NA
+"rsSIM260","missing_NA_beta","G","T","T","G",0.5915,0.5915,0.0383320383355021,0.0159716826397926,1,"G","T",0.5915,"T","G",0.5915,"dropped: outcome data missing (-9)",FALSE,NA,FALSE,NA
+"rsSIM261","missing_NA_beta","A","C","C","A",0.5013,0.5013,0.0495529088331386,0.0206470453471411,1,"A","C",0.5013,"C","A",0.5013,"dropped: outcome data missing (-9)",FALSE,NA,FALSE,NA

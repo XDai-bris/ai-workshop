@@ -1,0 +1,10 @@
+The close-out review is done. I have decided what to change before release. Make these changes and nothing else:
+
+1. report.md is 208 words and the plan allows 200. Cut it to at most 200 by moving the correction history out of report.md; README.md keeps it.
+2. The plan says palindromic variants are dropped when the minor allele frequency is above 0.42, without saying in which file. The code checks both files. Keep the code. Add a short "Deviations from the plan" section to README.md that says this, and check whether the outcome check drops any variant in data/main that the exposure check alone would keep.
+3. Cochran's Q, its df and its p-value are quoted in report.md but saved in no file. Write them to results/heterogeneity.csv.
+4. The script overwrites the hand-edited report.md. Make it write its generated report to results/report_auto.md instead, and update README.md.
+5. README.md says the first fix "biased the IVW estimate towards zero (previously 1.59)". Both earlier estimates were wrong. Rewrite the correction note so it says what each error did.
+6. Add a .gitignore for scratch/, and fix the unused sprintf argument.
+
+Then rerun the analysis and the test, confirm that every existing file in results/ is unchanged, and commit with a message that lists the changes.

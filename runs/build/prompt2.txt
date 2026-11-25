@@ -1,0 +1,1 @@
+Run analysis/mr_analysis.R on data/main. Then edit report.md into a short report for the research group (at most 200 words, as the plan says), and write a README.md with how to rerun the analysis and the headline result.

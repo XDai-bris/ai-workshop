@@ -1,0 +1,11 @@
+--- agent_build/analysis/mr_analysis.R
++++ planted/analysis/mr_analysis.R
+@@ -97,7 +97,7 @@
+   } else if (a2 == comp(ea) && a1 == comp(oa)) {
+     dat$flip[i] <- FALSE; dat$action[i] <- "strand: complemented, no flip"
+   } else if (a2 == comp(oa) && a1 == comp(ea)) {
+-    dat$flip[i] <- TRUE;  dat$action[i] <- "strand: complemented, flipped"
++    dat$flip[i] <- FALSE; dat$action[i] <- "strand: complemented, no flip"
+   } else {
+     dat$action[i] <- "dropped: allele mismatch"; next
+   }

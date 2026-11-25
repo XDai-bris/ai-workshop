@@ -1,0 +1,66 @@
+# 1. The conda environment installs and works on Windows and macOS, the way people run it.
+# 2. The simulated case regenerates identically from its seed.
+# 3. The page rebuilds identically from page/ and runs/.
+name: checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  setup:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: windows-latest
+            shell: pwsh
+          - os: macos-latest
+            shell: bash -el {0}
+    runs-on: ${{ matrix.os }}
+    defaults:
+      run:
+        shell: ${{ matrix.shell }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: ieu-ai-workshop
+          auto-activate-base: false
+      - name: Setup check (as in the README)
+        run: conda run -n ieu-ai-workshop Rscript setup/check_setup.R
+      - name: Laptop R packages are hidden (environment variable from environment.yml)
+        run: conda run -n ieu-ai-workshop Rscript -e "stopifnot(Sys.getenv('R_LIBS_USER') == 'ieu-ai-no-user-library')"
+
+  case-regenerates:
+    runs-on: macos-latest
+    defaults:
+      run:
+        shell: bash -el {0}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: conda-incubator/setup-miniconda@v3
+        with:
+          miniforge-version: latest
+          environment-file: environment.yml
+          activate-environment: ieu-ai-workshop
+          auto-activate-base: false
+      - name: Regenerate the case data and truth
+        run: conda run -n ieu-ai-workshop Rscript case/generate_case.R
+      - name: Nothing changed
+        run: git diff --exit-code -- case/
+
+  page-rebuilds:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Rebuild the page
+        run: python3 page/build_page.py "$RUNNER_TEMP/rebuilt.html"
+      - name: Identical to the committed page
+        run: cmp "$RUNNER_TEMP/rebuilt.html" validation_walkthrough.html
