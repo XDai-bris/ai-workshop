@@ -1,0 +1,516 @@
+"SNP","exposure_EA","exposure_OA","exposure_EAF","outcome_A1","outcome_A2","outcome_freq_A2","harmonisation_action","used"
+"rs37761572","G","T",0.2288,"T","G",0.2262,"none: alleles aligned",TRUE
+"rs22025944","G","A",0.5513,"A","G",0.546,"none: alleles aligned",TRUE
+"rs72927011","A","C",0.6362,"C","A",0.6294,"none: alleles aligned",TRUE
+"rs77620409","C","A",0.6161,"A","C",0.6145,"none: alleles aligned",TRUE
+"rs4191935","G","T",0.4865,"T","G",0.4962,"none: alleles aligned",TRUE
+"rs87947863","A","G",0.1845,"G","A",0.2031,"none: alleles aligned",TRUE
+"rs41705555","G","A",0.8833,"A","G",0.8935,"none: alleles aligned",TRUE
+"rs27840945","A","G",0.1301,"G","A",0.1306,"none: alleles aligned",TRUE
+"rs87569560","G","A",0.612,"A","G",0.6,"none: alleles aligned",TRUE
+"rs86623715","C","T",0.7408,"T","C",0.7499,"none: alleles aligned",TRUE
+"rs66333214","T","G",0.3588,"G","T",0.3734,"none: alleles aligned",TRUE
+"rs41687108","T","G",0.7771,"G","T",0.7753,"none: alleles aligned",TRUE
+"rs81990113","C","T",0.0868,"T","C",0.0849,"none: alleles aligned",TRUE
+"rs57340327","A","C",0.6156,"C","A",0.628,"none: alleles aligned",TRUE
+"rs17962873","T","C",0.3428,"C","T",0.3447,"none: alleles aligned",TRUE
+"rs32470889","G","A",0.7858,"A","G",0.8085,"none: alleles aligned",TRUE
+"rs2547421","T","C",0.301,"C","T",0.3005,"none: alleles aligned",TRUE
+"rs20558286","T","G",0.7958,"G","T",0.7797,"none: alleles aligned",TRUE
+"rs27605881","C","A",0.837,"A","C",0.8476,"none: alleles aligned",TRUE
+"rs55764501","A","G",0.851,"G","A",0.8546,"none: alleles aligned",TRUE
+"rs10543276","G","A",0.6587,"A","G",0.656,"none: alleles aligned",TRUE
+"rs34013681","G","T",0.531,"T","G",0.5184,"none: alleles aligned",TRUE
+"rs48612848","A","G",0.3005,"G","A",0.3093,"none: alleles aligned",TRUE
+"rs84164057","G","T",0.7593,"T","G",0.7652,"none: alleles aligned",TRUE
+"rs41997125","G","A",0.5811,"A","G",0.5838,"none: alleles aligned",TRUE
+"rs26505921","T","G",0.2462,"G","T",0.2618,"none: alleles aligned",TRUE
+"rs25460692","C","A",0.548,"A","C",0.5374,"none: alleles aligned",TRUE
+"rs51406390","A","G",0.2367,"G","A",0.2387,"none: alleles aligned",TRUE
+"rs43580007","G","T",0.6161,"T","G",0.6137,"none: alleles aligned",TRUE
+"rs34841184","C","T",0.9193,"T","C",0.9245,"none: alleles aligned",TRUE
+"rs62866086","G","T",0.3947,"T","G",0.3992,"none: alleles aligned",TRUE
+"rs82995884","A","C",0.5197,"C","A",0.5185,"none: alleles aligned",TRUE
+"rs66643848","G","T",0.8438,"T","G",0.8288,"none: alleles aligned",TRUE
+"rs65165640","A","C",0.1702,"C","A",0.1707,"none: alleles aligned",TRUE
+"rs48972367","A","G",0.8643,"G","A",0.8791,"none: alleles aligned",TRUE
+"rs84344365","A","C",0.4491,"C","A",0.4295,"none: alleles aligned",TRUE
+"rs89376283","T","C",0.1588,"C","T",0.1534,"none: alleles aligned",TRUE
+"rs6322647","C","T",0.3176,"T","C",0.3226,"none: alleles aligned",TRUE
+"rs22296749","C","A",0.8064,"A","C",0.7954,"none: alleles aligned",TRUE
+"rs20333268","C","T",0.0766,"T","C",0.0664,"none: alleles aligned",TRUE
+"rs66263160","C","A",0.2548,"A","C",0.2447,"none: alleles aligned",TRUE
+"rs7517734","T","G",0.4694,"G","T",0.4616,"none: alleles aligned",TRUE
+"rs20499409","G","T",0.579,"T","G",0.5826,"none: alleles aligned",TRUE
+"rs6921548","T","C",0.7208,"C","T",0.7407,"none: alleles aligned",TRUE
+"rs79959669","G","A",0.8074,"A","G",0.813,"none: alleles aligned",TRUE
+"rs56732511","T","G",0.7887,"G","T",0.7806,"none: alleles aligned",TRUE
+"rs48159029","G","A",0.6705,"A","G",0.6649,"none: alleles aligned",TRUE
+"rs4892508","G","T",0.5271,"T","G",0.5163,"none: alleles aligned",TRUE
+"rs56637611","A","C",0.497,"C","A",0.4898,"none: alleles aligned",TRUE
+"rs64486328","T","C",0.9219,"C","T",0.915,"none: alleles aligned",TRUE
+"rs28979768","A","G",0.5345,"G","A",0.5486,"none: alleles aligned",TRUE
+"rs29939375","T","C",0.6195,"C","T",0.6259,"none: alleles aligned",TRUE
+"rs39214940","T","C",0.939,"C","T",0.9218,"none: alleles aligned",TRUE
+"rs63300069","T","C",0.0567,"C","T",0.065,"none: alleles aligned",TRUE
+"rs64492406","C","T",0.8821,"T","C",0.8949,"none: alleles aligned",TRUE
+"rs60765209","T","G",0.8913,"G","T",0.8889,"none: alleles aligned",TRUE
+"rs54093929","T","C",0.5037,"C","T",0.5173,"none: alleles aligned",TRUE
+"rs3708215","C","A",0.2341,"A","C",0.2376,"none: alleles aligned",TRUE
+"rs2574770","T","C",0.3868,"C","T",0.3932,"none: alleles aligned",TRUE
+"rs47050847","T","C",0.3653,"C","T",0.3621,"none: alleles aligned",TRUE
+"rs35419310","T","G",0.9205,"G","T",0.9349,"none: alleles aligned",TRUE
+"rs18116663","G","T",0.518,"T","G",0.5186,"none: alleles aligned",TRUE
+"rs62755690","G","T",0.5322,"T","G",0.5295,"none: alleles aligned",TRUE
+"rs48147376","T","G",0.2543,"G","T",0.259,"none: alleles aligned",TRUE
+"rs34520373","G","A",0.6408,"A","G",0.6397,"none: alleles aligned",TRUE
+"rs53336545","C","T",0.2866,"T","C",0.2841,"none: alleles aligned",TRUE
+"rs57476895","C","T",0.8643,"T","C",0.8716,"none: alleles aligned",TRUE
+"rs51715861","G","T",0.6376,"T","G",0.6356,"none: alleles aligned",TRUE
+"rs20219038","C","A",0.2929,"A","C",0.2886,"none: alleles aligned",TRUE
+"rs51055950","C","A",0.0595,"A","C",0.054,"none: alleles aligned",TRUE
+"rs36735977","G","T",0.3484,"T","G",0.3345,"none: alleles aligned",TRUE
+"rs31853307","T","G",0.5462,"G","T",0.5623,"none: alleles aligned",TRUE
+"rs17589067","A","C",0.3661,"C","A",0.3595,"none: alleles aligned",TRUE
+"rs42880985","C","A",0.6649,"A","C",0.6611,"none: alleles aligned",TRUE
+"rs3628800","T","C",0.5612,"C","T",0.5621,"none: alleles aligned",TRUE
+"rs44484257","A","C",0.5436,"C","A",0.5371,"none: alleles aligned",TRUE
+"rs36156315","G","A",0.0571,"A","G",0.0369,"none: alleles aligned",TRUE
+"rs7975804","T","C",0.7633,"C","T",0.7678,"none: alleles aligned",TRUE
+"rs11568315","A","G",0.3541,"G","A",0.3594,"none: alleles aligned",TRUE
+"rs47245470","A","G",0.7563,"G","A",0.7539,"none: alleles aligned",TRUE
+"rs60365048","C","A",0.7342,"A","C",0.7288,"none: alleles aligned",TRUE
+"rs53124277","T","G",0.738,"G","T",0.7299,"none: alleles aligned",TRUE
+"rs70526665","C","T",0.6102,"T","C",0.6297,"none: alleles aligned",TRUE
+"rs51656802","C","T",0.9006,"T","C",0.8976,"none: alleles aligned",TRUE
+"rs6100045","T","C",0.6234,"C","T",0.623,"none: alleles aligned",TRUE
+"rs74416420","G","T",0.3239,"T","G",0.3249,"none: alleles aligned",TRUE
+"rs32598773","G","A",0.1006,"A","G",0.0983,"none: alleles aligned",TRUE
+"rs23056890","C","T",0.5902,"T","C",0.6141,"none: alleles aligned",TRUE
+"rs36272221","C","T",0.5771,"T","C",0.577,"none: alleles aligned",TRUE
+"rs79871395","G","A",0.4362,"A","G",0.4253,"none: alleles aligned",TRUE
+"rs14837898","G","T",0.4589,"T","G",0.462,"none: alleles aligned",TRUE
+"rs85707294","G","A",0.7272,"A","G",0.7382,"none: alleles aligned",TRUE
+"rs72207472","C","T",0.5073,"T","C",0.4971,"none: alleles aligned",TRUE
+"rs38527155","T","C",0.3283,"C","T",0.345,"none: alleles aligned",TRUE
+"rs1074398","C","T",0.7826,"T","C",0.7854,"none: alleles aligned",TRUE
+"rs81732930","A","G",0.2855,"G","A",0.2837,"none: alleles aligned",TRUE
+"rs49548108","A","G",0.8836,"G","A",0.8923,"none: alleles aligned",TRUE
+"rs68838656","G","A",0.6291,"A","G",0.6151,"none: alleles aligned",TRUE
+"rs44865650","T","C",0.4105,"C","T",0.4253,"none: alleles aligned",TRUE
+"rs30058910","C","A",0.4372,"A","C",0.4313,"none: alleles aligned",TRUE
+"rs45326446","A","G",0.2976,"A","G",0.7113,"flipped: allele order swapped",TRUE
+"rs68709894","C","A",0.2593,"C","A",0.7459,"flipped: allele order swapped",TRUE
+"rs84756232","T","G",0.412,"T","G",0.5877,"flipped: allele order swapped",TRUE
+"rs12821806","C","A",0.5008,"C","A",0.5086,"flipped: allele order swapped",TRUE
+"rs86661435","T","C",0.7526,"T","C",0.2724,"flipped: allele order swapped",TRUE
+"rs31317148","T","C",0.6785,"T","C",0.32,"flipped: allele order swapped",TRUE
+"rs88558227","T","C",0.4575,"T","C",0.5339,"flipped: allele order swapped",TRUE
+"rs65516559","A","G",0.4296,"A","G",0.5725,"flipped: allele order swapped",TRUE
+"rs15741052","G","A",0.3543,"G","A",0.6417,"flipped: allele order swapped",TRUE
+"rs74738410","G","T",0.2641,"G","T",0.7283,"flipped: allele order swapped",TRUE
+"rs33001685","C","A",0.4812,"C","A",0.5285,"flipped: allele order swapped",TRUE
+"rs61422837","T","G",0.6665,"T","G",0.3165,"flipped: allele order swapped",TRUE
+"rs68020601","T","C",0.8709,"T","C",0.1372,"flipped: allele order swapped",TRUE
+"rs73632225","G","A",0.1629,"G","A",0.8366,"flipped: allele order swapped",TRUE
+"rs11022757","T","C",0.2108,"T","C",0.7711,"flipped: allele order swapped",TRUE
+"rs63969741","T","C",0.451,"T","C",0.5466,"flipped: allele order swapped",TRUE
+"rs16712304","T","C",0.3902,"T","C",0.6101,"flipped: allele order swapped",TRUE
+"rs77152987","G","T",0.4264,"G","T",0.585,"flipped: allele order swapped",TRUE
+"rs18917494","C","T",0.181,"C","T",0.8306,"flipped: allele order swapped",TRUE
+"rs82885945","C","T",0.9238,"C","T",0.0816,"flipped: allele order swapped",TRUE
+"rs12096355","G","A",0.9387,"G","A",0.0657,"flipped: allele order swapped",TRUE
+"rs10652942","G","A",0.0627,"G","A",0.9206,"flipped: allele order swapped",TRUE
+"rs13326726","T","G",0.3363,"T","G",0.6694,"flipped: allele order swapped",TRUE
+"rs75472474","C","A",0.5966,"C","A",0.4149,"flipped: allele order swapped",TRUE
+"rs40651972","T","C",0.7858,"T","C",0.2071,"flipped: allele order swapped",TRUE
+"rs73703891","G","T",0.59,"G","T",0.4084,"flipped: allele order swapped",TRUE
+"rs12047818","A","C",0.5136,"A","C",0.4853,"flipped: allele order swapped",TRUE
+"rs48917605","T","G",0.5172,"T","G",0.4678,"flipped: allele order swapped",TRUE
+"rs82040675","G","A",0.4374,"G","A",0.5524,"flipped: allele order swapped",TRUE
+"rs65506293","C","A",0.8742,"C","A",0.114,"flipped: allele order swapped",TRUE
+"rs36461818","C","A",0.3729,"C","A",0.6295,"flipped: allele order swapped",TRUE
+"rs61038085","A","C",0.3307,"A","C",0.6709,"flipped: allele order swapped",TRUE
+"rs81312407","A","G",0.2397,"A","G",0.7611,"flipped: allele order swapped",TRUE
+"rs26612685","T","C",0.491,"T","C",0.5173,"flipped: allele order swapped",TRUE
+"rs18561268","C","T",0.8691,"C","T",0.1428,"flipped: allele order swapped",TRUE
+"rs54614089","T","G",0.7822,"T","G",0.2138,"flipped: allele order swapped",TRUE
+"rs76007576","A","C",0.7109,"A","C",0.2909,"flipped: allele order swapped",TRUE
+"rs3374337","A","C",0.3881,"A","C",0.6119,"flipped: allele order swapped",TRUE
+"rs11648993","G","T",0.5112,"G","T",0.477,"flipped: allele order swapped",TRUE
+"rs86857114","C","T",0.4986,"C","T",0.5083,"flipped: allele order swapped",TRUE
+"rs25603444","G","A",0.1731,"G","A",0.8073,"flipped: allele order swapped",TRUE
+"rs19291621","T","G",0.4556,"T","G",0.5488,"flipped: allele order swapped",TRUE
+"rs50497044","A","G",0.332,"A","G",0.6602,"flipped: allele order swapped",TRUE
+"rs40634723","A","C",0.7104,"A","C",0.3009,"flipped: allele order swapped",TRUE
+"rs87773599","A","C",0.7968,"A","C",0.2005,"flipped: allele order swapped",TRUE
+"rs45814271","A","G",0.5401,"A","G",0.4675,"flipped: allele order swapped",TRUE
+"rs51074246","T","C",0.194,"T","C",0.8134,"flipped: allele order swapped",TRUE
+"rs11388383","A","C",0.2545,"A","C",0.7581,"flipped: allele order swapped",TRUE
+"rs65064422","G","A",0.3053,"G","A",0.6948,"flipped: allele order swapped",TRUE
+"rs43734969","C","T",0.2188,"C","T",0.7736,"flipped: allele order swapped",TRUE
+"rs34634843","A","C",0.7549,"A","C",0.2468,"flipped: allele order swapped",TRUE
+"rs26328544","G","A",0.469,"G","A",0.5336,"flipped: allele order swapped",TRUE
+"rs81993002","A","C",0.6337,"A","C",0.3706,"flipped: allele order swapped",TRUE
+"rs85440885","C","T",0.0821,"C","T",0.911,"flipped: allele order swapped",TRUE
+"rs77140230","A","C",0.2968,"A","C",0.6927,"flipped: allele order swapped",TRUE
+"rs42029595","T","G",0.5872,"T","G",0.4347,"flipped: allele order swapped",TRUE
+"rs41609993","A","C",0.9057,"A","C",0.0993,"flipped: allele order swapped",TRUE
+"rs5738706","C","A",0.1532,"C","A",0.838,"flipped: allele order swapped",TRUE
+"rs22933101","A","G",0.1552,"A","G",0.8293,"flipped: allele order swapped",TRUE
+"rs84286146","A","G",0.619,"A","G",0.3752,"flipped: allele order swapped",TRUE
+"rs77878908","A","C",0.8794,"A","C",0.1219,"flipped: allele order swapped",TRUE
+"rs69358825","G","T",0.937,"G","T",0.0569,"flipped: allele order swapped",TRUE
+"rs35615377","C","T",0.763,"C","T",0.2348,"flipped: allele order swapped",TRUE
+"rs81927917","T","C",0.9416,"T","C",0.0531,"flipped: allele order swapped",TRUE
+"rs18825885","G","T",0.0662,"G","T",0.9292,"flipped: allele order swapped",TRUE
+"rs22623716","T","G",0.5709,"T","G",0.4141,"flipped: allele order swapped",TRUE
+"rs12724786","T","G",0.613,"T","G",0.3834,"flipped: allele order swapped",TRUE
+"rs72944495","A","C",0.1587,"A","C",0.8453,"flipped: allele order swapped",TRUE
+"rs61920761","C","A",0.7596,"C","A",0.2302,"flipped: allele order swapped",TRUE
+"rs83198432","A","G",0.8232,"A","G",0.1848,"flipped: allele order swapped",TRUE
+"rs48545330","C","A",0.2428,"C","A",0.7601,"flipped: allele order swapped",TRUE
+"rs8039634","G","A",0.9442,"G","A",0.0798,"flipped: allele order swapped",TRUE
+"rs89420075","A","C",0.4962,"A","C",0.5019,"flipped: allele order swapped",TRUE
+"rs40341597","G","T",0.4238,"G","T",0.5699,"flipped: allele order swapped",TRUE
+"rs41437862","T","C",0.097,"T","C",0.9202,"flipped: allele order swapped",TRUE
+"rs50425752","C","T",0.9355,"C","T",0.0391,"flipped: allele order swapped",TRUE
+"rs85004773","C","T",0.2138,"C","T",0.7955,"flipped: allele order swapped",TRUE
+"rs56190917","G","A",0.6976,"G","A",0.3153,"flipped: allele order swapped",TRUE
+"rs49844334","G","T",0.549,"G","T",0.4543,"flipped: allele order swapped",TRUE
+"rs80713704","T","G",0.1835,"T","G",0.8135,"flipped: allele order swapped",TRUE
+"rs31118933","T","G",0.5962,"T","G",0.4082,"flipped: allele order swapped",TRUE
+"rs4468197","G","T",0.2449,"G","T",0.7501,"flipped: allele order swapped",TRUE
+"rs42698362","C","A",0.4736,"C","A",0.5353,"flipped: allele order swapped",TRUE
+"rs55803113","A","C",0.8313,"A","C",0.1614,"flipped: allele order swapped",TRUE
+"rs46983123","A","C",0.2474,"A","C",0.7513,"flipped: allele order swapped",TRUE
+"rs78666390","G","A",0.7753,"G","A",0.2058,"flipped: allele order swapped",TRUE
+"rs15911480","A","G",0.7013,"A","G",0.2949,"flipped: allele order swapped",TRUE
+"rs79458029","T","C",0.5169,"T","C",0.4836,"flipped: allele order swapped",TRUE
+"rs1180830","G","T",0.867,"G","T",0.1316,"flipped: allele order swapped",TRUE
+"rs47021009","G","T",0.0707,"G","T",0.9238,"flipped: allele order swapped",TRUE
+"rs9999392","G","T",0.2966,"G","T",0.7115,"flipped: allele order swapped",TRUE
+"rs57891333","T","G",0.4577,"T","G",0.5524,"flipped: allele order swapped",TRUE
+"rs44796205","G","T",0.5203,"G","T",0.4711,"flipped: allele order swapped",TRUE
+"rs47384602","C","T",0.4741,"C","T",0.5251,"flipped: allele order swapped",TRUE
+"rs60258023","T","C",0.3179,"T","C",0.6969,"flipped: allele order swapped",TRUE
+"rs73747503","T","G",0.1886,"T","G",0.8211,"flipped: allele order swapped",TRUE
+"rs15244171","C","A",0.471,"C","A",0.528,"flipped: allele order swapped",TRUE
+"rs81298093","T","C",0.6316,"T","C",0.3566,"flipped: allele order swapped",TRUE
+"rs75891882","C","A",0.5575,"C","A",0.4406,"flipped: allele order swapped",TRUE
+"rs48592501","T","G",0.6853,"T","G",0.3147,"flipped: allele order swapped",TRUE
+"rs82896015","T","C",0.4634,"G","A",0.4588,"strand: complemented, no flip",TRUE
+"rs75254040","A","G",0.3289,"C","T",0.3216,"strand: complemented, no flip",TRUE
+"rs61527118","A","G",0.3752,"C","T",0.3689,"strand: complemented, no flip",TRUE
+"rs69592956","G","T",0.4885,"A","C",0.493,"strand: complemented, no flip",TRUE
+"rs77348989","T","G",0.3369,"C","A",0.331,"strand: complemented, no flip",TRUE
+"rs57997632","G","T",0.6737,"A","C",0.6756,"strand: complemented, no flip",TRUE
+"rs18487212","C","A",0.5122,"T","G",0.5092,"strand: complemented, no flip",TRUE
+"rs33266062","T","G",0.6967,"C","A",0.6983,"strand: complemented, no flip",TRUE
+"rs67812506","C","A",0.4284,"T","G",0.4386,"strand: complemented, no flip",TRUE
+"rs81947703","A","C",0.1775,"G","T",0.1855,"strand: complemented, no flip",TRUE
+"rs19384382","G","T",0.3138,"A","C",0.3133,"strand: complemented, no flip",TRUE
+"rs36096143","C","T",0.6715,"A","G",0.6616,"strand: complemented, no flip",TRUE
+"rs54949663","T","C",0.6323,"G","A",0.6381,"strand: complemented, no flip",TRUE
+"rs77829414","T","G",0.4777,"C","A",0.4791,"strand: complemented, no flip",TRUE
+"rs13752393","A","G",0.6411,"C","T",0.631,"strand: complemented, no flip",TRUE
+"rs23330345","A","G",0.251,"C","T",0.2611,"strand: complemented, no flip",TRUE
+"rs61583212","G","T",0.5608,"A","C",0.5696,"strand: complemented, no flip",TRUE
+"rs12106678","T","C",0.9256,"G","A",0.9186,"strand: complemented, no flip",TRUE
+"rs11335850","A","C",0.1719,"G","T",0.1987,"strand: complemented, no flip",TRUE
+"rs62637858","G","A",0.707,"T","C",0.6756,"strand: complemented, no flip",TRUE
+"rs37288242","T","G",0.6407,"C","A",0.6472,"strand: complemented, no flip",TRUE
+"rs7364582","C","T",0.8407,"A","G",0.8359,"strand: complemented, no flip",TRUE
+"rs54728468","A","C",0.6484,"G","T",0.6503,"strand: complemented, no flip",TRUE
+"rs88339434","T","C",0.3435,"G","A",0.333,"strand: complemented, no flip",TRUE
+"rs74462900","T","G",0.3997,"C","A",0.3972,"strand: complemented, no flip",TRUE
+"rs55098710","A","G",0.1,"C","T",0.0939,"strand: complemented, no flip",TRUE
+"rs62413800","A","C",0.6891,"G","T",0.6941,"strand: complemented, no flip",TRUE
+"rs17469995","G","A",0.3097,"T","C",0.3143,"strand: complemented, no flip",TRUE
+"rs6555232","T","G",0.8573,"C","A",0.8646,"strand: complemented, no flip",TRUE
+"rs9505317","T","C",0.8125,"G","A",0.8165,"strand: complemented, no flip",TRUE
+"rs87795519","C","A",0.6156,"T","G",0.6148,"strand: complemented, no flip",TRUE
+"rs9200738","C","T",0.7197,"A","G",0.7187,"strand: complemented, no flip",TRUE
+"rs11176044","T","G",0.7501,"C","A",0.7687,"strand: complemented, no flip",TRUE
+"rs77505074","T","G",0.931,"C","A",0.9395,"strand: complemented, no flip",TRUE
+"rs84415804","C","T",0.8602,"A","G",0.8596,"strand: complemented, no flip",TRUE
+"rs33907244","G","A",0.1617,"T","C",0.1767,"strand: complemented, no flip",TRUE
+"rs41209509","G","A",0.9063,"T","C",0.9108,"strand: complemented, no flip",TRUE
+"rs64381369","C","A",0.3889,"T","G",0.3879,"strand: complemented, no flip",TRUE
+"rs7215588","G","T",0.3338,"A","C",0.3236,"strand: complemented, no flip",TRUE
+"rs65402687","T","C",0.5815,"G","A",0.585,"strand: complemented, no flip",TRUE
+"rs16266313","G","T",0.3575,"A","C",0.3627,"strand: complemented, no flip",TRUE
+"rs25802491","C","T",0.663,"A","G",0.6566,"strand: complemented, no flip",TRUE
+"rs67683210","C","T",0.384,"A","G",0.374,"strand: complemented, no flip",TRUE
+"rs65665494","A","G",0.4275,"C","T",0.4143,"strand: complemented, no flip",TRUE
+"rs78640917","T","G",0.8281,"C","A",0.8194,"strand: complemented, no flip",TRUE
+"rs18714243","G","T",0.8772,"A","C",0.8879,"strand: complemented, no flip",TRUE
+"rs55235750","C","T",0.6977,"A","G",0.7023,"strand: complemented, no flip",TRUE
+"rs33170121","A","G",0.7644,"C","T",0.7551,"strand: complemented, no flip",TRUE
+"rs47644446","T","G",0.7978,"C","A",0.782,"strand: complemented, no flip",TRUE
+"rs65731490","C","T",0.7242,"A","G",0.6963,"strand: complemented, no flip",TRUE
+"rs45846163","A","C",0.6066,"G","T",0.5972,"strand: complemented, no flip",TRUE
+"rs46064199","T","C",0.4082,"G","A",0.413,"strand: complemented, no flip",TRUE
+"rs57582018","A","G",0.3978,"C","T",0.3859,"strand: complemented, no flip",TRUE
+"rs7869167","A","G",0.8461,"C","T",0.8491,"strand: complemented, no flip",TRUE
+"rs7724113","A","C",0.1154,"G","T",0.1327,"strand: complemented, no flip",TRUE
+"rs9710686","G","A",0.6317,"T","C",0.61,"strand: complemented, no flip",TRUE
+"rs88521811","A","G",0.0897,"C","T",0.0885,"strand: complemented, no flip",TRUE
+"rs50339385","G","T",0.2897,"A","C",0.28,"strand: complemented, no flip",TRUE
+"rs47306031","C","A",0.9301,"T","G",0.9396,"strand: complemented, no flip",TRUE
+"rs18297682","A","G",0.5039,"C","T",0.504,"strand: complemented, no flip",TRUE
+"rs75541321","G","A",0.5014,"T","C",0.505,"strand: complemented, no flip",TRUE
+"rs81660284","A","C",0.4932,"G","T",0.495,"strand: complemented, no flip",TRUE
+"rs85631714","T","G",0.6905,"C","A",0.6928,"strand: complemented, no flip",TRUE
+"rs70152444","T","G",0.0901,"C","A",0.0934,"strand: complemented, no flip",TRUE
+"rs38044713","T","G",0.7307,"C","A",0.721,"strand: complemented, no flip",TRUE
+"rs68764812","G","T",0.4866,"A","C",0.4994,"strand: complemented, no flip",TRUE
+"rs49326798","G","T",0.8834,"A","C",0.8987,"strand: complemented, no flip",TRUE
+"rs70503373","G","T",0.4768,"A","C",0.4753,"strand: complemented, no flip",TRUE
+"rs32725823","A","C",0.7131,"G","T",0.7113,"strand: complemented, no flip",TRUE
+"rs23622896","G","T",0.7001,"A","C",0.6817,"strand: complemented, no flip",TRUE
+"rs27936017","C","T",0.5095,"A","G",0.5111,"strand: complemented, no flip",TRUE
+"rs55191733","C","A",0.4055,"T","G",0.383,"strand: complemented, no flip",TRUE
+"rs18888177","G","A",0.7441,"T","C",0.7421,"strand: complemented, no flip",TRUE
+"rs3533356","G","A",0.1809,"T","C",0.166,"strand: complemented, no flip",TRUE
+"rs28332811","G","T",0.6222,"A","C",0.6142,"strand: complemented, no flip",TRUE
+"rs15491810","T","C",0.4713,"G","A",0.4696,"strand: complemented, no flip",TRUE
+"rs44229657","A","C",0.2883,"G","T",0.2936,"strand: complemented, no flip",TRUE
+"rs65492039","A","G",0.2222,"C","T",0.2363,"strand: complemented, no flip",TRUE
+"rs86156507","C","A",0.798,"T","G",0.7937,"strand: complemented, no flip",TRUE
+"rs63260589","C","T",0.1969,"A","G",0.1948,"strand: complemented, no flip",TRUE
+"rs7309559","C","T",0.5588,"A","G",0.5565,"strand: complemented, no flip",TRUE
+"rs50751025","A","C",0.5723,"G","T",0.5674,"strand: complemented, no flip",TRUE
+"rs13052065","T","G",0.4875,"C","A",0.4845,"strand: complemented, no flip",TRUE
+"rs21809796","T","G",0.1724,"C","A",0.1795,"strand: complemented, no flip",TRUE
+"rs85031865","T","G",0.2107,"C","A",0.2283,"strand: complemented, no flip",TRUE
+"rs2147121","C","T",0.5401,"A","G",0.5558,"strand: complemented, no flip",TRUE
+"rs12660206","C","T",0.8371,"A","G",0.8359,"strand: complemented, no flip",TRUE
+"rs12734014","T","C",0.5833,"G","A",0.5891,"strand: complemented, no flip",TRUE
+"rs73545916","G","A",0.3635,"T","C",0.3576,"strand: complemented, no flip",TRUE
+"rs34096426","T","C",0.9131,"G","A",0.898,"strand: complemented, no flip",TRUE
+"rs70691159","G","A",0.4644,"T","C",0.4696,"strand: complemented, no flip",TRUE
+"rs62430940","C","T",0.5197,"A","G",0.5234,"strand: complemented, no flip",TRUE
+"rs59961110","C","T",0.49,"A","G",0.5059,"strand: complemented, no flip",TRUE
+"rs25563347","T","C",0.7906,"G","A",0.7888,"strand: complemented, no flip",TRUE
+"rs46256998","T","G",0.4795,"C","A",0.4624,"strand: complemented, no flip",TRUE
+"rs35087742","T","G",0.84,"C","A",0.8429,"strand: complemented, no flip",TRUE
+"rs2321962","C","T",0.6897,"A","G",0.6745,"strand: complemented, no flip",TRUE
+"rs33206800","G","T",0.7014,"A","C",0.6903,"strand: complemented, no flip",TRUE
+"rs57691059","G","A",0.7848,"T","C",0.7802,"strand: complemented, no flip",TRUE
+"rs42069888","G","T",0.4292,"A","C",0.4247,"strand: complemented, no flip",TRUE
+"rs74086288","A","G",0.6838,"T","C",0.33,"strand: complemented, flipped",TRUE
+"rs28515576","T","G",0.4044,"A","C",0.5852,"strand: complemented, flipped",TRUE
+"rs65771737","C","A",0.1136,"G","T",0.8834,"strand: complemented, flipped",TRUE
+"rs4727060","T","C",0.6111,"A","G",0.3981,"strand: complemented, flipped",TRUE
+"rs83301730","C","A",0.0572,"G","T",0.9513,"strand: complemented, flipped",TRUE
+"rs83023208","T","G",0.6629,"A","C",0.3493,"strand: complemented, flipped",TRUE
+"rs28967835","C","A",0.3718,"G","T",0.6247,"strand: complemented, flipped",TRUE
+"rs26807711","A","G",0.5695,"T","C",0.4216,"strand: complemented, flipped",TRUE
+"rs75263066","A","G",0.4353,"T","C",0.5693,"strand: complemented, flipped",TRUE
+"rs24075071","T","C",0.1053,"A","G",0.8845,"strand: complemented, flipped",TRUE
+"rs72355981","A","C",0.4467,"T","G",0.5565,"strand: complemented, flipped",TRUE
+"rs4759860","G","A",0.78,"C","T",0.2175,"strand: complemented, flipped",TRUE
+"rs32451675","T","G",0.1237,"A","C",0.8652,"strand: complemented, flipped",TRUE
+"rs66671678","T","G",0.3103,"A","C",0.6974,"strand: complemented, flipped",TRUE
+"rs86963112","A","G",0.2736,"T","C",0.7253,"strand: complemented, flipped",TRUE
+"rs11291570","G","A",0.5044,"C","T",0.4903,"strand: complemented, flipped",TRUE
+"rs24196136","T","C",0.081,"A","G",0.9232,"strand: complemented, flipped",TRUE
+"rs45768801","C","A",0.1492,"G","T",0.8493,"strand: complemented, flipped",TRUE
+"rs42740571","C","T",0.9463,"G","A",0.0497,"strand: complemented, flipped",TRUE
+"rs54461521","A","C",0.8992,"T","G",0.0889,"strand: complemented, flipped",TRUE
+"rs48446878","C","A",0.6869,"G","T",0.3039,"strand: complemented, flipped",TRUE
+"rs58090077","T","C",0.8549,"A","G",0.149,"strand: complemented, flipped",TRUE
+"rs62758936","T","G",0.4978,"A","C",0.4961,"strand: complemented, flipped",TRUE
+"rs4764901","T","G",0.6274,"A","C",0.3571,"strand: complemented, flipped",TRUE
+"rs74593664","T","C",0.0764,"A","G",0.9299,"strand: complemented, flipped",TRUE
+"rs70752160","A","C",0.3677,"T","G",0.6181,"strand: complemented, flipped",TRUE
+"rs43489947","G","A",0.4053,"C","T",0.6084,"strand: complemented, flipped",TRUE
+"rs28157143","G","T",0.169,"C","A",0.8399,"strand: complemented, flipped",TRUE
+"rs30734891","C","A",0.7646,"G","T",0.234,"strand: complemented, flipped",TRUE
+"rs18459642","C","A",0.5353,"G","T",0.4818,"strand: complemented, flipped",TRUE
+"rs58319058","C","T",0.7536,"G","A",0.2432,"strand: complemented, flipped",TRUE
+"rs20376586","A","G",0.7931,"T","C",0.2283,"strand: complemented, flipped",TRUE
+"rs54929637","T","G",0.6576,"A","C",0.3498,"strand: complemented, flipped",TRUE
+"rs36729645","T","C",0.4453,"A","G",0.5642,"strand: complemented, flipped",TRUE
+"rs54908369","C","A",0.8787,"G","T",0.112,"strand: complemented, flipped",TRUE
+"rs64856710","G","A",0.7601,"C","T",0.2509,"strand: complemented, flipped",TRUE
+"rs72617367","T","C",0.0816,"A","G",0.9055,"strand: complemented, flipped",TRUE
+"rs11828932","A","C",0.9336,"T","G",0.0745,"strand: complemented, flipped",TRUE
+"rs52650622","C","T",0.1716,"G","A",0.8318,"strand: complemented, flipped",TRUE
+"rs83960872","T","C",0.1687,"A","G",0.8396,"strand: complemented, flipped",TRUE
+"rs3234626","T","C",0.4931,"A","G",0.4961,"strand: complemented, flipped",TRUE
+"rs14163455","T","G",0.7253,"A","C",0.2879,"strand: complemented, flipped",TRUE
+"rs74010972","A","C",0.5534,"T","G",0.4392,"strand: complemented, flipped",TRUE
+"rs20468304","T","G",0.9097,"A","C",0.0805,"strand: complemented, flipped",TRUE
+"rs32558163","T","G",0.3175,"A","C",0.6863,"strand: complemented, flipped",TRUE
+"rs73863703","T","C",0.152,"A","G",0.861,"strand: complemented, flipped",TRUE
+"rs66376413","T","G",0.8461,"A","C",0.1467,"strand: complemented, flipped",TRUE
+"rs46274569","T","C",0.8308,"A","G",0.1789,"strand: complemented, flipped",TRUE
+"rs75400928","T","G",0.0685,"A","C",0.9404,"strand: complemented, flipped",TRUE
+"rs75009734","A","G",0.0511,"T","C",0.9557,"strand: complemented, flipped",TRUE
+"rs20095475","T","G",0.1897,"A","C",0.8196,"strand: complemented, flipped",TRUE
+"rs81603280","T","C",0.6838,"A","G",0.2996,"strand: complemented, flipped",TRUE
+"rs46689764","A","G",0.9011,"T","C",0.0928,"strand: complemented, flipped",TRUE
+"rs50292432","T","C",0.6294,"A","G",0.3672,"strand: complemented, flipped",TRUE
+"rs73321887","T","C",0.7825,"A","G",0.2233,"strand: complemented, flipped",TRUE
+"rs69687357","A","G",0.2328,"T","C",0.7567,"strand: complemented, flipped",TRUE
+"rs32807682","C","T",0.1081,"G","A",0.9021,"strand: complemented, flipped",TRUE
+"rs38171883","G","T",0.1211,"C","A",0.881,"strand: complemented, flipped",TRUE
+"rs38893283","C","T",0.7654,"G","A",0.2236,"strand: complemented, flipped",TRUE
+"rs87159398","A","C",0.9443,"T","G",0.065,"strand: complemented, flipped",TRUE
+"rs84330852","G","A",0.6284,"C","T",0.3712,"strand: complemented, flipped",TRUE
+"rs19671066","C","A",0.5583,"G","T",0.4494,"strand: complemented, flipped",TRUE
+"rs26627947","A","G",0.1324,"T","C",0.8714,"strand: complemented, flipped",TRUE
+"rs87749707","T","G",0.2295,"A","C",0.7711,"strand: complemented, flipped",TRUE
+"rs75333832","C","A",0.6264,"G","T",0.3755,"strand: complemented, flipped",TRUE
+"rs73851138","C","A",0.9352,"G","T",0.0552,"strand: complemented, flipped",TRUE
+"rs9522393","G","T",0.7827,"C","A",0.2111,"strand: complemented, flipped",TRUE
+"rs24655167","T","G",0.828,"A","C",0.1638,"strand: complemented, flipped",TRUE
+"rs31804907","C","T",0.1939,"G","A",0.7977,"strand: complemented, flipped",TRUE
+"rs50027504","C","A",0.4982,"G","T",0.4885,"strand: complemented, flipped",TRUE
+"rs15678094","C","A",0.6785,"G","T",0.3192,"strand: complemented, flipped",TRUE
+"rs87948243","A","C",0.7659,"T","G",0.2275,"strand: complemented, flipped",TRUE
+"rs66144410","G","A",0.1475,"C","T",0.856,"strand: complemented, flipped",TRUE
+"rs37472978","G","A",0.555,"C","T",0.4461,"strand: complemented, flipped",TRUE
+"rs38817237","T","G",0.6817,"A","C",0.313,"strand: complemented, flipped",TRUE
+"rs45304488","T","G",0.3525,"A","C",0.6509,"strand: complemented, flipped",TRUE
+"rs70239107","T","G",0.1965,"A","C",0.8072,"strand: complemented, flipped",TRUE
+"rs6314109","C","T",0.3675,"G","A",0.6297,"strand: complemented, flipped",TRUE
+"rs41144994","A","C",0.3682,"T","G",0.6164,"strand: complemented, flipped",TRUE
+"rs10966246","A","G",0.4442,"T","C",0.5697,"strand: complemented, flipped",TRUE
+"rs1894012","T","C",0.1839,"A","G",0.8208,"strand: complemented, flipped",TRUE
+"rs5529075","G","T",0.2048,"C","A",0.7914,"strand: complemented, flipped",TRUE
+"rs27987271","G","A",0.7316,"C","T",0.2652,"strand: complemented, flipped",TRUE
+"rs13445463","C","A",0.4903,"G","T",0.5239,"strand: complemented, flipped",TRUE
+"rs20159353","A","C",0.4483,"T","G",0.5591,"strand: complemented, flipped",TRUE
+"rs1706394","G","T",0.9418,"C","A",0.0694,"strand: complemented, flipped",TRUE
+"rs79315893","A","C",0.6719,"T","G",0.3286,"strand: complemented, flipped",TRUE
+"rs9624286","G","A",0.0984,"C","T",0.8884,"strand: complemented, flipped",TRUE
+"rs12734562","C","T",0.7083,"G","A",0.2917,"strand: complemented, flipped",TRUE
+"rs13355516","G","A",0.5549,"C","T",0.4473,"strand: complemented, flipped",TRUE
+"rs5256175","C","A",0.4984,"G","T",0.4791,"strand: complemented, flipped",TRUE
+"rs85164082","T","C",0.807,"A","G",0.1991,"strand: complemented, flipped",TRUE
+"rs30367255","A","C",0.4673,"T","G",0.5316,"strand: complemented, flipped",TRUE
+"rs36652177","A","C",0.229,"T","G",0.7743,"strand: complemented, flipped",TRUE
+"rs5378109","T","C",0.6399,"A","G",0.3692,"strand: complemented, flipped",TRUE
+"rs5517670","G","T",0.9386,"C","A",0.0554,"strand: complemented, flipped",TRUE
+"rs85683040","G","T",0.6998,"C","A",0.3054,"strand: complemented, flipped",TRUE
+"rs83997937","G","T",0.0721,"C","A",0.9194,"strand: complemented, flipped",TRUE
+"rs43548813","G","A",0.4939,"C","T",0.5101,"strand: complemented, flipped",TRUE
+"rs41459510","T","C",0.1869,"A","G",0.8145,"strand: complemented, flipped",TRUE
+"rs7384847","T","A",0.9045,"A","T",0.8964,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs42660392","C","G",0.1458,"G","C",0.1425,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs39854145","A","T",0.753,"T","A",0.7568,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs74070887","T","A",0.0911,"A","T",0.0712,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs28969849","T","A",0.6908,"A","T",0.6808,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs53721685","T","A",0.101,"A","T",0.1038,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs6091557","G","C",0.7823,"C","G",0.7713,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs85875337","A","T",0.8563,"T","A",0.8661,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs2747911","A","T",0.677,"T","A",0.6668,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs65363765","A","T",0.7127,"T","A",0.7041,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs18330786","A","T",0.7114,"T","A",0.7091,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs32534767","A","T",0.1674,"T","A",0.1647,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs74236680","T","A",0.8084,"A","T",0.8059,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs20180240","T","A",0.1151,"A","T",0.1193,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs16465235","A","T",0.2237,"T","A",0.2294,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs14258759","T","A",0.7762,"A","T",0.758,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs79042164","C","G",0.8908,"G","C",0.9003,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs60974491","C","G",0.1492,"G","C",0.1626,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs77941111","G","C",0.2177,"C","G",0.2102,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs28312571","C","G",0.3213,"G","C",0.3024,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"rs75941970","G","C",0.7167,"G","C",0.2997,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs56540967","C","G",0.8783,"C","G",0.1408,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs84040689","A","T",0.0618,"A","T",0.9351,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs67442316","C","G",0.1689,"C","G",0.8248,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs74777269","G","C",0.7689,"G","C",0.2164,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs87380219","A","T",0.059,"A","T",0.9378,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs78990564","C","G",0.0775,"C","G",0.9133,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs80711410","T","A",0.314,"T","A",0.6916,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs80162474","T","A",0.23,"T","A",0.7799,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs11850868","G","C",0.7528,"G","C",0.2445,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs20109948","C","G",0.7969,"C","G",0.1997,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs52075572","C","G",0.1635,"C","G",0.8572,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs18151696","G","C",0.1148,"G","C",0.8758,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs38399658","A","T",0.2425,"A","T",0.7636,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs61381752","G","C",0.6712,"G","C",0.3299,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs34250642","T","A",0.2827,"T","A",0.7274,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs9209079","A","T",0.6766,"A","T",0.317,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs6485790","A","T",0.6806,"A","T",0.3231,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs68969633","A","T",0.065,"A","T",0.9492,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs24092213","A","T",0.6754,"A","T",0.3217,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"rs85343982","G","C",0.2664,"G","C",0.2499,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs63264357","G","C",0.1571,"G","C",0.1552,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs41625395","T","A",0.9141,"T","A",0.9143,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs19397257","C","G",0.8936,"C","G",0.9206,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs44144361","C","G",0.7458,"C","G",0.751,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs21747464","C","G",0.2553,"C","G",0.2426,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs27575962","A","T",0.6782,"A","T",0.682,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs89533977","C","G",0.1756,"C","G",0.1746,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs72816854","G","C",0.2779,"G","C",0.2802,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs14921339","G","C",0.8538,"G","C",0.8377,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs48134814","G","C",0.8496,"G","C",0.8664,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs67383229","A","T",0.3066,"A","T",0.3122,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs13074650","T","A",0.8428,"T","A",0.839,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs39372307","T","A",0.937,"T","A",0.9167,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs59672273","A","T",0.2305,"A","T",0.2345,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs2019591","G","C",0.067,"G","C",0.053,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs77959993","T","A",0.7502,"T","A",0.7384,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs50695200","C","G",0.73,"C","G",0.7355,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs23743966","A","T",0.2392,"A","T",0.2465,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs65711401","C","G",0.8523,"C","G",0.8485,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"rs12874940","T","A",0.7498,"A","T",0.2666,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs5772640","A","T",0.8381,"T","A",0.1855,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs26522059","G","C",0.0942,"C","G",0.9198,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs43608091","A","T",0.1986,"T","A",0.8084,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs21950588","T","A",0.8975,"A","T",0.1122,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs6926075","G","C",0.8673,"C","G",0.1295,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs81690637","C","G",0.2618,"G","C",0.7464,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs71390196","T","A",0.6976,"A","T",0.2977,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs73809380","C","G",0.8585,"G","C",0.1295,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs12001652","T","A",0.1573,"A","T",0.8472,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs81884143","T","A",0.8824,"A","T",0.1311,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs49973102","A","T",0.9382,"T","A",0.0736,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs61851933","C","G",0.7156,"G","C",0.2768,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs46285476","T","A",0.1549,"A","T",0.8606,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs17675492","G","C",0.7609,"C","G",0.223,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs10451069","G","C",0.1114,"C","G",0.8859,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs2664861","T","A",0.1859,"A","T",0.8045,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs55024575","C","G",0.2407,"G","C",0.7666,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs84381018","T","A",0.1798,"A","T",0.8266,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs31569804","A","T",0.7535,"T","A",0.2421,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"rs73420809","T","A",0.5118,"A","T",0.5099,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs76683696","A","T",0.4866,"T","A",0.4925,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs89721056","T","A",0.5364,"A","T",0.5345,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs35274316","C","G",0.518,"G","C",0.5162,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs62681260","T","A",0.5414,"A","T",0.559,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs3353677","A","T",0.4507,"T","A",0.4556,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs39063800","T","A",0.5236,"A","T",0.5003,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs40038194","G","C",0.4532,"C","G",0.4603,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs82196333","T","A",0.4792,"A","T",0.4724,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs17268783","G","C",0.4837,"C","G",0.4841,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs74767869","A","T",0.5203,"T","A",0.5339,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs41296841","A","T",0.4531,"T","A",0.47,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs24911849","G","C",0.535,"C","G",0.5153,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs70833115","T","A",0.5045,"A","T",0.4893,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs71840819","T","A",0.5246,"A","T",0.5289,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"rs39812809","A","G",0.7469,"G","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rs80667340","C","A",0.518,"A","C",NA,"dropped: outcome data missing (-9)",FALSE
+"rs24542874","A","C",0.1265,"C","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rs42111204","G","A",0.3306,"A","G",NA,"dropped: outcome data missing (-9)",FALSE
+"rs28751899","A","G",0.2947,"G","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rs24119243","A","C",0.9423,"C","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rs81905324","G","T",0.3734,"T","G",NA,"dropped: outcome data missing (-9)",FALSE
+"rs27670142","A","G",0.4984,"G","A",NA,"dropped: outcome data missing (-9)",FALSE
+"rs53073374","G","T",0.8964,"T","G",NA,"dropped: outcome data missing (-9)",FALSE
+"rs68990125","T","C",0.8677,"C","T",NA,"dropped: outcome data missing (-9)",FALSE
+"rs71625331","C","A",0.7011,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs87751891","C","A",0.7647,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs35022634","C","A",0.2902,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs30444276","C","A",0.7282,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs49851935","A","C",0.5377,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs89211767","T","G",0.6773,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs32530395","A","G",0.5879,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs13533853","T","C",0.5971,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs81344024","T","C",0.2894,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"rs37595602","G","T",0.264,NA,NA,NA,"dropped: not in outcome GWAS",FALSE

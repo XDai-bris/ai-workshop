@@ -1,0 +1,47 @@
+commit cc1fd84
+
+Close-out review changes before release
+
+- report.md: move correction history out (208 -> 153 words, limit 200); README keeps it
+- README: add "Deviations from the plan" (palindromic MAF check uses both files; in data/main the
+  outcome check drops nothing the exposure check alone would keep)
+- Write Cochran's Q, df and p to results/heterogeneity.csv
+- Script writes generated report to results/report_auto.md instead of overwriting report.md; README updated
+- README: rewrite correction note to say what each error did
+- Add .gitignore for scratch/; remove unused sprintf argument
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit 542bf05
+
+Fix BMI unit conversion (multiply by 4.8, not divide); strengthen known-answer test
+
+The analysis script divided exposure BETA/SE (per SD of BMI) by 4.8 instead of
+multiplying, so every estimate was ~23x too large (IVW 4.77 -> 0.21 mmHg per
+kg/m2). Rerun results, report.md and README.md updated to match results/.
+
+The known-answer test had the same error in its data generation, so it passed
+despite the bug. It now also includes a hand-worked four-variant example
+(IVW 0.5, SE 1/12). The simulated exposure SE is reduced from 0.003 to 0.0005 SD
+so I2_GX is ~1: with SE 0.003 the MR-Egger slope is diluted towards zero by
+~0.96 (Bowden et al. 2016), giving ~1.93 against a true 2.0. That is a
+property of the method, not a script bug. Seed and tolerances are unchanged.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit ad7be41
+
+Fix harmonisation of complemented, allele-swapped variants; add known-answer test
+
+For variants where outcome A2 is the complement of the exposure other allele
+(opposite strand and alleles swapped), the outcome beta was not negated. It is
+now negated and the case has its own log label. Added tests/test_known_answer.R,
+which simulates files with a known effect covering all allele situations; it
+fails on the old code and passes now. Reran data/main (IVW 1.59 -> 4.77) and
+updated report.md and README.md to match results/.
+
+Co-Authored-By: Claude Sonnet 5.5 <noreply@anthropic.com>
+
+commit e0f05dd
+
+Draft: analysis script, results and report from the coding agent

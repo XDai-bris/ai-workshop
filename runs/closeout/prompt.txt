@@ -1,0 +1,8 @@
+This project goes to the research group tomorrow. Do a close-out review before it does.
+
+1. Reproduce: copy the project into scratch/, follow README.md exactly in the copy, and check that you get the same files in results/. Report any step that fails or gives a different result.
+2. Reconcile: every number in report.md and README.md must appear in, or follow directly from, a file in results/. List any that do not.
+3. Contradictions: read analysis_plan.md, data/DATA_DICTIONARY.md, the code comments, the test, report.md, README.md and the commit messages. List any statements that disagree with each other or with the code.
+4. Hygiene: stale or leftover files, hard-coded paths, steps that overwrite hand-edited files, and anything that should not be shared.
+
+Do not edit the project. End with two short lists: must fix before release, and can wait.

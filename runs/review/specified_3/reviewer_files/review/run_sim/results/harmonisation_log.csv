@@ -1,0 +1,284 @@
+"SNP","exposure_EA","exposure_OA","exposure_EAF","outcome_A1","outcome_A2","outcome_freq_A2","harmonisation_action","used"
+"sim001","C","A",0.5656,"A","C",0.5502,"none: alleles aligned",TRUE
+"sim002","C","T",0.3957,"T","C",0.4108,"none: alleles aligned",TRUE
+"sim003","C","A",0.2905,"A","C",0.293,"none: alleles aligned",TRUE
+"sim004","G","T",0.6516,"T","G",0.6594,"none: alleles aligned",TRUE
+"sim005","G","T",0.071,"T","G",0.0641,"none: alleles aligned",TRUE
+"sim006","T","C",0.5168,"C","T",0.5206,"none: alleles aligned",TRUE
+"sim007","A","G",0.1258,"G","A",0.1382,"none: alleles aligned",TRUE
+"sim008","C","T",0.9146,"T","C",0.9201,"none: alleles aligned",TRUE
+"sim009","C","A",0.2657,"A","C",0.2634,"none: alleles aligned",TRUE
+"sim010","A","C",0.3679,"C","A",0.3822,"none: alleles aligned",TRUE
+"sim011","C","T",0.3711,"T","C",0.3746,"none: alleles aligned",TRUE
+"sim012","T","G",0.2061,"G","T",0.208,"none: alleles aligned",TRUE
+"sim013","A","G",0.8858,"G","A",0.8883,"none: alleles aligned",TRUE
+"sim014","G","T",0.4573,"T","G",0.4529,"none: alleles aligned",TRUE
+"sim015","C","A",0.5267,"A","C",0.5344,"none: alleles aligned",TRUE
+"sim016","T","C",0.3519,"C","T",0.3489,"none: alleles aligned",TRUE
+"sim017","A","G",0.5948,"G","A",0.586,"none: alleles aligned",TRUE
+"sim018","A","C",0.5429,"C","A",0.5306,"none: alleles aligned",TRUE
+"sim019","C","T",0.2908,"T","C",0.2795,"none: alleles aligned",TRUE
+"sim020","C","T",0.1401,"T","C",0.1569,"none: alleles aligned",TRUE
+"sim021","G","A",0.34,"A","G",0.3505,"none: alleles aligned",TRUE
+"sim022","T","C",0.6183,"C","T",0.6132,"none: alleles aligned",TRUE
+"sim023","T","C",0.4235,"C","T",0.4385,"none: alleles aligned",TRUE
+"sim024","C","A",0.1479,"A","C",0.142,"none: alleles aligned",TRUE
+"sim025","C","A",0.108,"A","C",0.0984,"none: alleles aligned",TRUE
+"sim026","C","A",0.2131,"A","C",0.1965,"none: alleles aligned",TRUE
+"sim027","G","A",0.169,"A","G",0.1737,"none: alleles aligned",TRUE
+"sim028","C","A",0.8863,"A","C",0.877,"none: alleles aligned",TRUE
+"sim029","G","A",0.177,"A","G",0.1733,"none: alleles aligned",TRUE
+"sim030","A","G",0.3312,"G","A",0.325,"none: alleles aligned",TRUE
+"sim031","T","C",0.4094,"C","T",0.4282,"none: alleles aligned",TRUE
+"sim032","G","T",0.3959,"T","G",0.3955,"none: alleles aligned",TRUE
+"sim033","C","A",0.9329,"A","C",0.9286,"none: alleles aligned",TRUE
+"sim034","G","T",0.8031,"T","G",0.8177,"none: alleles aligned",TRUE
+"sim035","C","A",0.3502,"A","C",0.3704,"none: alleles aligned",TRUE
+"sim036","A","G",0.7985,"G","A",0.7883,"none: alleles aligned",TRUE
+"sim037","T","C",0.3664,"C","T",0.3724,"none: alleles aligned",TRUE
+"sim038","C","A",0.8963,"A","C",0.8961,"none: alleles aligned",TRUE
+"sim039","A","C",0.4412,"C","A",0.4562,"none: alleles aligned",TRUE
+"sim040","C","T",0.1152,"T","C",0.1148,"none: alleles aligned",TRUE
+"sim041","G","A",0.5008,"A","G",0.486,"none: alleles aligned",TRUE
+"sim042","C","A",0.2032,"A","C",0.1934,"none: alleles aligned",TRUE
+"sim043","T","C",0.2848,"C","T",0.3018,"none: alleles aligned",TRUE
+"sim044","T","G",0.2661,"G","T",0.2764,"none: alleles aligned",TRUE
+"sim045","C","T",0.2208,"T","C",0.211,"none: alleles aligned",TRUE
+"sim046","T","C",0.5153,"C","T",0.5146,"none: alleles aligned",TRUE
+"sim047","C","T",0.731,"T","C",0.7221,"none: alleles aligned",TRUE
+"sim048","T","G",0.6241,"G","T",0.6327,"none: alleles aligned",TRUE
+"sim049","C","T",0.5958,"T","C",0.5916,"none: alleles aligned",TRUE
+"sim050","C","A",0.9101,"A","C",0.9117,"none: alleles aligned",TRUE
+"sim051","A","G",0.0599,"G","A",0.0694,"none: alleles aligned",TRUE
+"sim052","G","A",0.7082,"A","G",0.6982,"none: alleles aligned",TRUE
+"sim053","T","G",0.7949,"G","T",0.8113,"none: alleles aligned",TRUE
+"sim054","G","T",0.4238,"T","G",0.4314,"none: alleles aligned",TRUE
+"sim055","C","T",0.4819,"T","C",0.4886,"none: alleles aligned",TRUE
+"sim056","T","G",0.4046,"G","T",0.4102,"none: alleles aligned",TRUE
+"sim057","G","A",0.614,"A","G",0.6171,"none: alleles aligned",TRUE
+"sim058","T","G",0.8944,"G","T",0.8814,"none: alleles aligned",TRUE
+"sim059","A","C",0.8641,"C","A",0.875,"none: alleles aligned",TRUE
+"sim060","G","T",0.8088,"T","G",0.8156,"none: alleles aligned",TRUE
+"sim061","C","T",0.1025,"C","T",0.8931,"flipped: allele order swapped",TRUE
+"sim062","C","T",0.5244,"C","T",0.4682,"flipped: allele order swapped",TRUE
+"sim063","G","T",0.5875,"G","T",0.4123,"flipped: allele order swapped",TRUE
+"sim064","C","A",0.5534,"C","A",0.4398,"flipped: allele order swapped",TRUE
+"sim065","C","A",0.4312,"C","A",0.561,"flipped: allele order swapped",TRUE
+"sim066","T","G",0.1819,"T","G",0.8244,"flipped: allele order swapped",TRUE
+"sim067","G","T",0.4395,"G","T",0.5658,"flipped: allele order swapped",TRUE
+"sim068","T","C",0.0884,"T","C",0.9123,"flipped: allele order swapped",TRUE
+"sim069","A","C",0.497,"A","C",0.5105,"flipped: allele order swapped",TRUE
+"sim070","A","C",0.1924,"A","C",0.7961,"flipped: allele order swapped",TRUE
+"sim071","G","T",0.065,"G","T",0.9024,"flipped: allele order swapped",TRUE
+"sim072","A","C",0.4752,"A","C",0.534,"flipped: allele order swapped",TRUE
+"sim073","C","A",0.5162,"C","A",0.502,"flipped: allele order swapped",TRUE
+"sim074","T","G",0.6594,"T","G",0.3443,"flipped: allele order swapped",TRUE
+"sim075","A","C",0.8828,"A","C",0.1081,"flipped: allele order swapped",TRUE
+"sim076","T","C",0.3803,"T","C",0.6222,"flipped: allele order swapped",TRUE
+"sim077","A","C",0.9107,"A","C",0.091,"flipped: allele order swapped",TRUE
+"sim078","C","T",0.3665,"C","T",0.6399,"flipped: allele order swapped",TRUE
+"sim079","G","A",0.0689,"G","A",0.9277,"flipped: allele order swapped",TRUE
+"sim080","T","C",0.9264,"T","C",0.0672,"flipped: allele order swapped",TRUE
+"sim081","G","T",0.9157,"G","T",0.0887,"flipped: allele order swapped",TRUE
+"sim082","C","A",0.0618,"C","A",0.9286,"flipped: allele order swapped",TRUE
+"sim083","C","A",0.2532,"C","A",0.7388,"flipped: allele order swapped",TRUE
+"sim084","T","G",0.4479,"T","G",0.5304,"flipped: allele order swapped",TRUE
+"sim085","A","G",0.7018,"A","G",0.3043,"flipped: allele order swapped",TRUE
+"sim086","A","G",0.4665,"A","G",0.5346,"flipped: allele order swapped",TRUE
+"sim087","A","C",0.8705,"A","C",0.1359,"flipped: allele order swapped",TRUE
+"sim088","C","A",0.0588,"C","A",0.9448,"flipped: allele order swapped",TRUE
+"sim089","A","G",0.9435,"A","G",0.0536,"flipped: allele order swapped",TRUE
+"sim090","T","G",0.1938,"T","G",0.7681,"flipped: allele order swapped",TRUE
+"sim091","C","A",0.6087,"C","A",0.3975,"flipped: allele order swapped",TRUE
+"sim092","T","G",0.9095,"T","G",0.0746,"flipped: allele order swapped",TRUE
+"sim093","A","G",0.4113,"A","G",0.5796,"flipped: allele order swapped",TRUE
+"sim094","C","A",0.7376,"C","A",0.2666,"flipped: allele order swapped",TRUE
+"sim095","G","A",0.3715,"G","A",0.6285,"flipped: allele order swapped",TRUE
+"sim096","A","C",0.328,"A","C",0.6602,"flipped: allele order swapped",TRUE
+"sim097","T","G",0.5513,"T","G",0.434,"flipped: allele order swapped",TRUE
+"sim098","A","G",0.4661,"A","G",0.5279,"flipped: allele order swapped",TRUE
+"sim099","G","A",0.354,"G","A",0.6581,"flipped: allele order swapped",TRUE
+"sim100","C","A",0.6923,"C","A",0.3037,"flipped: allele order swapped",TRUE
+"sim101","G","A",0.4199,"G","A",0.583,"flipped: allele order swapped",TRUE
+"sim102","T","C",0.6675,"T","C",0.3446,"flipped: allele order swapped",TRUE
+"sim103","C","T",0.7326,"C","T",0.2797,"flipped: allele order swapped",TRUE
+"sim104","C","A",0.2093,"C","A",0.7822,"flipped: allele order swapped",TRUE
+"sim105","G","T",0.338,"G","T",0.651,"flipped: allele order swapped",TRUE
+"sim106","T","C",0.2507,"T","C",0.7335,"flipped: allele order swapped",TRUE
+"sim107","C","A",0.6686,"C","A",0.3458,"flipped: allele order swapped",TRUE
+"sim108","T","G",0.0868,"T","G",0.9235,"flipped: allele order swapped",TRUE
+"sim109","T","C",0.751,"T","C",0.2426,"flipped: allele order swapped",TRUE
+"sim110","C","A",0.7173,"C","A",0.2841,"flipped: allele order swapped",TRUE
+"sim111","A","G",0.1105,"A","G",0.9083,"flipped: allele order swapped",TRUE
+"sim112","A","G",0.7867,"A","G",0.2176,"flipped: allele order swapped",TRUE
+"sim113","T","G",0.0829,"T","G",0.9171,"flipped: allele order swapped",TRUE
+"sim114","A","C",0.8916,"A","C",0.1013,"flipped: allele order swapped",TRUE
+"sim115","C","A",0.3871,"C","A",0.6069,"flipped: allele order swapped",TRUE
+"sim116","A","G",0.8959,"A","G",0.0994,"flipped: allele order swapped",TRUE
+"sim117","A","C",0.6908,"A","C",0.3156,"flipped: allele order swapped",TRUE
+"sim118","C","A",0.3907,"C","A",0.6125,"flipped: allele order swapped",TRUE
+"sim119","T","C",0.5219,"T","C",0.4777,"flipped: allele order swapped",TRUE
+"sim120","C","A",0.442,"C","A",0.551,"flipped: allele order swapped",TRUE
+"sim121","G","A",0.802,"T","C",0.8122,"strand: complemented, no flip",TRUE
+"sim122","T","C",0.4963,"G","A",0.4847,"strand: complemented, no flip",TRUE
+"sim123","T","G",0.3191,"C","A",0.3096,"strand: complemented, no flip",TRUE
+"sim124","T","G",0.5552,"C","A",0.5433,"strand: complemented, no flip",TRUE
+"sim125","T","G",0.5512,"C","A",0.5474,"strand: complemented, no flip",TRUE
+"sim126","A","G",0.8053,"C","T",0.7856,"strand: complemented, no flip",TRUE
+"sim127","G","T",0.6599,"A","C",0.654,"strand: complemented, no flip",TRUE
+"sim128","G","A",0.6975,"T","C",0.6974,"strand: complemented, no flip",TRUE
+"sim129","C","A",0.1305,"T","G",0.1276,"strand: complemented, no flip",TRUE
+"sim130","C","T",0.6626,"A","G",0.6593,"strand: complemented, no flip",TRUE
+"sim131","G","T",0.3892,"A","C",0.3827,"strand: complemented, no flip",TRUE
+"sim132","T","C",0.6676,"G","A",0.6683,"strand: complemented, no flip",TRUE
+"sim133","C","T",0.7755,"A","G",0.7742,"strand: complemented, no flip",TRUE
+"sim134","C","A",0.3208,"T","G",0.3301,"strand: complemented, no flip",TRUE
+"sim135","C","A",0.8455,"T","G",0.843,"strand: complemented, no flip",TRUE
+"sim136","A","G",0.6903,"C","T",0.6822,"strand: complemented, no flip",TRUE
+"sim137","C","T",0.9156,"A","G",0.9126,"strand: complemented, no flip",TRUE
+"sim138","T","G",0.6004,"C","A",0.6085,"strand: complemented, no flip",TRUE
+"sim139","T","G",0.4959,"C","A",0.5063,"strand: complemented, no flip",TRUE
+"sim140","G","T",0.3054,"A","C",0.2943,"strand: complemented, no flip",TRUE
+"sim141","T","C",0.0932,"G","A",0.0972,"strand: complemented, no flip",TRUE
+"sim142","C","T",0.2659,"A","G",0.2583,"strand: complemented, no flip",TRUE
+"sim143","G","A",0.2298,"T","C",0.2317,"strand: complemented, no flip",TRUE
+"sim144","C","A",0.9359,"T","G",0.9497,"strand: complemented, no flip",TRUE
+"sim145","A","C",0.7653,"G","T",0.7545,"strand: complemented, no flip",TRUE
+"sim146","C","A",0.2646,"T","G",0.2745,"strand: complemented, no flip",TRUE
+"sim147","G","A",0.2969,"T","C",0.3088,"strand: complemented, no flip",TRUE
+"sim148","C","A",0.8534,"T","G",0.8292,"strand: complemented, no flip",TRUE
+"sim149","C","T",0.9285,"A","G",0.9151,"strand: complemented, no flip",TRUE
+"sim150","T","G",0.7334,"C","A",0.7352,"strand: complemented, no flip",TRUE
+"sim151","T","C",0.1419,"G","A",0.1357,"strand: complemented, no flip",TRUE
+"sim152","G","T",0.4313,"A","C",0.4429,"strand: complemented, no flip",TRUE
+"sim153","G","A",0.6069,"T","C",0.6101,"strand: complemented, no flip",TRUE
+"sim154","A","C",0.8313,"G","T",0.8406,"strand: complemented, no flip",TRUE
+"sim155","T","C",0.0727,"G","A",0.0612,"strand: complemented, no flip",TRUE
+"sim156","C","A",0.6204,"T","G",0.6109,"strand: complemented, no flip",TRUE
+"sim157","T","C",0.39,"G","A",0.3885,"strand: complemented, no flip",TRUE
+"sim158","A","C",0.7755,"G","T",0.7778,"strand: complemented, no flip",TRUE
+"sim159","G","A",0.9157,"T","C",0.9281,"strand: complemented, no flip",TRUE
+"sim160","A","G",0.5873,"C","T",0.5836,"strand: complemented, no flip",TRUE
+"sim161","T","G",0.7135,"C","A",0.7109,"strand: complemented, no flip",TRUE
+"sim162","G","A",0.2584,"T","C",0.2607,"strand: complemented, no flip",TRUE
+"sim163","T","G",0.8765,"C","A",0.8803,"strand: complemented, no flip",TRUE
+"sim164","A","G",0.4912,"C","T",0.4931,"strand: complemented, no flip",TRUE
+"sim165","G","A",0.1685,"T","C",0.1521,"strand: complemented, no flip",TRUE
+"sim166","G","T",0.9458,"A","C",0.9311,"strand: complemented, no flip",TRUE
+"sim167","C","A",0.9158,"T","G",0.9135,"strand: complemented, no flip",TRUE
+"sim168","G","T",0.1163,"A","C",0.1049,"strand: complemented, no flip",TRUE
+"sim169","T","C",0.2098,"G","A",0.2301,"strand: complemented, no flip",TRUE
+"sim170","G","T",0.0808,"A","C",0.0887,"strand: complemented, no flip",TRUE
+"sim171","C","T",0.521,"A","G",0.5228,"strand: complemented, no flip",TRUE
+"sim172","A","C",0.3627,"G","T",0.3708,"strand: complemented, no flip",TRUE
+"sim173","G","A",0.9391,"T","C",0.9246,"strand: complemented, no flip",TRUE
+"sim174","C","T",0.3242,"A","G",0.3338,"strand: complemented, no flip",TRUE
+"sim175","G","A",0.3384,"T","C",0.3417,"strand: complemented, no flip",TRUE
+"sim176","A","G",0.7319,"C","T",0.71,"strand: complemented, no flip",TRUE
+"sim177","T","G",0.3789,"C","A",0.361,"strand: complemented, no flip",TRUE
+"sim178","G","A",0.2546,"T","C",0.2748,"strand: complemented, no flip",TRUE
+"sim179","C","A",0.6607,"T","G",0.6543,"strand: complemented, no flip",TRUE
+"sim180","A","G",0.8876,"C","T",0.8944,"strand: complemented, no flip",TRUE
+"sim181","C","T",0.2765,"G","A",0.7133,"strand: complemented, no flip",TRUE
+"sim182","G","A",0.8212,"C","T",0.1675,"strand: complemented, no flip",TRUE
+"sim183","T","C",0.2227,"A","G",0.7749,"strand: complemented, no flip",TRUE
+"sim184","T","G",0.4062,"A","C",0.596,"strand: complemented, no flip",TRUE
+"sim185","C","T",0.1161,"G","A",0.8757,"strand: complemented, no flip",TRUE
+"sim186","C","A",0.6471,"G","T",0.345,"strand: complemented, no flip",TRUE
+"sim187","T","G",0.6043,"A","C",0.3933,"strand: complemented, no flip",TRUE
+"sim188","A","G",0.2923,"T","C",0.71,"strand: complemented, no flip",TRUE
+"sim189","T","G",0.6575,"A","C",0.3425,"strand: complemented, no flip",TRUE
+"sim190","G","T",0.5426,"C","A",0.4382,"strand: complemented, no flip",TRUE
+"sim191","A","C",0.7439,"T","G",0.2542,"strand: complemented, no flip",TRUE
+"sim192","A","G",0.1219,"T","C",0.8806,"strand: complemented, no flip",TRUE
+"sim193","A","G",0.2887,"T","C",0.7192,"strand: complemented, no flip",TRUE
+"sim194","A","C",0.6402,"T","G",0.3625,"strand: complemented, no flip",TRUE
+"sim195","C","A",0.2369,"G","T",0.767,"strand: complemented, no flip",TRUE
+"sim196","A","G",0.1405,"T","C",0.8779,"strand: complemented, no flip",TRUE
+"sim197","T","G",0.4784,"A","C",0.5147,"strand: complemented, no flip",TRUE
+"sim198","A","G",0.1798,"T","C",0.8135,"strand: complemented, no flip",TRUE
+"sim199","A","G",0.9163,"T","C",0.1028,"strand: complemented, no flip",TRUE
+"sim200","G","A",0.8348,"C","T",0.1614,"strand: complemented, no flip",TRUE
+"sim201","G","T",0.1658,"C","A",0.8467,"strand: complemented, no flip",TRUE
+"sim202","C","A",0.4992,"G","T",0.5,"strand: complemented, no flip",TRUE
+"sim203","C","A",0.6181,"G","T",0.3915,"strand: complemented, no flip",TRUE
+"sim204","C","A",0.6437,"G","T",0.3607,"strand: complemented, no flip",TRUE
+"sim205","C","A",0.3106,"G","T",0.6971,"strand: complemented, no flip",TRUE
+"sim206","T","C",0.2484,"A","G",0.7603,"strand: complemented, no flip",TRUE
+"sim207","G","T",0.5642,"C","A",0.413,"strand: complemented, no flip",TRUE
+"sim208","C","A",0.8801,"G","T",0.1077,"strand: complemented, no flip",TRUE
+"sim209","C","A",0.3314,"G","T",0.67,"strand: complemented, no flip",TRUE
+"sim210","G","A",0.8141,"C","T",0.1883,"strand: complemented, no flip",TRUE
+"sim211","T","C",0.5418,"A","G",0.4543,"strand: complemented, no flip",TRUE
+"sim212","A","G",0.5801,"T","C",0.4326,"strand: complemented, no flip",TRUE
+"sim213","G","A",0.3579,"C","T",0.6445,"strand: complemented, no flip",TRUE
+"sim214","C","T",0.8472,"G","A",0.1561,"strand: complemented, no flip",TRUE
+"sim215","T","C",0.1969,"A","G",0.8049,"strand: complemented, no flip",TRUE
+"sim216","C","A",0.6407,"G","T",0.362,"strand: complemented, no flip",TRUE
+"sim217","G","T",0.2462,"C","A",0.7415,"strand: complemented, no flip",TRUE
+"sim218","C","A",0.3695,"G","T",0.6469,"strand: complemented, no flip",TRUE
+"sim219","C","A",0.1038,"G","T",0.8886,"strand: complemented, no flip",TRUE
+"sim220","G","T",0.8207,"C","A",0.1653,"strand: complemented, no flip",TRUE
+"sim221","A","C",0.8636,"T","G",0.1425,"strand: complemented, no flip",TRUE
+"sim222","C","T",0.317,"G","A",0.6882,"strand: complemented, no flip",TRUE
+"sim223","T","G",0.5578,"A","C",0.4338,"strand: complemented, no flip",TRUE
+"sim224","T","C",0.3468,"A","G",0.6459,"strand: complemented, no flip",TRUE
+"sim225","G","A",0.3157,"C","T",0.7007,"strand: complemented, no flip",TRUE
+"sim226","G","A",0.2463,"C","T",0.7683,"strand: complemented, no flip",TRUE
+"sim227","A","C",0.1317,"T","G",0.8489,"strand: complemented, no flip",TRUE
+"sim228","T","C",0.3386,"A","G",0.6483,"strand: complemented, no flip",TRUE
+"sim229","C","A",0.3267,"G","T",0.6493,"strand: complemented, no flip",TRUE
+"sim230","G","A",0.475,"C","T",0.5292,"strand: complemented, no flip",TRUE
+"sim231","G","T",0.7131,"C","A",0.2929,"strand: complemented, no flip",TRUE
+"sim232","G","T",0.4515,"C","A",0.5362,"strand: complemented, no flip",TRUE
+"sim233","C","T",0.7104,"G","A",0.2912,"strand: complemented, no flip",TRUE
+"sim234","A","C",0.7828,"T","G",0.2154,"strand: complemented, no flip",TRUE
+"sim235","A","C",0.8872,"T","G",0.1095,"strand: complemented, no flip",TRUE
+"sim236","G","T",0.669,"C","A",0.3266,"strand: complemented, no flip",TRUE
+"sim237","G","A",0.7136,"C","T",0.2816,"strand: complemented, no flip",TRUE
+"sim238","G","T",0.1841,"C","A",0.8215,"strand: complemented, no flip",TRUE
+"sim239","A","G",0.3191,"T","C",0.682,"strand: complemented, no flip",TRUE
+"sim240","G","A",0.886,"C","T",0.1031,"strand: complemented, no flip",TRUE
+"sim241","G","C",0.7411,"C","G",0.7363,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim242","G","C",0.6118,"C","G",0.6094,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim243","C","G",0.189,"G","C",0.1911,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim244","G","C",0.7221,"C","G",0.7344,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim245","G","C",0.1482,"C","G",0.1502,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim246","C","G",0.6366,"G","C",0.6389,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim247","G","C",0.1313,"C","G",0.1378,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim248","T","A",0.1377,"A","T",0.1348,"palindromic: same strand (inferred from EAF), no flip",TRUE
+"sim249","G","C",0.3246,"G","C",0.6795,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim250","G","C",0.0981,"G","C",0.8962,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim251","T","A",0.6727,"T","A",0.3314,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim252","C","G",0.8552,"C","G",0.1368,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim253","C","G",0.7443,"C","G",0.2635,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim254","G","C",0.8062,"G","C",0.183,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim255","C","G",0.8186,"C","G",0.2091,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim256","A","T",0.3841,"A","T",0.5955,"palindromic: same strand (inferred from EAF), flipped",TRUE
+"sim257","C","G",0.898,"C","G",0.8953,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim258","A","T",0.9154,"A","T",0.9372,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim259","G","C",0.7543,"G","C",0.7407,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim260","G","C",0.2076,"G","C",0.205,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim261","G","C",0.7453,"G","C",0.7396,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim262","A","T",0.8393,"A","T",0.8443,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim263","C","G",0.1462,"C","G",0.1276,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim264","G","C",0.6364,"G","C",0.6306,"palindromic: strand flipped (inferred from EAF), no flip",TRUE
+"sim265","A","T",0.8317,"T","A",0.1657,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim266","A","T",0.1157,"T","A",0.8924,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim267","T","A",0.6249,"A","T",0.368,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim268","T","A",0.9042,"A","T",0.105,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim269","C","G",0.7136,"G","C",0.2811,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim270","C","G",0.3785,"G","C",0.6217,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim271","T","A",0.7483,"A","T",0.2554,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"sim272","A","T",0.1063,"T","A",0.8961,"palindromic: strand flipped (inferred from EAF), flipped",TRUE
+"amb1","A","T",0.47,"T","A",0.48,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"amb2","C","G",0.55,"G","C",0.53,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"amb3","T","A",0.5,"A","T",0.51,"dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE
+"mm1","A","G",0.3,"A","C",0.3,"dropped: allele mismatch",FALSE
+"mm2","C","T",0.4,"A","G",0.4,"strand: complemented, no flip",TRUE
+"na1","A","G",0.3,"G","A",NA,"dropped: outcome data missing (-9)",FALSE
+"na2","G","T",0.4,"T","G",0.4,"dropped: outcome data missing (-9)",FALSE
+"na3","C","T",0.2,"T","C",0.2,"dropped: outcome data missing (-9)",FALSE
+"abs1","A","G",0.3,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"abs2","A","G",0.3,NA,NA,NA,"dropped: not in outcome GWAS",FALSE
+"abs3","A","G",0.3,NA,NA,NA,"dropped: not in outcome GWAS",FALSE

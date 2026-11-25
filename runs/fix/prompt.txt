@@ -1,0 +1,3 @@
+An independent review found a harmonisation error in analysis/mr_analysis.R (lines 99-100): for variants where the outcome A2 is the complement of the exposure's other allele (opposite strand and alleles swapped), the outcome effect is not negated. Fix that error only, and give that case its own label in the harmonisation log.
+
+Then add a known-answer test as tests/test_known_answer.R: simulate summary statistics in the same file formats with a causal effect you choose, covering every allele situation in the data dictionary, run the script on them and check that it recovers the effect. Run the test, rerun the analysis on data/main, update report.md and README.md so that every number matches results/, and commit with a message that says what changed and why.

@@ -1,0 +1,62 @@
+<section class="stage" id="s1" aria-labelledby="s1-h">
+<div class="stage-head"><span class="num">Stage 1</span><h2 id="s1-h">The agent writes the analysis</h2><span class="time">0–5 min</span></div>
+<p class="principle">An agent will always return an answer that is complete, formatted and confident. Validation starts from that answer; it does not stop there.</p>
+<p class="lead">The question is <b>whether higher BMI raises systolic blood pressure</b>. We answer it with two-sample MR on simulated GWAS summary statistics: 100 BMI instruments, looked up in an SBP GWAS. Before any code was written, the researcher wrote a one-page plan. It says to harmonise alleles, express effects per kg/m², use IVW as the primary method, and run MR-Egger and weighted median as sensitivity analyses.</p>
+<details class="ex"><summary class="ex-h" style="cursor:pointer"><span class="tag">How the data were simulated</span><span class="meta">model, parameters, and the files it produced</span></summary>
+<div class="ex-b">
+<p>Everything is simulated in base R from one fixed seed: 100 independent BMI instruments. For SNP <i>j</i>, defined on its BMI-raising allele:</p>
+<div class="diff">γⱼ = 0.01 + Exp(mean 0.012), and at least 7 × SE     true SNP–BMI effect, SD of BMI per allele
+Γⱼ = θ × 4.8 × γⱼ + αⱼ,   αⱼ ~ N(0, 0.005²)          true SNP–SBP effect, mmHg per allele
+θ  = 0.25 mmHg per kg/m²  (1.2 mmHg per SD of BMI)     the causal effect to recover</div>
+<p>Allele frequencies are uniform on 0.05–0.95. Standard errors follow from sample size: 1/√(2f(1−f)N) with N = 300,000 for BMI, and 19 mmHg/√(2f(1−f)N) with N = 750,000 for SBP. Observed effects add normal noise with those SEs, and BMI estimates are redrawn until P &lt; 5×10⁻⁸, as instrument selection would. The pleiotropy α is small and balanced (mean zero), so IVW, MR-Egger and weighted median are all valid here.</p>
+<p>The two files then carry the hazards real summary statistics have:</p>
+<div class="scroll"><table class="tbl"><thead><tr><th>Hazard</th><th>In these data</th></tr></thead><tbody>
+<tr><td>BMI effects reported per SD; the plan asks for kg/m² (1 SD = 4.8)</td><td>All 100</td></tr>
+<tr><td>Effect allele chosen at random in each file; the outcome beta refers to A2, stated only in the data dictionary</td><td>Every variant</td></tr>
+<tr><td>Outcome reported on the opposite strand</td><td>48</td></tr>
+<tr><td>Palindromic (A/T or C/G)</td><td>8: 4 inferable from frequency, 4 with MAF 0.43–0.49</td></tr>
+<tr><td>Outcome missing-value code <code>-9</code></td><td>3</td></tr>
+<tr><td>Instrument absent from the outcome file</td><td>4</td></tr>
+</tbody></table></div>
+<p>A correct analysis keeps 89 instruments and gives IVW 0.207 (95% CI 0.150 to 0.264), an interval that contains the true 0.25. The seed is the first one that met criteria fixed before the search, including that the correct pipeline’s interval contains the truth.</p>
+</div>
+<details class="full"><summary>The first rows of the two files</summary><div class="verbatim">{{FILE:exp_head}}
+
+{{FILE:out_head}}</div></details></details>
+<details class="ex full-plan"><summary class="ex-h" style="cursor:pointer"><span class="tag">analysis_plan.md</span><span class="meta">written by the researcher before any code</span></summary>
+<div class="verbatim">{{FILE:plan}}</div></details>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 1</span><span class="meta">fresh session · build</span><button type="button" class="btn copy" data-from="p-build">Copy</button></div>
+<div class="ex-b" id="p-build">{{PROMPT:build1}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>I’ve written <code>analysis/mr_analysis.R</code> and have not run it. […]</p>
+<p><b>Harmonise.</b> […] Non-palindromic variants: it tries four cases in turn: aligned, swapped, complemented, and complemented and swapped. […]</p>
+<p><b>Units.</b> Exposure beta and SE are divided by 4.8 to give kg/m² units. The outcome stays in mmHg.</p>
+<p><b>Estimate.</b> IVW: random effects […]. MR-Egger […]. Weighted median: first-order weights, with a seeded parametric-bootstrap SE (1,000 draws).</p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:build1}}</div></details></div>
+
+<div class="callout"><b>Pause.</b> Read that reply the way you would read a colleague’s summary. Is there anything you would question before the code runs?</div>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 2</span><span class="meta">fresh session · run and report</span><button type="button" class="btn copy" data-from="p-run">Copy</button></div>
+<div class="ex-b" id="p-run">{{PROMPT:build2}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>I ran the analysis on <code>data/main</code>, edited <code>report.md</code> to 160 words (the limit is 200), and wrote <code>README.md</code>.</p>
+<p><b>Headline result:</b> 89 of 100 instruments were usable. The IVW estimate is 1.59 mmHg of SBP per 1 kg/m² of BMI (95% CI -0.03 to 3.21), so the interval includes zero.</p>
+<div class="scroll"><table class="tbl"><thead><tr><th>Method</th><th class="n">Estimate (mmHg per kg/m²)</th><th class="n">95% CI</th></tr></thead>
+<tbody><tr><td>IVW</td><td class="n">1.59</td><td class="n">-0.03 to 3.21</td></tr><tr><td>Weighted median</td><td class="n">3.29</td><td class="n">1.00 to 5.58</td></tr><tr><td>MR-Egger</td><td class="n">5.42</td><td class="n">0.61 to 10.22</td></tr></tbody></table></div>
+<p><b>Direction and spread:</b> All three estimates are positive, but they differ a lot in size, and <code>report.md</code> says so. <b>Heterogeneity:</b> Cochran’s Q is 135.6 on 88 df (p = 0.00084), so there is clear heterogeneity. […]</p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:build2}}</div></details>
+<details class="full"><summary>The draft <code>report.md</code> it wrote</summary><div class="verbatim">{{FILE:draft_report}}</div></details></div>
+
+<h3>About this draft: two errors</h3>
+<div class="scroll"><table class="tbl"><thead><tr><th></th><th>What is wrong</th><th>Where it came from</th></tr></thead><tbody>
+<tr><td><b>E1</b></td><td>Units: the SD-unit BMI effects are <em>divided</em> by 4.8 instead of multiplied, so every estimate is 4.8² ≈ 23 times too large</td><td><b>The agent’s own mistake</b>, not planted. Two independent builds from the same prompt both made it.</td></tr>
+<tr><td><b>E2</b></td><td>Harmonisation: variants on the opposite strand <em>and</em> with alleles swapped keep the wrong sign (27 of 89)</td><td><b>Planted by us</b>: one line changed before the code ran, the kind of slip real pipelines have</td></tr>
+</tbody></table></div>
+<p>The agent that ran the code and wrote the report noticed neither.</p>
+<p class="takeaway">A careful-sounding report is not evidence that its numbers are right. This one recommends caution about heterogeneity, and the heterogeneity was caused by a bug.</p>
+</section>

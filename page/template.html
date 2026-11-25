@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Validating AI-assisted analysis</title>
+<meta name="description" content="A 45-minute worked example for the IEU AI-for-coding workshop: how to validate an analysis written by an AI agent, step by step, with recorded prompts and replies.">
+<style>
+{{CSS}}
+</style>
+</head>
+<body>
+<a class="skip" href="#s1">Skip to the walkthrough</a>
+<header class="mast"><div class="mast-in">
+<span class="brand">IEU · AI for coding <span>· Practical 2</span></span>
+<a class="btn" href="{{ZIP}}" download="validation-case-files.zip">Download case files (.zip)</a>
+</div></header>
+<main>
+<section class="hero">
+<p class="kicker">Worked example · 45 minutes</p>
+<h1>Validating an analysis written by an AI agent</h1>
+<p class="thesis">An AI agent will always give you an answer. Whether it is the right answer depends on how you check it.</p>
+<p class="byline">Xiaoyang Dai &amp; Gibran Hemani · IEU AI-for-coding workshop · All data simulated · Every reply on this page is a recorded run.</p>
+</section>
+
+<ol class="map" aria-label="The six stages">
+<li><a href="#s1"><b>The agent writes the analysis</b><small>0–5 min</small></a></li>
+<li class="core"><a href="#s2"><b>Review: vague or specified</b><small>5–20 min · the core</small></a></li>
+<li><a href="#s3"><b>Fix, test, save</b><small>20–28 min · every step</small></a></li>
+<li><a href="#s4"><b>A new reviewer, new questions</b><small>28–35 min · at milestones</small></a></li>
+<li><a href="#s5"><b>Close-out</b><small>35–40 min · before release</small></a></li>
+<li><a href="#s6"><b>Fix the checks, then let agents run</b><small>40–45 min · outlook</small></a></li>
+</ol>
+<p class="callout" style="margin-top:14px">You do not need a laptop to follow. Each step shows the prompt we sent and the reply the agent actually gave. To try it yourself, download the case files and paste the prompts into any coding agent.</p>
+
+{{INC:stage1}}
+{{INC:stage2}}
+{{INC:stage3}}
+{{INC:stage4}}
+{{INC:stage5}}
+{{INC:stage6}}
+
+<section class="stage" id="home" aria-labelledby="home-h">
+<div class="stage-head"><h2 id="home-h">Five things to take home</h2></div>
+<ol class="home">
+<li><b>An agent always returns an answer.</b>A fluent, cautious, internally consistent report is not evidence that the numbers are right. In this case, every result that “made sense” was wrong.</li>
+<li><b>Ask for evidence, then read it.</b>A simple error is found whatever you ask; a deep one only occasionally, however well you ask. A specified review lays out its working (plan-to-code checks, simulations, a decision on each claim), and that working is where you find what it missed.</li>
+<li><b>A known answer must be independent.</b>A test built on the same assumption as the code passes by construction. Use a hand-worked example, a published value, or a colleague’s own calculation.</li>
+<li><b>Validate every step, and lock the check in.</b>Fix, re-test, commit, so the next session, human or agent, inherits the check. At milestones, bring in a new reviewer with new questions, ideally a second model. Before release, close out: rerun, reconcile, read for contradictions.</li>
+<li><b>Write the checks before the code.</b>Milestones that can be checked are what let agents work for longer on their own, and what let you trust what they bring back.</li>
+</ol>
+</section>
+
+{{INC:reading}}
+{{INC:provenance}}
+
+<footer>Simulated data only. The recorded replies are verbatim. Excerpts are marked with […], and each has its full reply alongside. Prepared for the MRC Integrative Epidemiology Unit AI-for-coding workshop, November 2026.</footer>
+</main>
+<script>
+{{SCRIPT}}
+</script>
+</body>
+</html>

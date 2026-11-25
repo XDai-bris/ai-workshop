@@ -13,11 +13,12 @@ if (getRversion() < "4.5.0") {
   problem("R 4.5 or later is needed. Are you running R from the ieu-ai-workshop environment (conda run -n ieu-ai-workshop ...)?")
 }
 
-if (!file.exists(file.path("data", "DATA_DICTIONARY.md"))) {
-  problem("data/DATA_DICTIONARY.md not found. Run this command from the repository root folder.")
+data_dir <- file.path("case", "project_template", "data")
+if (!file.exists(file.path(data_dir, "DATA_DICTIONARY.md"))) {
+  problem("case/project_template/data/DATA_DICTIONARY.md not found. Run this command from the repository root folder.")
 } else {
-  x <- tryCatch(read.delim(file.path("data", "main", "exposure_bmi_gwas.tsv")), error = function(e) NULL)
-  if (is.null(x) || nrow(x) != 100) problem("could not read data/main/exposure_bmi_gwas.tsv")
+  x <- tryCatch(read.delim(file.path(data_dir, "main", "exposure_bmi_gwas.tsv")), error = function(e) NULL)
+  if (is.null(x) || nrow(x) != 100) problem("could not read case/project_template/data/main/exposure_bmi_gwas.tsv")
 }
 
 if (length(.libPaths()) > 1) {

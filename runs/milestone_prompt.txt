@@ -1,0 +1,8 @@
+This project has reached a milestone and is about to go to the research group. Review it independently before it does.
+
+1. Read analysis_plan.md and data/DATA_DICTIONARY.md. Then recompute the main IVW estimate from the raw data files with your own code. Do not use or copy analysis/mr_analysis.R.
+2. Look at the known-answer test in tests/. Could it still pass if the analysis code and the test shared the same mistaken assumption?
+3. Is each reported number plausible for what it claims to measure?
+4. For each claim in report.md and README.md, decide release, revise or withdraw, and give the evidence.
+
+Do not edit the project. Put any scratch work in scratch/.

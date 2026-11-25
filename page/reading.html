@@ -1,0 +1,68 @@
+<section class="stage reading" id="reading" aria-labelledby="reading-h">
+<div class="stage-head"><h2 id="reading-h">Further reading</h2></div>
+<p class="lead">We did not invent these practices. We collected them from the people who build these tools and from those who use them carefully, and turned them into the steps above. The quotes below are copied from the sources. Pick whatever fits your own work.</p>
+
+<h3>Specify first, then review against the specification</h3>
+<div class="ref"><a href="https://code.claude.com/docs/en/best-practices">Best practices for Claude Code</a> <span class="src">· Anthropic documentation</span>
+<blockquote>“A reviewer that’s asked to find problems will always find <em>something</em>.”</blockquote>
+<p class="why">Covers reviewing against a written spec in a fresh session that never saw the build, and asking for evidence (the command and its output) rather than “all tests pass”.</p></div>
+<div class="ref"><a href="https://github.com/github/spec-kit/blob/main/spec-driven.md">Spec-driven development</a> <span class="src">· GitHub Spec Kit</span>
+<blockquote>“But raw AI generation without structure produces chaos.”</blockquote>
+<p class="why">The software version of a pre-registered analysis plan: specification, then plan, then tasks, then code.</p></div>
+<div class="ref"><a href="https://github.com/openai/codex-plugin-cc/blob/main/plugins/codex/prompts/adversarial-review.md">Adversarial review prompt</a> <span class="src">· OpenAI, codex-plugin-cc</span>
+<blockquote>“Your job is to break confidence in the change, not to validate it.”</blockquote>
+<p class="why">A ready-made specified review: each finding tied to a file and line, ending in a ship/no-ship decision. The plugin runs Codex from inside Claude Code, so it doubles as a cross-model reviewer.</p></div>
+<div class="ref"><a href="https://github.com/mattpocock/skills/blob/main/skills/engineering/code-review/SKILL.md">code-review skill</a> <span class="src">· Matt Pocock, mattpocock/skills</span>
+<blockquote>“Start every sub-agent with a fresh context window.”</blockquote>
+<p class="why">Keeps two questions apart: does the code meet our standards, and does it do what the plan asked?</p></div>
+<div class="ref"><a href="https://arxiv.org/abs/2603.00539">Are LLMs reliable code reviewers?</a> <span class="src">· Jin &amp; Chen, arXiv 2603.00539 (preprint, 2026)</span>
+<blockquote>“…more detailed prompt design, particularly with those requiring explanations and proposed corrections, leads to higher misjudgment rates…”</blockquote>
+<p class="why">A longer prompt is not the same as a specified one. What helps is something the reviewer can run and check, not more instructions to argue with.</p></div>
+<div class="ref"><a href="https://arxiv.org/abs/2607.01507">The agentic garden of forking paths</a> <span class="src">· Miao, Pritchard &amp; Zou, arXiv 2607.01507 (preprint, 2026)</span>
+<blockquote>“86% passed independent AI review and 78% passed majority human expert review.”</blockquote>
+<p class="why">AI analyses that reached opposite conclusions mostly passed review anyway. Passing a review does not show that the analysis is right.</p></div>
+
+<h3>Known answers and step-by-step checks</h3>
+<div class="ref"><a href="https://github.com/mattpocock/skills/blob/main/skills/engineering/tdd/SKILL.md">tdd skill</a> <span class="src">· Matt Pocock, mattpocock/skills</span>
+<blockquote>“Expected values must come from an independent source of truth: a known-good literal, a worked example, the spec.”</blockquote>
+<p class="why">This is the lesson of Stage 2 in one line: a test built on the same assumption as the code passes by construction.</p></div>
+<div class="ref"><a href="https://www.anthropic.com/research/demystifying-evals-for-ai-agents">Demystifying evals for AI agents</a> <span class="src">· Anthropic, 2026</span>
+<blockquote>“For each task, it’s useful to create a reference solution: a known working output that passes all graders.”</blockquote>
+<p class="why">The logic of a positive control: first show that the check recognises a known right answer.</p></div>
+<div class="ref"><a href="https://simonwillison.net/2025/Dec/18/code-proven-to-work/">Your job is to deliver code you have proven to work</a> <span class="src">· Simon Willison, 2025</span>
+<blockquote>“That test should fail if you revert the implementation.”</blockquote>
+<p class="why">A short, quotable standard for every fix: the change and the test that proves it are delivered together.</p></div>
+<div class="ref"><a href="https://newsletter.kentbeck.com/p/augmented-coding-beyond-the-vibes">Augmented coding: beyond the vibes</a> <span class="src">· Kent Beck, 2025</span>
+<blockquote>“Any indication that the genie was cheating, for example by disabling or deleting tests.”</blockquote>
+<p class="why">Warning signs to watch for when an agent works through a test-driven loop.</p></div>
+<div class="ref"><a href="https://learn.chatgpt.com/guides/best-practices">Codex best practices</a> <span class="src">· OpenAI documentation</span>
+<blockquote>“Ask it to create tests when needed, run the relevant checks, confirm the result, and review the work before you accept it.”</blockquote>
+<p class="why">A second vendor giving the same advice. Its prompt template ends with a “Done when” line, a simple way to pre-specify the check.</p></div>
+
+<h3>Long runs against fixed milestones</h3>
+<div class="ref"><a href="https://code.claude.com/docs/en/best-practices#let-claude-run-without-you">Let Claude run without you</a> <span class="src">· Anthropic documentation</span>
+<blockquote>“Before a run goes unattended, make sure it knows what done looks like, can check its own work, and can only touch what it should.”</blockquote>
+<p class="why">Five pre-flight questions: what done looks like, how it checks itself, what it may touch, when it stops, and who signs off.</p></div>
+<div class="ref"><a href="https://www.anthropic.com/research/effective-harnesses-for-long-running-agents">Effective harnesses for long-running agents</a> <span class="src">· Anthropic, 2025</span>
+<blockquote>“These features were all initially marked as ‘failing’ so that later coding agents would have a clear outline of what full functionality looked like.”</blockquote>
+<p class="why">Milestones written down as checks before the work starts, with a commit and a progress note at the end of every session.</p></div>
+<div class="ref"><a href="https://leanprover-community.github.io/blog/posts/riemann-hypothesis/">Lean verification of the Riemann Hypothesis</a> <span class="src">· Lean FRO and Mathlib Initiative, 21 Nov 2026</span>
+<blockquote>“Crucially, the community has added a file that isolates the statement of the Riemann Hypothesis and imports only Mathlib.”</blockquote>
+<p class="why">Shows that the target was fixed independently of the work that claims to meet it. See also the <a href="https://github.com/leanprover-community/riemann-hypothesis/blob/main/src/Challenge.lean">challenge file</a> and the author’s <a href="https://alpo.ge/remark.pdf">note</a>.</p></div>
+<div class="ref"><a href="https://xenaproject.wordpress.com/2026/11/12/and-the-proof-is-checked-in-lean/">“…and the proof is checked in Lean”</a> <span class="src">· Xena project blog, 2026</span>
+<blockquote>“…there is an important signal that can be extracted from Lean code, but if this code is AI-generated then you need to do some tests first.”</blockquote>
+<p class="why">Four questions to ask of any AI-checked result: is it the right statement, does it build, does it prove that statement, and has an independent checker confirmed it?</p></div>
+
+<h3>MR methods used in the case</h3>
+<div class="ref"><a href="https://mrcieu.github.io/TwoSampleMR/articles/harmonise.html">Harmonise data</a> <span class="src">· TwoSampleMR documentation</span>
+<blockquote>“…the effect of a SNP on the exposure and the effect of that SNP on the outcome must each correspond to the same allele.”</blockquote>
+<p class="why">Worked examples of strand flips and palindromic SNPs. This is the step our planted error breaks.</p></div>
+<div class="ref"><a href="https://doi.org/10.1093/ije/dyx028">Two-sample Mendelian randomization: avoiding the downsides of a powerful, widely applicable but potentially fallible technique</a> <span class="src">· Hartwig, Davies, Hemani &amp; Davey Smith, <i>Int J Epidemiol</i> 2016</span>
+<blockquote>“…GWAS results rarely have harmonized effect (or coded) alleles.”</blockquote>
+<p class="why">Table 1 is a step-by-step harmonisation checklist.</p></div>
+<div class="ref"><a href="https://doi.org/10.7554/eLife.34408">The MR-Base platform supports systematic causal inference across the human phenome</a> <span class="src">· Hemani et al., <i>eLife</i> 2018</span></div>
+<div class="ref"><a href="https://doi.org/10.12688/wellcomeopenres.15555.3">Guidelines for performing Mendelian randomization investigations (2023 update)</a> <span class="src">· Burgess et al., <i>Wellcome Open Res</i></span>
+<p class="why">Can serve as the plan that a reviewer checks the analysis against.</p></div>
+<div class="ref"><a href="https://doi.org/10.1136/bmj.n2233">STROBE-MR: explanation and elaboration</a> <span class="src">· Skrivankova et al., <i>BMJ</i> 2021</span>
+<p class="why">A 20-item reporting checklist, ready to use for the close-out consistency check.</p></div>
+</section>

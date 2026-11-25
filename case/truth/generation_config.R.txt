@@ -1,0 +1,9 @@
+list(seed = 20261125L, sd_bmi = 4.8, sd_sbp = 19, n_exposure = 3e+05, 
+    n_outcome = 750000, n_snps = 100, min_z_exposure = 7, gamma_floor = 0.01, 
+    gamma_mean_excess = 0.012, balanced_sd = 0.005, n_palindromic = 8, 
+    strand_flip_frac = 0.5, n_missing_code = 3, n_absent_in_outcome = 4, 
+    traps = list(allele_convention = TRUE, units = TRUE, missing_code = TRUE, 
+        strand_flip = TRUE, palindromic = TRUE), datasets = list(
+        control_positive = list(beta_per_unit = 0.3, pleio_frac = 0, 
+            pleio_mean = 0, pleio_sd = 0), main = list(beta_per_unit = 0.25, 
+            pleio_frac = 0, pleio_mean = 0, pleio_sd = 0)))

@@ -1,0 +1,148 @@
+"SNP","scn","EA","OA","EAF","bsd","A1","A2","sign_expected","extra","harmonisation_action","used","flip_needed","script_flip","should_use","sign_ok"
+"sim001","nonpal aligned (A2=EA)","A","C",0.398605640521273,-0.0556698207557201,"C","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim002","nonpal aligned (A2=EA)","T","G",0.330440026978031,-0.058202591361478,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim003","nonpal aligned (A2=EA)","C","T",0.675501834438182,0.0484917129017413,"T","C",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim004","nonpal aligned (A2=EA)","C","A",0.41259698565118,0.0524133098497987,"A","C",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim005","nonpal aligned (A2=EA)","C","T",0.872838542973623,-0.0332975023239851,"T","C",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim006","nonpal aligned (A2=EA)","T","G",0.787330821184441,-0.0634401703998446,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim007","nonpal aligned (A2=EA)","T","G",0.355758748031221,0.0301579335518181,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim008","nonpal aligned (A2=EA)","A","G",0.0824936099397019,0.0544711457379162,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim009","nonpal aligned (A2=EA)","T","C",0.228162338891998,0.0472700499556959,"C","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim010","nonpal aligned (A2=EA)","T","G",0.618163332128897,0.0547535282932222,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim011","nonpal aligned (A2=EA)","T","G",0.197894404390827,0.0315574596449733,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim012","nonpal aligned (A2=EA)","A","G",0.310274122264236,-0.050576517386362,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim013","nonpal aligned (A2=EA)","C","A",0.58584215270821,0.0639875887427479,"A","C",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim014","nonpal aligned (A2=EA)","A","G",0.827762551000342,0.039621789585799,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim015","nonpal aligned (A2=EA)","A","G",0.127762891999446,0.0378964136913419,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim016","nonpal aligned (A2=EA)","G","T",0.0826808111695573,-0.0300628221686929,"T","G",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim017","nonpal aligned (A2=EA)","T","G",0.133687770781107,-0.0610329345054925,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim018","nonpal aligned (A2=EA)","T","G",0.159459155527875,-0.0422087347786874,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim019","nonpal aligned (A2=EA)","C","A",0.0800812248373404,0.067025789944455,"A","C",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim020","nonpal aligned (A2=EA)","G","A",0.806755525637418,0.0547663696017116,"A","G",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim021","nonpal aligned (A2=EA)","A","G",0.153833617400378,0.067698227679357,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim022","nonpal aligned (A2=EA)","G","A",0.668449205067009,0.0300909186434001,"A","G",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim023","nonpal aligned (A2=EA)","T","G",0.635487469793297,-0.0514315997529775,"G","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim024","nonpal aligned (A2=EA)","A","G",0.0804694868158549,-0.0631576852221042,"G","A",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim025","nonpal aligned (A2=EA)","T","C",0.780384057220072,0.0587862916942686,"C","T",1,"","none: alleles aligned",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim026","nonpal swapped (A2=OA)","C","A",0.607470664093271,-0.058979903999716,"C","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim027","nonpal swapped (A2=OA)","C","A",0.714818811183795,-0.0640193100273609,"C","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim028","nonpal swapped (A2=OA)","G","T",0.359277334129438,-0.0549445382878184,"G","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim029","nonpal swapped (A2=OA)","A","C",0.107289918637834,-0.05934111838229,"A","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim030","nonpal swapped (A2=OA)","C","T",0.862144756373018,-0.0359628820978105,"C","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim031","nonpal swapped (A2=OA)","A","G",0.809810776156373,-0.057143714716658,"A","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim032","nonpal swapped (A2=OA)","C","A",0.143875474967062,-0.057206567125395,"C","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim033","nonpal swapped (A2=OA)","A","C",0.73283201131504,-0.0514094644226134,"A","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim034","nonpal swapped (A2=OA)","G","T",0.233641408099793,0.0374440862704068,"G","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim035","nonpal swapped (A2=OA)","G","T",0.220036504212767,0.0470997786242515,"G","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim036","nonpal swapped (A2=OA)","A","G",0.639609001837671,0.0607612970285118,"A","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim037","nonpal swapped (A2=OA)","G","A",0.373294124198146,-0.0596906580775976,"G","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim038","nonpal swapped (A2=OA)","T","G",0.607912628431804,0.041509990086779,"T","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim039","nonpal swapped (A2=OA)","C","T",0.346597190103494,0.032890124451369,"C","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim040","nonpal swapped (A2=OA)","A","G",0.260837308382615,0.0592526190914214,"A","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim041","nonpal swapped (A2=OA)","G","T",0.744182241111994,0.0363152040168643,"G","T",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim042","nonpal swapped (A2=OA)","C","A",0.409029446858913,0.0403875992074609,"C","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim043","nonpal swapped (A2=OA)","A","G",0.300957784787752,-0.0480524340085685,"A","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim044","nonpal swapped (A2=OA)","A","C",0.275376693671569,-0.0657087437529117,"A","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim045","nonpal swapped (A2=OA)","A","C",0.861645081522875,-0.0425473528821021,"A","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim046","nonpal swapped (A2=OA)","G","A",0.18439849615097,-0.0398269658908248,"G","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim047","nonpal swapped (A2=OA)","T","C",0.134067609799094,-0.0698621071688831,"T","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim048","nonpal swapped (A2=OA)","C","A",0.890562595403753,0.0468551368732005,"C","A",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim049","nonpal swapped (A2=OA)","A","C",0.270888905217871,0.05198481653817,"A","C",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim050","nonpal swapped (A2=OA)","T","G",0.134219750547782,-0.067622595122084,"T","G",-1,"","flipped: allele order swapped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim051","nonpal opp strand, A2=comp(EA)","A","C",0.144067672058009,-0.0308580091409385,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim052","nonpal opp strand, A2=comp(EA)","T","G",0.882486065928824,-0.0547580618783832,"C","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim053","nonpal opp strand, A2=comp(EA)","A","C",0.121922196750529,0.0500010036956519,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim054","nonpal opp strand, A2=comp(EA)","C","T",0.375547658982687,0.0654701439291239,"A","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim055","nonpal opp strand, A2=comp(EA)","C","A",0.347018810333684,-0.0654088414739817,"T","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim056","nonpal opp strand, A2=comp(EA)","T","C",0.188553199148737,-0.0447160728089511,"G","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim057","nonpal opp strand, A2=comp(EA)","G","T",0.0969633319834247,0.0431309627834707,"A","C",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim058","nonpal opp strand, A2=comp(EA)","C","T",0.246006664130837,-0.0311865350231528,"A","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim059","nonpal opp strand, A2=comp(EA)","T","C",0.328780583902262,-0.043297839621082,"G","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim060","nonpal opp strand, A2=comp(EA)","T","G",0.662601095149294,-0.0313006993383169,"C","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim061","nonpal opp strand, A2=comp(EA)","A","C",0.231153639475815,0.0651371618919075,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim062","nonpal opp strand, A2=comp(EA)","C","A",0.21334067537915,-0.0422786248102784,"T","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim063","nonpal opp strand, A2=comp(EA)","A","G",0.412973663159646,0.0384709463268518,"C","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim064","nonpal opp strand, A2=comp(EA)","G","A",0.819072221699171,-0.0696318317297846,"T","C",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim065","nonpal opp strand, A2=comp(EA)","T","C",0.213884153566323,0.0525928889028728,"G","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim066","nonpal opp strand, A2=comp(EA)","G","A",0.79814395067282,0.0600294395722449,"T","C",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim067","nonpal opp strand, A2=comp(EA)","T","C",0.0808085563173518,-0.057012783093378,"G","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim068","nonpal opp strand, A2=comp(EA)","A","G",0.261501785456203,0.0416887808497995,"C","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim069","nonpal opp strand, A2=comp(EA)","C","A",0.889087775396183,-0.031619503069669,"T","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim070","nonpal opp strand, A2=comp(EA)","C","A",0.404507641047239,0.0664023603592068,"T","G",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim071","nonpal opp strand, A2=comp(EA)","A","C",0.275954411029816,0.0595956310350448,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim072","nonpal opp strand, A2=comp(EA)","A","C",0.686922875889577,0.0488200250640512,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim073","nonpal opp strand, A2=comp(EA)","A","C",0.301853440981358,0.0557545643206686,"G","T",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim074","nonpal opp strand, A2=comp(EA)","T","G",0.71060385117773,-0.0415167874004692,"C","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim075","nonpal opp strand, A2=comp(EA)","T","C",0.810508472630754,-0.0584111141040921,"G","A",1,"","strand: complemented, no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim076","nonpal opp strand, A2=comp(OA)","T","G",0.148507016911171,-0.063188940603286,"A","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim077","nonpal opp strand, A2=comp(OA)","A","G",0.239831407601014,-0.053988634198904,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim078","nonpal opp strand, A2=comp(OA)","G","A",0.886737024649046,-0.0334433362353593,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim079","nonpal opp strand, A2=comp(OA)","A","C",0.741571195307188,0.0588490412570536,"T","G",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim080","nonpal opp strand, A2=comp(OA)","A","G",0.591813098555431,-0.0330239639803767,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim081","nonpal opp strand, A2=comp(OA)","G","T",0.745498560541309,-0.0651706378068775,"C","A",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim082","nonpal opp strand, A2=comp(OA)","G","A",0.413294756775722,0.045436287028715,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim083","nonpal opp strand, A2=comp(OA)","A","G",0.277728435373865,0.0358371476270258,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim084","nonpal opp strand, A2=comp(OA)","A","C",0.831864292123355,-0.0324019334465265,"T","G",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim085","nonpal opp strand, A2=comp(OA)","G","A",0.755862654903904,0.051716512683779,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim086","nonpal opp strand, A2=comp(OA)","C","T",0.238604983668774,-0.0505662948824465,"G","A",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim087","nonpal opp strand, A2=comp(OA)","A","G",0.265474880365655,0.0672053476702422,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim088","nonpal opp strand, A2=comp(OA)","G","A",0.22079141580034,-0.0493169550038874,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim089","nonpal opp strand, A2=comp(OA)","C","T",0.393252124651335,-0.0420362460613251,"G","A",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim090","nonpal opp strand, A2=comp(OA)","G","A",0.871471573924646,-0.0324776391964406,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim091","nonpal opp strand, A2=comp(OA)","A","G",0.785069272313267,0.0462940283864737,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim092","nonpal opp strand, A2=comp(OA)","T","C",0.833263502679765,-0.0638294462487102,"A","G",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim093","nonpal opp strand, A2=comp(OA)","G","A",0.893122816402465,0.0345905071031302,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim094","nonpal opp strand, A2=comp(OA)","C","T",0.188992508063093,-0.0644810406398028,"G","A",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim095","nonpal opp strand, A2=comp(OA)","A","C",0.919512474522926,-0.049636759320274,"T","G",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim096","nonpal opp strand, A2=comp(OA)","A","G",0.717199504086748,0.0614352430682629,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim097","nonpal opp strand, A2=comp(OA)","A","G",0.723803608929738,-0.0658356475830078,"T","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim098","nonpal opp strand, A2=comp(OA)","C","A",0.384008462866768,0.0319456429872662,"G","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim099","nonpal opp strand, A2=comp(OA)","G","A",0.755382968010381,-0.0495737017132342,"C","T",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim100","nonpal opp strand, A2=comp(OA)","T","G",0.338114899084903,0.0313123657181859,"A","C",-1,"","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim101","pal same strand, A2=EA","C","G",0.859773620115593,0.0346144805010408,"G","C",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim102","pal same strand, A2=EA","G","C",0.275619979575276,-0.0401200987771153,"C","G",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim103","pal same strand, A2=EA","T","A",0.341306034349836,-0.0507427844870836,"A","T",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim104","pal same strand, A2=EA","A","T",0.13250788920559,0.0531383351515979,"T","A",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim105","pal same strand, A2=EA","A","T",0.602688092919998,0.0559781580604613,"T","A",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim106","pal same strand, A2=EA","C","G",0.909104759688489,-0.0406608231365681,"G","C",1,"","palindromic: same strand (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim107","pal same strand, A2=OA","A","T",0.842090197559446,0.0469733876269311,"A","T",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim108","pal same strand, A2=OA","C","G",0.918820980661549,-0.0385274221841246,"C","G",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim109","pal same strand, A2=OA","A","T",0.593143184091896,0.0525016053952277,"A","T",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim110","pal same strand, A2=OA","C","G",0.306770254755393,0.0427932703960687,"C","G",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim111","pal same strand, A2=OA","G","C",0.8522725507617,-0.0342797874752432,"G","C",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim112","pal same strand, A2=OA","T","A",0.391592644765042,0.060914585981518,"T","A",-1,"","palindromic: same strand (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim113","pal opp strand, label A2=OA(=comp EA)","A","T",0.149929021652788,0.0413829651940614,"A","T",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim114","pal opp strand, label A2=OA(=comp EA)","G","C",0.330734130642377,-0.060377788906917,"G","C",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim115","pal opp strand, label A2=OA(=comp EA)","C","G",0.850660166973248,-0.0382628010027111,"C","G",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim116","pal opp strand, label A2=OA(=comp EA)","G","C",0.0858792205899954,0.0528216541092843,"G","C",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim117","pal opp strand, label A2=OA(=comp EA)","A","T",0.607361470619217,-0.0383314181864262,"A","T",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim118","pal opp strand, label A2=OA(=comp EA)","T","A",0.584583681691438,0.0585939514450729,"T","A",1,"","palindromic: strand flipped (inferred from EAF), no flip",TRUE,FALSE,FALSE,TRUE,TRUE
+"sim119","pal opp strand, label A2=EA(=comp OA)","C","G",0.36345377061516,0.0622324485331774,"G","C",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim120","pal opp strand, label A2=EA(=comp OA)","C","G",0.263182480316609,-0.0483489245269448,"G","C",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim121","pal opp strand, label A2=EA(=comp OA)","G","C",0.823860163409263,0.0506220472790301,"C","G",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim122","pal opp strand, label A2=EA(=comp OA)","C","G",0.341409756354988,-0.0509363067895174,"G","C",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim123","pal opp strand, label A2=EA(=comp OA)","G","C",0.741621282161213,0.0635852514114231,"C","G",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim124","pal opp strand, label A2=EA(=comp OA)","C","G",0.116145271263085,-0.0429528809525073,"G","C",-1,"","palindromic: strand flipped (inferred from EAF), flipped",TRUE,TRUE,TRUE,TRUE,TRUE
+"sim125","pal MAF>0.42 (expect drop)","C","G",0.510330620249733,-0.0593611888028681,"G","C",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim126","pal MAF>0.42 (expect drop)","C","G",0.523706404026598,-0.0470585968904197,"G","C",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim127","pal MAF>0.42 (expect drop)","T","A",0.496936604855582,0.0396236855536699,"A","T",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim128","pal MAF>0.42 (expect drop)","A","T",0.469046974284574,0.0585027235560119,"T","A",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim129","pal MAF>0.42 (expect drop)","A","T",0.502289104824886,0.0585852776840329,"T","A",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim130","pal MAF>0.42 (expect drop)","T","A",0.453898057090119,0.0632548768818379,"A","T",1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim131","pal MAF>0.42 opp (expect drop)","A","T",0.523281323434785,0.0441664159484208,"T","A",-1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,TRUE,FALSE,FALSE,NA
+"sim132","pal MAF>0.42 opp (expect drop)","T","A",0.550671350499615,-0.0681961173098534,"A","T",-1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,TRUE,FALSE,FALSE,NA
+"sim133","pal MAF>0.42 opp (expect drop)","T","A",0.52368137977086,0.0492326606158167,"A","T",-1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,TRUE,FALSE,FALSE,NA
+"sim134","pal MAF>0.42 opp (expect drop)","T","A",0.452027522521094,0.0424871859233826,"A","T",-1,"","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,TRUE,FALSE,FALSE,NA
+"sim135","nonpal, outcome -9 (expect drop)","T","G",0.386365160453133,-0.0388013143930584,"G","T",1,"miss","dropped: outcome data missing (-9)",FALSE,FALSE,FALSE,FALSE,NA
+"sim136","nonpal, outcome -9 (expect drop)","A","C",0.270640669367276,-0.0414928235020489,"C","A",1,"miss","dropped: outcome data missing (-9)",FALSE,FALSE,FALSE,FALSE,NA
+"sim137","nonpal, outcome -9 (expect drop)","A","G",0.345487141339108,0.0338264562934637,"G","A",1,"miss","dropped: outcome data missing (-9)",FALSE,FALSE,FALSE,FALSE,NA
+"sim138","nonpal, outcome -9 (expect drop)","T","C",0.155182900535874,0.0449914709012955,"C","T",1,"miss","dropped: outcome data missing (-9)",FALSE,FALSE,FALSE,FALSE,NA
+"sim139","nonpal, freq -9 only (keep)","G","T",0.62127510801889,0.0432768085226417,"C","A",-1,"freqmiss","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim140","nonpal, freq -9 only (keep)","C","A",0.125106230354868,0.0519368331413716,"G","T",-1,"freqmiss","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim141","nonpal, freq -9 only (keep)","G","T",0.878198121814057,-0.0318495125416666,"C","A",-1,"freqmiss","strand: complemented, no flip",TRUE,TRUE,FALSE,TRUE,FALSE
+"sim142","pal, freq -9 (cannot infer: drop)","G","C",0.738171041253954,-0.0482391406595707,"C","G",1,"freqmiss","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim143","pal, freq -9 (cannot infer: drop)","T","A",0.251715157032013,-0.0607230785768479,"A","T",1,"freqmiss","dropped: palindromic, MAF > 0.42 (strand ambiguous)",FALSE,FALSE,FALSE,FALSE,NA
+"sim144","not in outcome (expect drop)","G","A",0.145152206299827,0.0528750493936241,"A","G",1,"absent","dropped: not in outcome GWAS",FALSE,FALSE,FALSE,FALSE,NA
+"sim145","not in outcome (expect drop)","T","C",0.378215147987939,-0.0618527745641768,"C","T",1,"absent","dropped: not in outcome GWAS",FALSE,FALSE,FALSE,FALSE,NA
+"sim146","not in outcome (expect drop)","T","C",0.2110491202306,-0.0569477185700089,"C","T",1,"absent","dropped: not in outcome GWAS",FALSE,FALSE,FALSE,FALSE,NA
+"sim147","not in outcome (expect drop)","G","T",0.292536685685627,-0.042563593313098,"T","G",1,"absent","dropped: not in outcome GWAS",FALSE,FALSE,FALSE,FALSE,NA

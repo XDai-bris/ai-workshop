@@ -1,0 +1,8 @@
+Review this analysis independently before I share it. Work through these checks in order and show the evidence for each: the command you ran, the numbers, and the file and line.
+
+1. Plan: for each step in analysis_plan.md, point to the code that implements it and say whether it matches. Check the units against data/DATA_DICTIONARY.md.
+2. Known answer: simulate a small summary-statistics dataset in the same file formats, with a causal effect you choose, covering every allele situation the dictionary allows (effect allele swapped, opposite strand, both, palindromic, missing values). Run the unchanged script on it, writing outputs under review/, and say whether it recovers your effect.
+3. Hand check: for one variant of each harmonisation action in results/harmonisation_log.csv, work out by hand the sign the outcome effect should have, and compare it with what the script did.
+4. Claims: for each sentence in report.md that gives a number or a conclusion, say release, revise or withdraw, with the evidence.
+
+Do not edit analysis/, results/ or report.md. Put any scratch files in review/.

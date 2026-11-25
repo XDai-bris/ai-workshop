@@ -1,0 +1,76 @@
+<section class="stage" id="s4" aria-labelledby="s4-h">
+<div class="stage-head"><span class="num">Stage 4</span><h2 id="s4-h">At a milestone: a new reviewer with new questions</h2><span class="time">28–35 min</span></div>
+<p class="principle">At a milestone, bring in a reviewer that did not build the work, ideally a different model. Give it the questions the earlier checks could not answer: recompute without the code, test the tests, and ask whether each number is a plausible size.</p>
+<p class="lead">After Stage 3 the project looks finished. It has a fix, a passing test, two commits and a report with tight intervals, and it is about to go to the group. We sent one milestone prompt to a different model, OpenAI’s <code>gpt-6.2-astra</code> in the Codex app, and, for comparison, to Claude Sonnet 5.5 in three fresh sessions.</p>
+
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 4</span><span class="meta">fresh session · milestone review</span><button type="button" class="btn copy" data-from="p-mile">Copy</button></div>
+<div class="ex-b" id="p-mile">{{PROMPT:milestone}}</div></div>
+
+<div class="scroll"><table class="tbl">
+<thead><tr><th>Reviewer</th><th>Found E1, the unit error</th><th>Saw that the test shares it</th><th>Decision on IVW 4.77</th></tr></thead>
+<tbody>
+<tr><td>Codex · 2 runs</td><td><span class="hl-good">Yes, 2 of 2</span>: slopes “23.04 times” too large</td><td>Yes, with a hand-worked counter-example</td><td>Hold; recomputed 0.207</td></tr>
+<tr><td>Claude · run 1</td><td>No</td><td>Asked the question, then answered it with the same misreading</td><td>Release</td></tr>
+<tr><td>Claude · run 2</td><td><span class="hl-good">Yes</span>: “a factor of 23.04 (4.8²)”</td><td>Yes</td><td>Withdraw; recomputed 0.207</td></tr>
+<tr><td>Claude · run 3</td><td><span class="hl-good">Yes</span></td><td>Yes</td><td>Withdraw; recomputed 0.207</td></tr>
+</tbody>
+<caption>Recorded 24 Nov 2026. Claude ran headless in fresh sessions. Codex ran in the Codex desktop app; see “How this case was made” at the end of the page.</caption>
+</table></div>
+
+<div class="ex reply"><div class="ex-h"><span class="tag">Codex · what it found</span><span class="meta">gpt-6.2-astra · 24 Nov 2026 · our summary of its review</span></div>
+<div class="ex-b"><ul>
+<li><b>Hold the release.</b> Its own base R code, written from the plan and the dictionary without opening the script, gave IVW 0.207 (95% CI 0.150 to 0.264). All three slopes in the report were 23.04 times too large.</li>
+<li><b>The test shares the error.</b> Line 61 generates outcome effects as <code>2 × bx_sd / 4.8</code>. Its counter-example: an allele that raises BMI by 0.10 SD (0.48 kg/m²) should raise SBP by 0.96 mmHg if the true effect is 2; the test generates 0.042.</li>
+<li><b>The diagnostics could not have caught it.</b> Rescaling every exposure effect leaves the residuals and Cochran’s Q unchanged.</li>
+<li>Also: the scatter plot’s x-axis stops near 0.015 kg/m², where the real SNP effects reach 0.31.</li>
+</ul></div></div>
+
+<div class="ex reply"><div class="ex-h"><span class="tag">Claude · run 1</span><span class="meta">excerpt · the near miss</span></div>
+<div class="ex-b">
+<p><b>Shared reading of the dictionary.</b> […] If the dictionary had been misread (A1 instead of A2, or ×4.8 instead of ÷4.8), the test and the script would still agree. <span class="hl-bad">My code matches the dictionary, so there is no actual error here.</span> But the test cannot detect one.</p>
+<p><b>Magnitude.</b> 4.77 mmHg per kg/m² is 22.9 mmHg per SD of BMI. That is several times larger than real-world MR estimates of about 1 mmHg per kg/m². <span class="hl-bad">The data are simulated and the arithmetic is right, so this is fine as an exercise.</span></p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:milestone_claude_1}}</div></details>
+<details class="full"><summary>Claude · run 2, full reply (found E1)</summary><div class="verbatim">{{REPLY:milestone_claude_2}}</div></details>
+<details class="full"><summary>Claude · run 3, full reply (found E1)</summary><div class="verbatim">{{REPLY:milestone_claude_3}}</div></details></div>
+<p>Run 1 is worth a minute. It asked exactly the right question about the test, and answered it with the same misreading that caused the error. It noticed that the estimate was several times too large, and explained it away. Seeing the anomaly is not enough; something has to make the reviewer follow it up.</p>
+
+<h3>What made the difference</h3>
+<p>The same model, Claude Sonnet 5.5, found E1 in 1 of 5 runs with the Stage 2 prompt and in 2 of 3 with this one, each time recomputing 0.207 and pointing at the test’s <code>THETA * bx_sd / SD_BMI</code>. The new questions did much of the work. Each targets something Stage 2 exposed: recompute without the script, because reviewers trusted it; ask whether the test shares an assumption, because the simulations did; ask about plausibility, because nobody had. The second model found E1 in both of its runs. Both runs also spelled out a consequence the Claude runs only touched on: Q does not change when every exposure effect is multiplied by a constant. The diagnostics that made the Stage 2 result look coherent could never have caught this error. Two runs of one model and three of another are small samples, and we do not claim more than that.</p>
+
+<h3>Acting on the review: verify first, then fix</h3>
+<p>A reviewer can be wrong too. So the next prompt asks the agent to check the finding before changing anything, and to give the test an answer worked out by hand.</p>
+<div class="ex prompt"><div class="ex-h"><span class="tag">Prompt 5</span><span class="meta">fresh session · verify, then fix</span><button type="button" class="btn copy" data-from="p-fix2">Copy</button></div>
+<div class="ex-b" id="p-fix2">{{PROMPT:fix2}}</div></div>
+<div class="ex reply"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>I confirmed the unit error and fixed it, but <span class="hl-good">I haven’t committed because the known-answer test still has one failing check.</span></p>
+<p><b>Hand check:</b> Variant <code>rs73176882</code> has BETA = 0.0443 SD, which is 0.0443 × 4.8 = 0.213 kg/m². Its outcome effect is +0.0573 mmHg […]. The Wald ratio is 0.0573 / 0.213 = 0.27 mmHg per kg/m². The script computed 0.0573 / (0.0443 / 4.8) = 6.2, which is 23 times too large. So the review is right.</p>
+<p>[…] <b>Failing check:</b> With the corrected generator, MR-Egger gives 1.929 (95% CI 1.864 to 1.995), so the CI just misses the true value of 2.0. […] I couldn’t tell whether this is a chance miss (about 4% of seeds) or a real Egger bias. […] <span class="hl-good">I haven’t loosened the test.</span></p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:fix2}}</div></details></div>
+<p>The independent test immediately exposed something real: a property of MR-Egger, not a bug. The agent was right to stop and ask rather than widen the tolerance, because that judgement belongs to the researcher.</p>
+<details class="ex"><summary class="ex-h" style="cursor:pointer"><span class="tag">What the failing check was, and the researcher’s decision</span><span class="meta">Egger regression dilution · Prompt 6</span></summary>
+<div class="ex-b"><p>With a known answer that no longer shared the code’s assumption, the outcome effects were large relative to their noise, so the test became much more precise. We ran the test’s design on 1,000 simulated datasets: the mean MR-Egger slope was 1.92, the regression dilution MR-Egger shows when exposure effects are measured with error (I²<sub>GX</sub> ≈ 0.96; <a href="https://doi.org/10.1093/ije/dyw220">Bowden et al. 2016</a>). One detail: the reply says its own multi-seed simulation is in <code>scratch/egger_sim.R</code>. That file does not exist; the sandbox had blocked the command that would have written it.</p></div>
+<div class="ex prompt" style="margin:0 14px 14px"><div class="ex-h"><span class="tag">Prompt 6</span><span class="meta">fresh session · the researcher’s decision</span><button type="button" class="btn copy" data-from="p-fix3">Copy</button></div>
+<div class="ex-b" id="p-fix3">{{PROMPT:fix3}}</div></div>
+<div class="ex reply" style="margin:0 14px 14px"><div class="ex-h"><span class="tag">Agent reply</span><span class="meta">Claude Sonnet 5.5 · recorded 24 Nov 2026 · excerpt</span></div>
+<div class="ex-b">
+<p>I changed the test’s exposure SE from 0.003 to 0.0005 SD, and the test now passes. I committed everything as <code>542bf05</code>, and the working tree is clean. […] The seed and tolerances are unchanged. […] All 10 checks pass, including the hand-worked example (IVW 0.5, SE 1/12).</p>
+</div>
+<details class="full"><summary>Full reply</summary><div class="verbatim">{{REPLY:fix3}}</div></details>
+<details class="full"><summary>The hand-worked example it added to the test</summary><div class="verbatim">{{FILE:handworked}}</div></details></div>
+
+</details>
+
+<div class="scroll"><table class="tbl">
+<thead><tr><th>IVW, mmHg per kg/m² (95% CI)</th><th class="n">Estimate</th></tr></thead>
+<tbody>
+<tr><td>Draft (Stage 1): both errors</td><td class="n">1.59 (−0.03 to 3.21)</td></tr>
+<tr><td>After Stage 3: E2 fixed</td><td class="n">4.77 (3.45 to 6.09)</td></tr>
+<tr><td>After Stage 4: E1 fixed too</td><td class="n"><b>0.21 (0.15 to 0.26)</b></td></tr>
+<tr><td>Value used to simulate the data</td><td class="n">0.25</td></tr>
+</tbody></table></div>
+
+<p class="takeaway">At milestones, change the reviewer and change the questions. Then check what the reviewer found before you act on it, and let the researcher decide what counts as a bug.</p>
+</section>
